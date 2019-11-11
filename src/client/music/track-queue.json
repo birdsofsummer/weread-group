@@ -1,0 +1,3158 @@
+[
+  {
+    "type": 0,
+    "duration": 272000,
+    "status": 3,
+    "alias": [],
+    "privilege": {
+      "id": 186345,
+      "fee": 8,
+      "payed": 0,
+      "st": 0,
+      "pl": 128000,
+      "dl": 0,
+      "sp": 7,
+      "cp": 1,
+      "subp": 1,
+      "cs": false,
+      "maxbr": 999000,
+      "fl": 128000,
+      "toast": false,
+      "flag": 0,
+      "preSell": false
+    },
+    "djid": 0,
+    "album": {
+      "id": 18933,
+      "name": "张信哲精选",
+      "picUrl": "http://p2.music.126.net/D0e4NZrx_0ArL5FhIXpJww==/109951163511560406.jpg",
+      "pic_str": "109951163511560406",
+      "pic": 109951163511560400
+    },
+    "artists": [
+      {
+        "id": 6454,
+        "name": "张信哲",
+        "alia": [
+          "阿哲",
+          "Jeff Chang"
+        ]
+      }
+    ],
+    "fee": 8,
+    "ftype": 0,
+    "no": 1,
+    "publishTime": 0,
+    "score": 100,
+    "copyrightId": 7001,
+    "mvid": 5361650,
+    "transNames": null,
+    "commentThreadId": "R_SO_4_186345",
+    "name": "爱如潮水",
+    "id": 186345,
+    "source": {
+      "title": "歌手",
+      "link": "/artist?id=6454&_hash=songlist-186345",
+      "fid": 2,
+      "fdata": "6454"
+    }
+  },
+  {
+    "type": 0,
+    "duration": 253000,
+    "status": 3,
+    "alias": [],
+    "privilege": {
+      "id": 25643328,
+      "fee": 8,
+      "payed": 0,
+      "st": 0,
+      "pl": 128000,
+      "dl": 0,
+      "sp": 7,
+      "cp": 1,
+      "subp": 1,
+      "cs": false,
+      "maxbr": 320000,
+      "fl": 128000,
+      "toast": false,
+      "flag": 320,
+      "preSell": false
+    },
+    "djid": 0,
+    "album": {
+      "id": 2263172,
+      "name": "Jeff情歌精选",
+      "picUrl": "http://p2.music.126.net/0ITETv8OI3x2XOnsLlx_Jw==/109951163067344307.jpg",
+      "pic_str": "109951163067344307",
+      "pic": 109951163067344300
+    },
+    "artists": [
+      {
+        "id": 6454,
+        "name": "张信哲",
+        "alia": [
+          "阿哲",
+          "Jeff Chang"
+        ]
+      }
+    ],
+    "fee": 8,
+    "ftype": 0,
+    "no": 9,
+    "publishTime": 0,
+    "score": 100,
+    "copyrightId": 7001,
+    "mvid": 5403363,
+    "transNames": null,
+    "commentThreadId": "R_SO_4_25643328",
+    "name": "信仰",
+    "id": 25643328,
+    "source": {
+      "title": "歌手",
+      "link": "/artist?id=6454&_hash=songlist-25643328",
+      "fid": 2,
+      "fdata": "6454"
+    }
+  },
+  {
+    "type": 0,
+    "duration": 302577,
+    "status": 0,
+    "alias": [],
+    "privilege": {
+      "id": 186560,
+      "fee": 8,
+      "payed": 0,
+      "st": 0,
+      "pl": 128000,
+      "dl": 0,
+      "sp": 7,
+      "cp": 1,
+      "subp": 1,
+      "cs": false,
+      "maxbr": 999000,
+      "fl": 128000,
+      "toast": false,
+      "flag": 320,
+      "preSell": false
+    },
+    "djid": 0,
+    "album": {
+      "id": 18947,
+      "name": "选哲",
+      "picUrl": "http://p2.music.126.net/BbtqIF_OYpDk21lqTKROCQ==/638816255750141.jpg",
+      "pic_str": "638816255750141",
+      "pic": 638816255750141
+    },
+    "artists": [
+      {
+        "id": 6454,
+        "name": "张信哲",
+        "alia": [
+          "阿哲",
+          "Jeff Chang"
+        ]
+      }
+    ],
+    "fee": 8,
+    "ftype": 0,
+    "no": 3,
+    "publishTime": 0,
+    "score": 100,
+    "copyrightId": 35015,
+    "mvid": 5347337,
+    "transNames": null,
+    "commentThreadId": "R_SO_4_186560",
+    "name": "过火",
+    "id": 186560,
+    "source": {
+      "title": "歌手",
+      "link": "/artist?id=6454&_hash=songlist-186560",
+      "fid": 2,
+      "fdata": "6454"
+    }
+  },
+  {
+    "type": 0,
+    "duration": 287933,
+    "status": 3,
+    "alias": [],
+    "privilege": {
+      "id": 186385,
+      "fee": 8,
+      "payed": 0,
+      "st": 0,
+      "pl": 128000,
+      "dl": 0,
+      "sp": 7,
+      "cp": 1,
+      "subp": 1,
+      "cs": false,
+      "maxbr": 999000,
+      "fl": 128000,
+      "toast": false,
+      "flag": 0,
+      "preSell": false
+    },
+    "djid": 0,
+    "album": {
+      "id": 18933,
+      "name": "张信哲精选",
+      "picUrl": "http://p2.music.126.net/D0e4NZrx_0ArL5FhIXpJww==/109951163511560406.jpg",
+      "pic_str": "109951163511560406",
+      "pic": 109951163511560400
+    },
+    "artists": [
+      {
+        "id": 6454,
+        "name": "张信哲",
+        "alia": [
+          "阿哲",
+          "Jeff Chang"
+        ]
+      }
+    ],
+    "fee": 8,
+    "ftype": 0,
+    "no": 17,
+    "publishTime": 0,
+    "score": 100,
+    "copyrightId": 7001,
+    "mvid": 0,
+    "transNames": null,
+    "commentThreadId": "R_SO_4_186385",
+    "name": "别怕我伤心",
+    "id": 186385,
+    "source": {
+      "title": "歌手",
+      "link": "/artist?id=6454&_hash=songlist-186385",
+      "fid": 2,
+      "fdata": "6454"
+    }
+  },
+  {
+    "type": 0,
+    "duration": 267390,
+    "status": 0,
+    "alias": [
+      "电视剧《出水芙蓉》片头曲"
+    ],
+    "privilege": {
+      "id": 186240,
+      "fee": 8,
+      "payed": 0,
+      "st": 0,
+      "pl": 128000,
+      "dl": 0,
+      "sp": 7,
+      "cp": 1,
+      "subp": 1,
+      "cs": false,
+      "maxbr": 999000,
+      "fl": 128000,
+      "toast": false,
+      "flag": 320,
+      "preSell": false
+    },
+    "djid": 0,
+    "album": {
+      "id": 18926,
+      "name": "下一个永远",
+      "picUrl": "http://p2.music.126.net/yK9CIyD9D5KYd6w9NzrfNA==/19207368625662667.jpg",
+      "pic_str": "19207368625662667",
+      "pic": 19207368625662668
+    },
+    "artists": [
+      {
+        "id": 6454,
+        "name": "张信哲",
+        "alia": [
+          "阿哲",
+          "Jeff Chang"
+        ]
+      }
+    ],
+    "fee": 8,
+    "ftype": 0,
+    "no": 1,
+    "publishTime": 0,
+    "score": 100,
+    "copyrightId": 35015,
+    "mvid": 5363623,
+    "transNames": null,
+    "commentThreadId": "R_SO_4_186240",
+    "name": "白月光",
+    "id": 186240,
+    "source": {
+      "title": "歌手",
+      "link": "/artist?id=6454&_hash=songlist-186240",
+      "fid": 2,
+      "fdata": "6454"
+    }
+  },
+  {
+    "type": 0,
+    "duration": 274312,
+    "status": 0,
+    "alias": [
+      "动画《宝莲灯》主题曲"
+    ],
+    "privilege": {
+      "id": 186269,
+      "fee": 8,
+      "payed": 0,
+      "st": 0,
+      "pl": 128000,
+      "dl": 0,
+      "sp": 7,
+      "cp": 1,
+      "subp": 1,
+      "cs": false,
+      "maxbr": 320000,
+      "fl": 128000,
+      "toast": false,
+      "flag": 320,
+      "preSell": false
+    },
+    "djid": 0,
+    "album": {
+      "id": 18929,
+      "name": "从开始到现在",
+      "picUrl": "http://p2.music.126.net/rfb_k9KEpFQvqVrcAJTs4A==/18581746511427319.jpg",
+      "pic_str": "18581746511427319",
+      "pic": 18581746511427320,
+      "alia": [
+        "2002情歌大全集"
+      ]
+    },
+    "artists": [
+      {
+        "id": 6454,
+        "name": "张信哲",
+        "alia": [
+          "阿哲",
+          "Jeff Chang"
+        ]
+      }
+    ],
+    "fee": 8,
+    "ftype": 0,
+    "no": 7,
+    "publishTime": 0,
+    "score": 100,
+    "copyrightId": 35015,
+    "mvid": 5501411,
+    "transNames": null,
+    "commentThreadId": "R_SO_4_186269",
+    "name": "爱就一个字",
+    "id": 186269,
+    "source": {
+      "title": "歌手",
+      "link": "/artist?id=6454&_hash=songlist-186269",
+      "fid": 2,
+      "fdata": "6454"
+    }
+  },
+  {
+    "type": 0,
+    "duration": 274312,
+    "status": 3,
+    "alias": [
+      "电视剧《冬季恋歌》主题曲中文版"
+    ],
+    "privilege": {
+      "id": 186279,
+      "fee": 8,
+      "payed": 0,
+      "st": 0,
+      "pl": 128000,
+      "dl": 0,
+      "sp": 7,
+      "cp": 1,
+      "subp": 1,
+      "cs": false,
+      "maxbr": 320000,
+      "fl": 128000,
+      "toast": false,
+      "flag": 320,
+      "preSell": false
+    },
+    "djid": 0,
+    "album": {
+      "id": 18929,
+      "name": "从开始到现在",
+      "picUrl": "http://p2.music.126.net/rfb_k9KEpFQvqVrcAJTs4A==/18581746511427319.jpg",
+      "pic_str": "18581746511427319",
+      "pic": 18581746511427320,
+      "alia": [
+        "2002情歌大全集"
+      ]
+    },
+    "artists": [
+      {
+        "id": 6454,
+        "name": "张信哲",
+        "alia": [
+          "阿哲",
+          "Jeff Chang"
+        ]
+      }
+    ],
+    "fee": 8,
+    "ftype": 0,
+    "no": 14,
+    "publishTime": 0,
+    "score": 100,
+    "copyrightId": 35015,
+    "mvid": 5361649,
+    "transNames": null,
+    "commentThreadId": "R_SO_4_186279",
+    "name": "从开始到现在",
+    "id": 186279,
+    "source": {
+      "title": "歌手",
+      "link": "/artist?id=6454&_hash=songlist-186279",
+      "fid": 2,
+      "fdata": "6454"
+    }
+  },
+  {
+    "type": 0,
+    "duration": 342000,
+    "status": 1,
+    "alias": [
+      "2003年抗非典公益歌曲"
+    ],
+    "privilege": {
+      "id": 5268423,
+      "fee": 0,
+      "payed": 0,
+      "st": 0,
+      "pl": 320000,
+      "dl": 320000,
+      "sp": 7,
+      "cp": 1,
+      "subp": 1,
+      "cs": false,
+      "maxbr": 320000,
+      "fl": 999000,
+      "toast": false,
+      "flag": 128,
+      "preSell": false
+    },
+    "djid": 0,
+    "album": {
+      "id": 512853,
+      "name": "用音乐加油！！手牵手大合唱",
+      "picUrl": "http://p2.music.126.net/IeRywZSGfWP1Ggfszn3FgQ==/124244813956662.jpg",
+      "pic_str": "124244813956662",
+      "pic": 124244813956662
+    },
+    "artists": [
+      {
+        "id": 3694,
+        "name": "罗志祥",
+        "alia": [
+          "Show"
+        ]
+      },
+      {
+        "id": 4723,
+        "name": "潘玮柏",
+        "alia": [
+          "Will Pan",
+          "Wilber Pan"
+        ]
+      },
+      {
+        "id": 5196,
+        "name": "陶喆",
+        "alia": [
+          "David Tao"
+        ]
+      },
+      {
+        "id": 5346,
+        "name": "王力宏",
+        "alia": [
+          "Leehom Wang"
+        ]
+      },
+      {
+        "id": 5357,
+        "name": "伍思凯",
+        "alia": [
+          "Sky Wu"
+        ]
+      },
+      {
+        "id": 5360,
+        "name": "吴宗宪"
+      },
+      {
+        "id": 6075,
+        "name": "庾澄庆",
+        "alia": [
+          "哈林",
+          "Harlem Yu"
+        ]
+      },
+      {
+        "id": 6452,
+        "name": "周杰伦",
+        "alia": [
+          "Jay Chou"
+        ]
+      },
+      {
+        "id": 6454,
+        "name": "张信哲",
+        "alia": [
+          "阿哲",
+          "Jeff Chang"
+        ]
+      },
+      {
+        "id": 6456,
+        "name": "周华健",
+        "alia": [
+          "Emil Chau"
+        ]
+      },
+      {
+        "id": 7219,
+        "name": "蔡依林",
+        "alia": [
+          "Jolin Tsai"
+        ]
+      },
+      {
+        "id": 7220,
+        "name": "蔡琴"
+      },
+      {
+        "id": 7652,
+        "name": "范玮琪",
+        "alia": [
+          "范范"
+        ]
+      },
+      {
+        "id": 8331,
+        "name": "李玟",
+        "alia": [
+          "CoCo Lee"
+        ]
+      },
+      {
+        "id": 9102,
+        "name": "彭佳慧",
+        "alia": [
+          "Julia Peng"
+        ]
+      },
+      {
+        "id": 9272,
+        "name": "孙燕姿",
+        "alia": [
+          "Stefanie Sun"
+        ]
+      },
+      {
+        "id": 9273,
+        "name": "顺子"
+      },
+      {
+        "id": 9487,
+        "name": "陶晶莹",
+        "alia": [
+          "陶子"
+        ]
+      },
+      {
+        "id": 9612,
+        "name": "温岚",
+        "alia": [
+          "Landy"
+        ]
+      },
+      {
+        "id": 9943,
+        "name": "许茹芸",
+        "alia": [
+          "Valen Hsu"
+        ]
+      },
+      {
+        "id": 9945,
+        "name": "萧亚轩",
+        "alia": [
+          "Elva"
+        ]
+      },
+      {
+        "id": 10559,
+        "name": "张惠妹",
+        "alia": [
+          "aMEI",
+          "阿密特"
+        ]
+      },
+      {
+        "id": 11363,
+        "name": "动力火车"
+      },
+      {
+        "id": 12709,
+        "name": "S.H.E"
+      },
+      {
+        "id": 13283,
+        "name": "信乐团"
+      },
+      {
+        "id": 9946,
+        "name": "徐若瑄",
+        "alia": [
+          "ビビアン スー",
+          "Vivian Hsu"
+        ]
+      }
+    ],
+    "fee": 0,
+    "ftype": 0,
+    "no": 1,
+    "publishTime": 0,
+    "score": 100,
+    "copyrightId": 0,
+    "mvid": 5308516,
+    "transNames": null,
+    "commentThreadId": "R_SO_4_5268423",
+    "name": "手牵手",
+    "id": 5268423,
+    "source": {
+      "title": "歌手",
+      "link": "/artist?id=6454&_hash=songlist-5268423",
+      "fid": 2,
+      "fdata": "6454"
+    }
+  },
+  {
+    "type": 0,
+    "duration": 287139,
+    "status": 0,
+    "alias": [],
+    "privilege": {
+      "id": 186832,
+      "fee": 8,
+      "payed": 0,
+      "st": 0,
+      "pl": 128000,
+      "dl": 0,
+      "sp": 7,
+      "cp": 1,
+      "subp": 1,
+      "cs": false,
+      "maxbr": 999000,
+      "fl": 128000,
+      "toast": false,
+      "flag": 320,
+      "preSell": false
+    },
+    "djid": 0,
+    "album": {
+      "id": 18968,
+      "name": "梦想",
+      "picUrl": "http://p2.music.126.net/C59iGevuum80zMOIxyNSDA==/63771674423248.jpg",
+      "pic_str": "63771674423248",
+      "pic": 63771674423248
+    },
+    "artists": [
+      {
+        "id": 6454,
+        "name": "张信哲",
+        "alia": [
+          "阿哲",
+          "Jeff Chang"
+        ]
+      }
+    ],
+    "fee": 8,
+    "ftype": 0,
+    "no": 7,
+    "publishTime": 0,
+    "score": 100,
+    "copyrightId": 35015,
+    "mvid": 5393550,
+    "transNames": null,
+    "commentThreadId": "R_SO_4_186832",
+    "name": "太想爱你",
+    "id": 186832,
+    "source": {
+      "title": "歌手",
+      "link": "/artist?id=6454&_hash=songlist-186832",
+      "fid": 2,
+      "fdata": "6454"
+    }
+  },
+  {
+    "type": 0,
+    "duration": 256575,
+    "status": 0,
+    "alias": [
+      "电视剧《古剑奇谭》插曲"
+    ],
+    "privilege": {
+      "id": 30512414,
+      "fee": 8,
+      "payed": 0,
+      "st": 0,
+      "pl": 128000,
+      "dl": 0,
+      "sp": 7,
+      "cp": 1,
+      "subp": 1,
+      "cs": false,
+      "maxbr": 999000,
+      "fl": 128000,
+      "toast": false,
+      "flag": 320,
+      "preSell": false
+    },
+    "djid": 0,
+    "album": {
+      "id": 3102401,
+      "name": "还爱",
+      "picUrl": "http://p2.music.126.net/xk73RjGFRvAj-B7HwObTqA==/7920881766684846.jpg",
+      "pic_str": "7920881766684846",
+      "pic": 7920881766684846
+    },
+    "artists": [
+      {
+        "id": 6454,
+        "name": "张信哲",
+        "alia": [
+          "阿哲",
+          "Jeff Chang"
+        ]
+      }
+    ],
+    "fee": 8,
+    "ftype": 0,
+    "no": 11,
+    "publishTime": 0,
+    "score": 100,
+    "copyrightId": 35015,
+    "mvid": 364036,
+    "transNames": null,
+    "commentThreadId": "R_SO_4_30512414",
+    "name": "爱你没错",
+    "id": 30512414,
+    "source": {
+      "title": "歌手",
+      "link": "/artist?id=6454&_hash=songlist-30512414",
+      "fid": 2,
+      "fdata": "6454"
+    }
+  },
+  {
+    "type": 0,
+    "duration": 291736,
+    "status": 0,
+    "alias": [],
+    "privilege": {
+      "id": 186581,
+      "fee": 8,
+      "payed": 0,
+      "st": 0,
+      "pl": 128000,
+      "dl": 0,
+      "sp": 7,
+      "cp": 1,
+      "subp": 1,
+      "cs": false,
+      "maxbr": 999000,
+      "fl": 128000,
+      "toast": false,
+      "flag": 320,
+      "preSell": false
+    },
+    "djid": 0,
+    "album": {
+      "id": 18947,
+      "name": "选哲",
+      "picUrl": "http://p2.music.126.net/BbtqIF_OYpDk21lqTKROCQ==/638816255750141.jpg",
+      "pic_str": "638816255750141",
+      "pic": 638816255750141
+    },
+    "artists": [
+      {
+        "id": 6454,
+        "name": "张信哲",
+        "alia": [
+          "阿哲",
+          "Jeff Chang"
+        ]
+      }
+    ],
+    "fee": 8,
+    "ftype": 0,
+    "no": 8,
+    "publishTime": 0,
+    "score": 100,
+    "copyrightId": 35015,
+    "mvid": 5403365,
+    "transNames": null,
+    "commentThreadId": "R_SO_4_186581",
+    "name": "不要对他说",
+    "id": 186581,
+    "source": {
+      "title": "歌手",
+      "link": "/artist?id=6454&_hash=songlist-186581",
+      "fid": 2,
+      "fdata": "6454"
+    }
+  },
+  {
+    "type": 0,
+    "duration": 230000,
+    "status": 3,
+    "alias": [],
+    "privilege": {
+      "id": 186348,
+      "fee": 8,
+      "payed": 0,
+      "st": 0,
+      "pl": 128000,
+      "dl": 0,
+      "sp": 7,
+      "cp": 1,
+      "subp": 1,
+      "cs": false,
+      "maxbr": 999000,
+      "fl": 128000,
+      "toast": false,
+      "flag": 0,
+      "preSell": false
+    },
+    "djid": 0,
+    "album": {
+      "id": 18933,
+      "name": "张信哲精选",
+      "picUrl": "http://p2.music.126.net/D0e4NZrx_0ArL5FhIXpJww==/109951163511560406.jpg",
+      "pic_str": "109951163511560406",
+      "pic": 109951163511560400
+    },
+    "artists": [
+      {
+        "id": 6454,
+        "name": "张信哲",
+        "alia": [
+          "阿哲",
+          "Jeff Chang"
+        ]
+      },
+      {
+        "id": 8402,
+        "name": "刘嘉玲"
+      }
+    ],
+    "fee": 8,
+    "ftype": 0,
+    "no": 2,
+    "publishTime": 0,
+    "score": 100,
+    "copyrightId": 7001,
+    "mvid": 0,
+    "transNames": null,
+    "commentThreadId": "R_SO_4_186348",
+    "name": "有一点动心",
+    "id": 186348,
+    "source": {
+      "title": "歌手",
+      "link": "/artist?id=6454&_hash=songlist-186348",
+      "fid": 2,
+      "fdata": "6454"
+    }
+  },
+  {
+    "type": 0,
+    "duration": 247702,
+    "status": 1,
+    "alias": [
+      "《秦时明月-君临天下》主题曲"
+    ],
+    "privilege": {
+      "id": 30089042,
+      "fee": 8,
+      "payed": 0,
+      "st": 0,
+      "pl": 128000,
+      "dl": 0,
+      "sp": 7,
+      "cp": 1,
+      "subp": 1,
+      "cs": false,
+      "maxbr": 999000,
+      "fl": 128000,
+      "toast": false,
+      "flag": 256,
+      "preSell": false
+    },
+    "djid": 0,
+    "album": {
+      "id": 3093271,
+      "name": "焚情",
+      "picUrl": "http://p2.music.126.net/uQD8N_Z6wyUJN-wwesfw9Q==/6649846326311326.jpg",
+      "pic_str": "6649846326311326",
+      "pic": 6649846326311326
+    },
+    "artists": [
+      {
+        "id": 6454,
+        "name": "张信哲",
+        "alia": [
+          "阿哲",
+          "Jeff Chang"
+        ]
+      }
+    ],
+    "fee": 8,
+    "ftype": 0,
+    "no": 1,
+    "publishTime": 0,
+    "score": 100,
+    "copyrightId": 35015,
+    "mvid": 0,
+    "transNames": null,
+    "commentThreadId": "R_SO_4_30089042",
+    "name": "焚情",
+    "id": 30089042,
+    "source": {
+      "title": "歌手",
+      "link": "/artist?id=6454&_hash=songlist-30089042",
+      "fid": 2,
+      "fdata": "6454"
+    }
+  },
+  {
+    "type": 0,
+    "duration": 310623,
+    "status": 0,
+    "alias": [],
+    "privilege": {
+      "id": 186686,
+      "fee": 8,
+      "payed": 0,
+      "st": 0,
+      "pl": 128000,
+      "dl": 0,
+      "sp": 7,
+      "cp": 1,
+      "subp": 1,
+      "cs": false,
+      "maxbr": 999000,
+      "fl": 128000,
+      "toast": false,
+      "flag": 320,
+      "preSell": false
+    },
+    "djid": 0,
+    "album": {
+      "id": 18960,
+      "name": "挚爱",
+      "picUrl": "http://p2.music.126.net/xAgYhBNGpMD-1MRGPL_prw==/18896206835242746.jpg",
+      "pic_str": "18896206835242746",
+      "pic": 18896206835242744
+    },
+    "artists": [
+      {
+        "id": 6454,
+        "name": "张信哲",
+        "alia": [
+          "阿哲",
+          "Jeff Chang"
+        ]
+      }
+    ],
+    "fee": 8,
+    "ftype": 0,
+    "no": 1,
+    "publishTime": 0,
+    "score": 100,
+    "copyrightId": 35015,
+    "mvid": 5403536,
+    "transNames": null,
+    "commentThreadId": "R_SO_4_186686",
+    "name": "用情",
+    "id": 186686,
+    "source": {
+      "title": "歌手",
+      "link": "/artist?id=6454&_hash=songlist-186686",
+      "fid": 2,
+      "fdata": "6454"
+    }
+  },
+  {
+    "type": 0,
+    "duration": 266494,
+    "status": 1,
+    "alias": [
+      "原曲 : 久石让"
+    ],
+    "privilege": {
+      "id": 409302048,
+      "fee": 8,
+      "payed": 0,
+      "st": 0,
+      "pl": 128000,
+      "dl": 0,
+      "sp": 7,
+      "cp": 1,
+      "subp": 1,
+      "cs": false,
+      "maxbr": 999000,
+      "fl": 128000,
+      "toast": false,
+      "flag": 0,
+      "preSell": false
+    },
+    "djid": 0,
+    "album": {
+      "id": 34608091,
+      "name": "我是歌手第四季 歌王之战",
+      "picUrl": "http://p2.music.126.net/25PUTtJ6xgPlC5RlNfJPCQ==/1387583679453717.jpg",
+      "pic_str": "1387583679453717",
+      "pic": 1387583679453717
+    },
+    "artists": [
+      {
+        "id": 6454,
+        "name": "张信哲",
+        "alia": [
+          "阿哲",
+          "Jeff Chang"
+        ]
+      }
+    ],
+    "fee": 8,
+    "ftype": 0,
+    "no": 10,
+    "publishTime": 0,
+    "score": 100,
+    "copyrightId": 404023,
+    "mvid": 0,
+    "transNames": null,
+    "commentThreadId": "R_SO_4_409302048",
+    "name": "天空之城",
+    "id": 409302048,
+    "source": {
+      "title": "歌手",
+      "link": "/artist?id=6454&_hash=songlist-409302048",
+      "fid": 2,
+      "fdata": "6454"
+    }
+  },
+  {
+    "type": 0,
+    "duration": 239064,
+    "status": 0,
+    "alias": [],
+    "privilege": {
+      "id": 186182,
+      "fee": 8,
+      "payed": 0,
+      "st": 0,
+      "pl": 128000,
+      "dl": 0,
+      "sp": 7,
+      "cp": 1,
+      "subp": 1,
+      "cs": false,
+      "maxbr": 999000,
+      "fl": 128000,
+      "toast": false,
+      "flag": 320,
+      "preSell": false
+    },
+    "djid": 0,
+    "album": {
+      "id": 18920,
+      "name": "做你的男人",
+      "picUrl": "http://p2.music.126.net/4iG1aHBPtYJh7G-QE5vidQ==/70368744190459.jpg",
+      "pic_str": "70368744190459",
+      "pic": 70368744190459
+    },
+    "artists": [
+      {
+        "id": 6454,
+        "name": "张信哲",
+        "alia": [
+          "阿哲",
+          "Jeff Chang"
+        ]
+      }
+    ],
+    "fee": 8,
+    "ftype": 0,
+    "no": 2,
+    "publishTime": 0,
+    "score": 100,
+    "copyrightId": 35015,
+    "mvid": 0,
+    "transNames": null,
+    "commentThreadId": "R_SO_4_186182",
+    "name": "说谎",
+    "id": 186182,
+    "source": {
+      "title": "歌手",
+      "link": "/artist?id=6454&_hash=songlist-186182",
+      "fid": 2,
+      "fdata": "6454"
+    }
+  },
+  {
+    "type": 0,
+    "duration": 234600,
+    "status": 3,
+    "alias": [],
+    "privilege": {
+      "id": 186383,
+      "fee": 8,
+      "payed": 0,
+      "st": 0,
+      "pl": 128000,
+      "dl": 0,
+      "sp": 7,
+      "cp": 1,
+      "subp": 1,
+      "cs": false,
+      "maxbr": 999000,
+      "fl": 128000,
+      "toast": false,
+      "flag": 0,
+      "preSell": false
+    },
+    "djid": 0,
+    "album": {
+      "id": 18933,
+      "name": "张信哲精选",
+      "picUrl": "http://p2.music.126.net/D0e4NZrx_0ArL5FhIXpJww==/109951163511560406.jpg",
+      "pic_str": "109951163511560406",
+      "pic": 109951163511560400
+    },
+    "artists": [
+      {
+        "id": 6454,
+        "name": "张信哲",
+        "alia": [
+          "阿哲",
+          "Jeff Chang"
+        ]
+      }
+    ],
+    "fee": 8,
+    "ftype": 0,
+    "no": 16,
+    "publishTime": 0,
+    "score": 100,
+    "copyrightId": 7001,
+    "mvid": 0,
+    "transNames": null,
+    "commentThreadId": "R_SO_4_186383",
+    "name": "难以抗拒你容颜",
+    "id": 186383,
+    "source": {
+      "title": "歌手",
+      "link": "/artist?id=6454&_hash=songlist-186383",
+      "fid": 2,
+      "fdata": "6454"
+    }
+  },
+  {
+    "type": 0,
+    "duration": 316666,
+    "status": 0,
+    "alias": [],
+    "privilege": {
+      "id": 186973,
+      "fee": 8,
+      "payed": 0,
+      "st": 0,
+      "pl": 128000,
+      "dl": 0,
+      "sp": 7,
+      "cp": 1,
+      "subp": 1,
+      "cs": false,
+      "maxbr": 999000,
+      "fl": 128000,
+      "toast": false,
+      "flag": 320,
+      "preSell": false
+    },
+    "djid": 0,
+    "album": {
+      "id": 18977,
+      "name": "宽容",
+      "picUrl": "http://p2.music.126.net/pw7exn016YS6EI3Gb3Ub4w==/109951163511561734.jpg",
+      "pic_str": "109951163511561734",
+      "pic": 109951163511561730
+    },
+    "artists": [
+      {
+        "id": 6454,
+        "name": "张信哲",
+        "alia": [
+          "阿哲",
+          "Jeff Chang"
+        ]
+      }
+    ],
+    "fee": 8,
+    "ftype": 0,
+    "no": 2,
+    "publishTime": 0,
+    "score": 100,
+    "copyrightId": 35015,
+    "mvid": 5403362,
+    "transNames": null,
+    "commentThreadId": "R_SO_4_186973",
+    "name": "宽容",
+    "id": 186973,
+    "source": {
+      "title": "歌手",
+      "link": "/artist?id=6454&_hash=songlist-186973",
+      "fid": 2,
+      "fdata": "6454"
+    }
+  },
+  {
+    "type": 0,
+    "duration": 281429,
+    "status": 1,
+    "alias": [
+      "原唱 : 朴树 / Wiz Khalifa&Charlie Puth"
+    ],
+    "privilege": {
+      "id": 406086764,
+      "fee": 8,
+      "payed": 0,
+      "st": 0,
+      "pl": 128000,
+      "dl": 0,
+      "sp": 7,
+      "cp": 1,
+      "subp": 1,
+      "cs": false,
+      "maxbr": 999000,
+      "fl": 128000,
+      "toast": false,
+      "flag": 0,
+      "preSell": false
+    },
+    "djid": 0,
+    "album": {
+      "id": 34527772,
+      "name": "我是歌手第四季 第9期",
+      "picUrl": "http://p2.music.126.net/3PL9vnmSmdnTUqoRWmMdag==/3284241240581519.jpg",
+      "pic_str": "3284241240581519",
+      "pic": 3284241240581519
+    },
+    "artists": [
+      {
+        "id": 6454,
+        "name": "张信哲",
+        "alia": [
+          "阿哲",
+          "Jeff Chang"
+        ]
+      }
+    ],
+    "fee": 8,
+    "ftype": 0,
+    "no": 7,
+    "publishTime": 0,
+    "score": 100,
+    "copyrightId": 404023,
+    "mvid": 0,
+    "transNames": null,
+    "commentThreadId": "R_SO_4_406086764",
+    "name": "平凡之路 + See You Again (Live)",
+    "id": 406086764,
+    "source": {
+      "title": "歌手",
+      "link": "/artist?id=6454&_hash=songlist-406086764",
+      "fid": 2,
+      "fdata": "6454"
+    }
+  },
+  {
+    "type": 0,
+    "duration": 291173,
+    "status": 1,
+    "alias": [
+      "电影《时间去哪儿了》宣传曲"
+    ],
+    "privilege": {
+      "id": 509726632,
+      "fee": 8,
+      "payed": 0,
+      "st": 0,
+      "pl": 128000,
+      "dl": 0,
+      "sp": 7,
+      "cp": 1,
+      "subp": 1,
+      "cs": false,
+      "maxbr": 999000,
+      "fl": 128000,
+      "toast": false,
+      "flag": 64,
+      "preSell": false
+    },
+    "djid": 0,
+    "album": {
+      "id": 74972359,
+      "name": "拥恒",
+      "picUrl": "http://p2.music.126.net/uTnzlYwcrwjZo9gGe2Eq1A==/109951163745353666.jpg",
+      "pic_str": "109951163745353666",
+      "pic": 109951163745353660
+    },
+    "artists": [
+      {
+        "id": 6454,
+        "name": "张信哲",
+        "alia": [
+          "阿哲",
+          "Jeff Chang"
+        ]
+      }
+    ],
+    "fee": 8,
+    "ftype": 0,
+    "no": 10,
+    "publishTime": 0,
+    "score": 100,
+    "copyrightId": 1416316,
+    "mvid": 5678128,
+    "transNames": null,
+    "commentThreadId": "R_SO_4_509726632",
+    "name": "时间都去哪儿了",
+    "id": 509726632,
+    "source": {
+      "title": "歌手",
+      "link": "/artist?id=6454&_hash=songlist-509726632",
+      "fid": 2,
+      "fdata": "6454"
+    }
+  },
+  {
+    "type": 0,
+    "duration": 227448,
+    "status": 1,
+    "alias": [],
+    "privilege": {
+      "id": 229981,
+      "fee": 0,
+      "payed": 0,
+      "st": 0,
+      "pl": 320000,
+      "dl": 320000,
+      "sp": 7,
+      "cp": 1,
+      "subp": 1,
+      "cs": false,
+      "maxbr": 320000,
+      "fl": 999000,
+      "toast": false,
+      "flag": 128,
+      "preSell": false
+    },
+    "djid": 0,
+    "album": {
+      "id": 23141,
+      "name": "一个人生活",
+      "picUrl": "http://p2.music.126.net/vAtiaBCWMPyyM05Y6XGfTw==/23089744189154.jpg",
+      "pic_str": "23089744189154",
+      "pic": 23089744189154
+    },
+    "artists": [
+      {
+        "id": 7658,
+        "name": "范文芳"
+      },
+      {
+        "id": 6454,
+        "name": "张信哲",
+        "alia": [
+          "阿哲",
+          "Jeff Chang"
+        ]
+      }
+    ],
+    "fee": 0,
+    "ftype": 0,
+    "no": 2,
+    "publishTime": 0,
+    "score": 100,
+    "copyrightId": 0,
+    "mvid": 0,
+    "transNames": null,
+    "commentThreadId": "R_SO_4_229981",
+    "name": "别让情两难",
+    "id": 229981,
+    "source": {
+      "title": "歌手",
+      "link": "/artist?id=6454&_hash=songlist-229981",
+      "fid": 2,
+      "fdata": "6454"
+    }
+  },
+  {
+    "type": 0,
+    "duration": 313000,
+    "status": 3,
+    "alias": [],
+    "privilege": {
+      "id": 186351,
+      "fee": 8,
+      "payed": 0,
+      "st": 0,
+      "pl": 128000,
+      "dl": 0,
+      "sp": 7,
+      "cp": 1,
+      "subp": 1,
+      "cs": false,
+      "maxbr": 999000,
+      "fl": 128000,
+      "toast": false,
+      "flag": 0,
+      "preSell": false
+    },
+    "djid": 0,
+    "album": {
+      "id": 18933,
+      "name": "张信哲精选",
+      "picUrl": "http://p2.music.126.net/D0e4NZrx_0ArL5FhIXpJww==/109951163511560406.jpg",
+      "pic_str": "109951163511560406",
+      "pic": 109951163511560400
+    },
+    "artists": [
+      {
+        "id": 6454,
+        "name": "张信哲",
+        "alia": [
+          "阿哲",
+          "Jeff Chang"
+        ]
+      }
+    ],
+    "fee": 8,
+    "ftype": 0,
+    "no": 3,
+    "publishTime": 0,
+    "score": 100,
+    "copyrightId": 7001,
+    "mvid": 0,
+    "transNames": null,
+    "commentThreadId": "R_SO_4_186351",
+    "name": "我是真的爱你",
+    "id": 186351,
+    "source": {
+      "title": "歌手",
+      "link": "/artist?id=6454&_hash=songlist-186351",
+      "fid": 2,
+      "fdata": "6454"
+    }
+  },
+  {
+    "type": 0,
+    "duration": 273173,
+    "status": 0,
+    "alias": [],
+    "privilege": {
+      "id": 186181,
+      "fee": 8,
+      "payed": 0,
+      "st": 0,
+      "pl": 128000,
+      "dl": 0,
+      "sp": 7,
+      "cp": 1,
+      "subp": 1,
+      "cs": false,
+      "maxbr": 999000,
+      "fl": 128000,
+      "toast": false,
+      "flag": 320,
+      "preSell": false
+    },
+    "djid": 0,
+    "album": {
+      "id": 18920,
+      "name": "做你的男人",
+      "picUrl": "http://p2.music.126.net/4iG1aHBPtYJh7G-QE5vidQ==/70368744190459.jpg",
+      "pic_str": "70368744190459",
+      "pic": 70368744190459
+    },
+    "artists": [
+      {
+        "id": 6454,
+        "name": "张信哲",
+        "alia": [
+          "阿哲",
+          "Jeff Chang"
+        ]
+      }
+    ],
+    "fee": 8,
+    "ftype": 0,
+    "no": 1,
+    "publishTime": 0,
+    "score": 95,
+    "copyrightId": 35015,
+    "mvid": 0,
+    "transNames": null,
+    "commentThreadId": "R_SO_4_186181",
+    "name": "做你的男人",
+    "id": 186181,
+    "source": {
+      "title": "歌手",
+      "link": "/artist?id=6454&_hash=songlist-186181",
+      "fid": 2,
+      "fdata": "6454"
+    }
+  },
+  {
+    "type": 0,
+    "duration": 329588,
+    "status": 0,
+    "alias": [],
+    "privilege": {
+      "id": 186625,
+      "fee": 8,
+      "payed": 0,
+      "st": 0,
+      "pl": 128000,
+      "dl": 0,
+      "sp": 7,
+      "cp": 1,
+      "subp": 1,
+      "cs": false,
+      "maxbr": 999000,
+      "fl": 128000,
+      "toast": false,
+      "flag": 320,
+      "preSell": false
+    },
+    "djid": 0,
+    "album": {
+      "id": 18950,
+      "name": "直觉",
+      "picUrl": "http://p2.music.126.net/ANlb2soBvGRr8rqlcpVoXA==/103354093011847.jpg",
+      "pic_str": "103354093011847",
+      "pic": 103354093011847
+    },
+    "artists": [
+      {
+        "id": 6454,
+        "name": "张信哲",
+        "alia": [
+          "阿哲",
+          "Jeff Chang"
+        ]
+      }
+    ],
+    "fee": 8,
+    "ftype": 0,
+    "no": 6,
+    "publishTime": 0,
+    "score": 95,
+    "copyrightId": 35015,
+    "mvid": 5393747,
+    "transNames": null,
+    "commentThreadId": "R_SO_4_186625",
+    "name": "直觉",
+    "id": 186625,
+    "source": {
+      "title": "歌手",
+      "link": "/artist?id=6454&_hash=songlist-186625",
+      "fid": 2,
+      "fdata": "6454"
+    }
+  },
+  {
+    "type": 0,
+    "duration": 292206,
+    "status": 1,
+    "alias": [],
+    "privilege": {
+      "id": 25641861,
+      "fee": 8,
+      "payed": 0,
+      "st": 0,
+      "pl": 128000,
+      "dl": 0,
+      "sp": 7,
+      "cp": 1,
+      "subp": 1,
+      "cs": false,
+      "maxbr": 320000,
+      "fl": 128000,
+      "toast": false,
+      "flag": 256,
+      "preSell": false
+    },
+    "djid": 0,
+    "album": {
+      "id": 2263090,
+      "name": "张信哲选哲情歌二十载",
+      "picUrl": "http://p2.music.126.net/QpDWkU9rFwmFnWjA5O_3cA==/595935302298252.jpg",
+      "pic_str": "595935302298252",
+      "pic": 595935302298252
+    },
+    "artists": [
+      {
+        "id": 6454,
+        "name": "张信哲",
+        "alia": [
+          "阿哲",
+          "Jeff Chang"
+        ]
+      }
+    ],
+    "fee": 8,
+    "ftype": 0,
+    "no": 2,
+    "publishTime": 0,
+    "score": 95,
+    "copyrightId": 35015,
+    "mvid": 5468168,
+    "transNames": null,
+    "commentThreadId": "R_SO_4_25641861",
+    "name": "爱不留",
+    "id": 25641861,
+    "source": {
+      "title": "歌手",
+      "link": "/artist?id=6454&_hash=songlist-25641861",
+      "fid": 2,
+      "fdata": "6454"
+    }
+  },
+  {
+    "type": 0,
+    "duration": 227031,
+    "status": 0,
+    "alias": [],
+    "privilege": {
+      "id": 186442,
+      "fee": 8,
+      "payed": 0,
+      "st": 0,
+      "pl": 128000,
+      "dl": 0,
+      "sp": 7,
+      "cp": 1,
+      "subp": 1,
+      "cs": false,
+      "maxbr": 999000,
+      "fl": 128000,
+      "toast": false,
+      "flag": 320,
+      "preSell": false
+    },
+    "djid": 0,
+    "album": {
+      "id": 18938,
+      "name": "信仰",
+      "picUrl": "http://p2.music.126.net/kcbnCAGIZGyxm4mpvSGmMA==/126443837210708.jpg",
+      "pic_str": "126443837210708",
+      "pic": 126443837210708
+    },
+    "artists": [
+      {
+        "id": 6454,
+        "name": "张信哲",
+        "alia": [
+          "阿哲",
+          "Jeff Chang"
+        ]
+      }
+    ],
+    "fee": 8,
+    "ftype": 0,
+    "no": 7,
+    "publishTime": 0,
+    "score": 95,
+    "copyrightId": 35015,
+    "mvid": 0,
+    "transNames": null,
+    "commentThreadId": "R_SO_4_186442",
+    "name": "王子公主",
+    "id": 186442,
+    "source": {
+      "title": "歌手",
+      "link": "/artist?id=6454&_hash=songlist-186442",
+      "fid": 2,
+      "fdata": "6454"
+    }
+  },
+  {
+    "type": 0,
+    "duration": 278700,
+    "status": 1,
+    "alias": [],
+    "privilege": {
+      "id": 5273791,
+      "fee": 0,
+      "payed": 0,
+      "st": 0,
+      "pl": 192000,
+      "dl": 192000,
+      "sp": 7,
+      "cp": 1,
+      "subp": 1,
+      "cs": false,
+      "maxbr": 192000,
+      "fl": 999000,
+      "toast": false,
+      "flag": 128,
+      "preSell": false
+    },
+    "djid": 0,
+    "album": {
+      "id": 513168,
+      "name": "和未来有约",
+      "picUrl": "http://p2.music.126.net/QdGgpxVRcvf3zeKdbgo_Gg==/103354093028222.jpg",
+      "pic_str": "103354093028222",
+      "pic": 103354093028222
+    },
+    "artists": [
+      {
+        "id": 6075,
+        "name": "庾澄庆",
+        "alia": [
+          "哈林",
+          "Harlem Yu"
+        ]
+      },
+      {
+        "id": 6454,
+        "name": "张信哲",
+        "alia": [
+          "阿哲",
+          "Jeff Chang"
+        ]
+      },
+      {
+        "id": 3692,
+        "name": "林志炫",
+        "alia": [
+          "Terry Lin"
+        ]
+      },
+      {
+        "id": 233773,
+        "name": "徐倩雯"
+      },
+      {
+        "id": 3100,
+        "name": "黄中原"
+      },
+      {
+        "id": 68091,
+        "name": "Michelle"
+      },
+      {
+        "id": 12994,
+        "name": "脱拉库"
+      },
+      {
+        "id": 8363,
+        "name": "蓝心湄"
+      },
+      {
+        "id": 5346,
+        "name": "王力宏",
+        "alia": [
+          "Leehom Wang"
+        ]
+      },
+      {
+        "id": 8331,
+        "name": "李玟",
+        "alia": [
+          "CoCo Lee"
+        ]
+      },
+      {
+        "id": 6070,
+        "name": "游鸿明"
+      }
+    ],
+    "fee": 0,
+    "ftype": 0,
+    "no": 1,
+    "publishTime": 0,
+    "score": 95,
+    "copyrightId": 5003,
+    "mvid": 0,
+    "transNames": null,
+    "commentThreadId": "R_SO_4_5273791",
+    "name": "和未来有约(原版)",
+    "id": 5273791,
+    "source": {
+      "title": "歌手",
+      "link": "/artist?id=6454&_hash=songlist-5273791",
+      "fid": 2,
+      "fdata": "6454"
+    }
+  },
+  {
+    "type": 0,
+    "duration": 287082,
+    "status": 1,
+    "alias": [
+      "串烧: 时间煮雨 + 时间都去哪儿了 + 滴答 + 那些年 + 小幸运 + 青春修炼手册 + 一次就好 + 我想大声告诉你 + 信仰"
+    ],
+    "privilege": {
+      "id": 408277951,
+      "fee": 8,
+      "payed": 0,
+      "st": 0,
+      "pl": 128000,
+      "dl": 0,
+      "sp": 7,
+      "cp": 1,
+      "subp": 1,
+      "cs": false,
+      "maxbr": 999000,
+      "fl": 128000,
+      "toast": false,
+      "flag": 0,
+      "preSell": false
+    },
+    "djid": 0,
+    "album": {
+      "id": 34589726,
+      "name": "我是歌手第四季 第12期",
+      "picUrl": "http://p2.music.126.net/QXaISOoIt53f1nJFav_WEQ==/3312828537194189.jpg",
+      "pic_str": "3312828537194189",
+      "pic": 3312828537194189
+    },
+    "artists": [
+      {
+        "id": 6454,
+        "name": "张信哲",
+        "alia": [
+          "阿哲",
+          "Jeff Chang"
+        ]
+      }
+    ],
+    "fee": 8,
+    "ftype": 0,
+    "no": 10,
+    "publishTime": 0,
+    "score": 95,
+    "copyrightId": 404023,
+    "mvid": 0,
+    "transNames": null,
+    "commentThreadId": "R_SO_4_408277951",
+    "name": "致光阴 (Live)",
+    "id": 408277951,
+    "source": {
+      "title": "歌手",
+      "link": "/artist?id=6454&_hash=songlist-408277951",
+      "fid": 2,
+      "fdata": "6454"
+    }
+  },
+  {
+    "type": 0,
+    "duration": 255665,
+    "status": 0,
+    "alias": [],
+    "privilege": {
+      "id": 464647443,
+      "fee": 8,
+      "payed": 0,
+      "st": 0,
+      "pl": 128000,
+      "dl": 0,
+      "sp": 7,
+      "cp": 1,
+      "subp": 1,
+      "cs": false,
+      "maxbr": 999000,
+      "fl": 128000,
+      "toast": false,
+      "flag": 68,
+      "preSell": false
+    },
+    "djid": 0,
+    "album": {
+      "id": 74972359,
+      "name": "拥恒",
+      "picUrl": "http://p2.music.126.net/uTnzlYwcrwjZo9gGe2Eq1A==/109951163745353666.jpg",
+      "pic_str": "109951163745353666",
+      "pic": 109951163745353660
+    },
+    "artists": [
+      {
+        "id": 6454,
+        "name": "张信哲",
+        "alia": [
+          "阿哲",
+          "Jeff Chang"
+        ]
+      }
+    ],
+    "fee": 8,
+    "ftype": 0,
+    "no": 1,
+    "publishTime": 0,
+    "score": 95,
+    "copyrightId": 0,
+    "mvid": 5473030,
+    "transNames": null,
+    "commentThreadId": "R_SO_4_464647443",
+    "name": "好好爱个女孩",
+    "id": 464647443,
+    "source": {
+      "title": "歌手",
+      "link": "/artist?id=6454&_hash=songlist-464647443",
+      "fid": 2,
+      "fdata": "6454"
+    }
+  },
+  {
+    "type": 0,
+    "duration": 313109,
+    "status": 1,
+    "alias": [
+      "原唱 : 黄耀明"
+    ],
+    "privilege": {
+      "id": 407677623,
+      "fee": 8,
+      "payed": 0,
+      "st": 0,
+      "pl": 128000,
+      "dl": 0,
+      "sp": 7,
+      "cp": 1,
+      "subp": 1,
+      "cs": false,
+      "maxbr": 999000,
+      "fl": 128000,
+      "toast": false,
+      "flag": 0,
+      "preSell": false
+    },
+    "djid": 0,
+    "album": {
+      "id": 34589180,
+      "name": "我是歌手第四季 第11期",
+      "picUrl": "http://p2.music.126.net/yYWQmQyeCxFpnpsYnPHBew==/1411772933763044.jpg",
+      "pic_str": "1411772933763044",
+      "pic": 1411772933763044
+    },
+    "artists": [
+      {
+        "id": 6454,
+        "name": "张信哲",
+        "alia": [
+          "阿哲",
+          "Jeff Chang"
+        ]
+      }
+    ],
+    "fee": 8,
+    "ftype": 0,
+    "no": 3,
+    "publishTime": 0,
+    "score": 95,
+    "copyrightId": 404023,
+    "mvid": 0,
+    "transNames": null,
+    "commentThreadId": "R_SO_4_407677623",
+    "name": "这么远那么近",
+    "id": 407677623,
+    "source": {
+      "title": "歌手",
+      "link": "/artist?id=6454&_hash=songlist-407677623",
+      "fid": 2,
+      "fdata": "6454"
+    }
+  },
+  {
+    "type": 0,
+    "duration": 287498,
+    "status": 1,
+    "alias": [
+      "电影《我的新野蛮女友》中文版主题曲"
+    ],
+    "privilege": {
+      "id": 407679949,
+      "fee": 8,
+      "payed": 0,
+      "st": 0,
+      "pl": 128000,
+      "dl": 0,
+      "sp": 7,
+      "cp": 1,
+      "subp": 1,
+      "cs": false,
+      "maxbr": 999000,
+      "fl": 128000,
+      "toast": false,
+      "flag": 256,
+      "preSell": false
+    },
+    "djid": 0,
+    "album": {
+      "id": 34588239,
+      "name": "I Believe",
+      "picUrl": "http://p1.music.126.net/1W118vLAePcixn_Ckg2xUQ==/1376588561547944.jpg",
+      "pic_str": "1376588561547944",
+      "pic": 1376588561547944,
+      "alia": [
+        "电影《我的新野蛮女友》中文版主题曲"
+      ]
+    },
+    "artists": [
+      {
+        "id": 6454,
+        "name": "张信哲",
+        "alia": [
+          "阿哲",
+          "Jeff Chang"
+        ]
+      }
+    ],
+    "fee": 8,
+    "ftype": 0,
+    "no": 1,
+    "publishTime": 0,
+    "score": 95,
+    "copyrightId": 35015,
+    "mvid": 5306117,
+    "transNames": null,
+    "commentThreadId": "R_SO_4_407679949",
+    "name": "I Believe",
+    "id": 407679949,
+    "source": {
+      "title": "歌手",
+      "link": "/artist?id=6454&_hash=songlist-407679949",
+      "fid": 2,
+      "fdata": "6454"
+    }
+  },
+  {
+    "type": 0,
+    "duration": 226077,
+    "status": 1,
+    "alias": [],
+    "privilege": {
+      "id": 554242065,
+      "fee": 8,
+      "payed": 0,
+      "st": 0,
+      "pl": 128000,
+      "dl": 0,
+      "sp": 7,
+      "cp": 1,
+      "subp": 1,
+      "cs": false,
+      "maxbr": 999000,
+      "fl": 128000,
+      "toast": false,
+      "flag": 128,
+      "preSell": false
+    },
+    "djid": 0,
+    "album": {
+      "id": 38433017,
+      "name": "歌 时代",
+      "picUrl": "http://p2.music.126.net/BPw1rn34KsacRewUF0FJww==/109951163256557868.jpg",
+      "pic_str": "109951163256557868",
+      "pic": 109951163256557870
+    },
+    "artists": [
+      {
+        "id": 6454,
+        "name": "张信哲",
+        "alia": [
+          "阿哲",
+          "Jeff Chang"
+        ]
+      }
+    ],
+    "fee": 8,
+    "ftype": 0,
+    "no": 5,
+    "publishTime": 0,
+    "score": 95,
+    "copyrightId": 35015,
+    "mvid": 0,
+    "transNames": null,
+    "commentThreadId": "R_SO_4_554242065",
+    "name": "为你我受冷风吹",
+    "id": 554242065,
+    "source": {
+      "title": "歌手",
+      "link": "/artist?id=6454&_hash=songlist-554242065",
+      "fid": 2,
+      "fdata": "6454"
+    }
+  },
+  {
+    "type": 0,
+    "duration": 272736,
+    "status": 0,
+    "alias": [],
+    "privilege": {
+      "id": 186190,
+      "fee": 8,
+      "payed": 0,
+      "st": 0,
+      "pl": 128000,
+      "dl": 0,
+      "sp": 7,
+      "cp": 1,
+      "subp": 1,
+      "cs": false,
+      "maxbr": 999000,
+      "fl": 128000,
+      "toast": false,
+      "flag": 320,
+      "preSell": false
+    },
+    "djid": 0,
+    "album": {
+      "id": 18920,
+      "name": "做你的男人",
+      "picUrl": "http://p2.music.126.net/4iG1aHBPtYJh7G-QE5vidQ==/70368744190459.jpg",
+      "pic_str": "70368744190459",
+      "pic": 70368744190459
+    },
+    "artists": [
+      {
+        "id": 6454,
+        "name": "张信哲",
+        "alia": [
+          "阿哲",
+          "Jeff Chang"
+        ]
+      }
+    ],
+    "fee": 8,
+    "ftype": 0,
+    "no": 8,
+    "publishTime": 0,
+    "score": 95,
+    "copyrightId": 35015,
+    "mvid": 0,
+    "transNames": null,
+    "commentThreadId": "R_SO_4_186190",
+    "name": "上海姑娘",
+    "id": 186190,
+    "source": {
+      "title": "歌手",
+      "link": "/artist?id=6454&_hash=songlist-186190",
+      "fid": 2,
+      "fdata": "6454"
+    }
+  },
+  {
+    "type": 0,
+    "duration": 303935,
+    "status": 0,
+    "alias": [],
+    "privilege": {
+      "id": 186090,
+      "fee": 8,
+      "payed": 0,
+      "st": 0,
+      "pl": 128000,
+      "dl": 0,
+      "sp": 7,
+      "cp": 1,
+      "subp": 1,
+      "cs": false,
+      "maxbr": 999000,
+      "fl": 128000,
+      "toast": false,
+      "flag": 320,
+      "preSell": false
+    },
+    "djid": 0,
+    "album": {
+      "id": 18912,
+      "name": "逃生",
+      "picUrl": "http://p2.music.126.net/0YcjXMvQAIVxBtbNxyv7mw==/115448720929685.jpg",
+      "pic_str": "115448720929685",
+      "pic": 115448720929685
+    },
+    "artists": [
+      {
+        "id": 6454,
+        "name": "张信哲",
+        "alia": [
+          "阿哲",
+          "Jeff Chang"
+        ]
+      }
+    ],
+    "fee": 8,
+    "ftype": 0,
+    "no": 2,
+    "publishTime": 0,
+    "score": 95,
+    "copyrightId": 35015,
+    "mvid": 0,
+    "transNames": null,
+    "commentThreadId": "R_SO_4_186090",
+    "name": "逃生",
+    "id": 186090,
+    "source": {
+      "title": "歌手",
+      "link": "/artist?id=6454&_hash=songlist-186090",
+      "fid": 2,
+      "fdata": "6454"
+    }
+  },
+  {
+    "type": 0,
+    "duration": 263521,
+    "status": 0,
+    "alias": [],
+    "privilege": {
+      "id": 186194,
+      "fee": 8,
+      "payed": 0,
+      "st": 0,
+      "pl": 128000,
+      "dl": 0,
+      "sp": 7,
+      "cp": 1,
+      "subp": 1,
+      "cs": false,
+      "maxbr": 999000,
+      "fl": 128000,
+      "toast": false,
+      "flag": 320,
+      "preSell": false
+    },
+    "djid": 0,
+    "album": {
+      "id": 18920,
+      "name": "做你的男人",
+      "picUrl": "http://p2.music.126.net/4iG1aHBPtYJh7G-QE5vidQ==/70368744190459.jpg",
+      "pic_str": "70368744190459",
+      "pic": 70368744190459
+    },
+    "artists": [
+      {
+        "id": 6454,
+        "name": "张信哲",
+        "alia": [
+          "阿哲",
+          "Jeff Chang"
+        ]
+      }
+    ],
+    "fee": 8,
+    "ftype": 0,
+    "no": 10,
+    "publishTime": 0,
+    "score": 95,
+    "copyrightId": 35015,
+    "mvid": 0,
+    "transNames": null,
+    "commentThreadId": "R_SO_4_186194",
+    "name": "晴天",
+    "id": 186194,
+    "source": {
+      "title": "歌手",
+      "link": "/artist?id=6454&_hash=songlist-186194",
+      "fid": 2,
+      "fdata": "6454"
+    }
+  },
+  {
+    "type": 0,
+    "duration": 341440,
+    "status": 1,
+    "alias": [
+      "原唱 : 苏芮"
+    ],
+    "privilege": {
+      "id": 405377707,
+      "fee": 8,
+      "payed": 0,
+      "st": 0,
+      "pl": 128000,
+      "dl": 0,
+      "sp": 7,
+      "cp": 1,
+      "subp": 1,
+      "cs": false,
+      "maxbr": 999000,
+      "fl": 128000,
+      "toast": false,
+      "flag": 0,
+      "preSell": false
+    },
+    "djid": 0,
+    "album": {
+      "id": 34527400,
+      "name": "我是歌手第四季 第8期",
+      "picUrl": "http://p2.music.126.net/UFS207aiH9Uz08zYYSXWXw==/1416170978664552.jpg",
+      "pic_str": "1416170978664552",
+      "pic": 1416170978664552
+    },
+    "artists": [
+      {
+        "id": 6454,
+        "name": "张信哲",
+        "alia": [
+          "阿哲",
+          "Jeff Chang"
+        ]
+      }
+    ],
+    "fee": 8,
+    "ftype": 0,
+    "no": 6,
+    "publishTime": 0,
+    "score": 95,
+    "copyrightId": 404023,
+    "mvid": 0,
+    "transNames": null,
+    "commentThreadId": "R_SO_4_405377707",
+    "name": "亲爱的小孩",
+    "id": 405377707,
+    "source": {
+      "title": "歌手",
+      "link": "/artist?id=6454&_hash=songlist-405377707",
+      "fid": 2,
+      "fdata": "6454"
+    }
+  },
+  {
+    "type": 0,
+    "duration": 253753,
+    "status": 0,
+    "alias": [],
+    "privilege": {
+      "id": 485612504,
+      "fee": 8,
+      "payed": 0,
+      "st": 0,
+      "pl": 128000,
+      "dl": 0,
+      "sp": 7,
+      "cp": 1,
+      "subp": 1,
+      "cs": false,
+      "maxbr": 999000,
+      "fl": 128000,
+      "toast": false,
+      "flag": 68,
+      "preSell": false
+    },
+    "djid": 0,
+    "album": {
+      "id": 74972359,
+      "name": "拥恒",
+      "picUrl": "http://p2.music.126.net/uTnzlYwcrwjZo9gGe2Eq1A==/109951163745353666.jpg",
+      "pic_str": "109951163745353666",
+      "pic": 109951163745353660
+    },
+    "artists": [
+      {
+        "id": 6454,
+        "name": "张信哲",
+        "alia": [
+          "阿哲",
+          "Jeff Chang"
+        ]
+      }
+    ],
+    "fee": 8,
+    "ftype": 0,
+    "no": 6,
+    "publishTime": 0,
+    "score": 90,
+    "copyrightId": 35015,
+    "mvid": 5592888,
+    "transNames": null,
+    "commentThreadId": "R_SO_4_485612504",
+    "name": "说",
+    "id": 485612504,
+    "source": {
+      "title": "歌手",
+      "link": "/artist?id=6454&_hash=songlist-485612504",
+      "fid": 2,
+      "fdata": "6454"
+    }
+  },
+  {
+    "type": 0,
+    "duration": 242625,
+    "status": 1,
+    "alias": [],
+    "privilege": {
+      "id": 186738,
+      "fee": 0,
+      "payed": 0,
+      "st": 0,
+      "pl": 320000,
+      "dl": 320000,
+      "sp": 7,
+      "cp": 1,
+      "subp": 1,
+      "cs": false,
+      "maxbr": 320000,
+      "fl": 999000,
+      "toast": false,
+      "flag": 128,
+      "preSell": false
+    },
+    "djid": 0,
+    "album": {
+      "id": 18964,
+      "name": "思念",
+      "picUrl": "http://p2.music.126.net/rUCceaBKq4IiG1ymm_Vofw==/775155697594010.jpg",
+      "pic_str": "775155697594010",
+      "pic": 775155697594010
+    },
+    "artists": [
+      {
+        "id": 6454,
+        "name": "张信哲",
+        "alia": [
+          "阿哲",
+          "Jeff Chang"
+        ]
+      }
+    ],
+    "fee": 0,
+    "ftype": 0,
+    "no": 2,
+    "publishTime": 0,
+    "score": 90,
+    "copyrightId": 0,
+    "mvid": 0,
+    "transNames": null,
+    "commentThreadId": "R_SO_4_186738",
+    "name": "没有人知的故事",
+    "id": 186738,
+    "source": {
+      "title": "歌手",
+      "link": "/artist?id=6454&_hash=songlist-186738",
+      "fid": 2,
+      "fdata": "6454"
+    }
+  },
+  {
+    "type": 0,
+    "duration": 297274,
+    "status": 0,
+    "alias": [],
+    "privilege": {
+      "id": 186694,
+      "fee": 8,
+      "payed": 0,
+      "st": 0,
+      "pl": 128000,
+      "dl": 0,
+      "sp": 7,
+      "cp": 1,
+      "subp": 1,
+      "cs": false,
+      "maxbr": 999000,
+      "fl": 128000,
+      "toast": false,
+      "flag": 320,
+      "preSell": false
+    },
+    "djid": 0,
+    "album": {
+      "id": 18960,
+      "name": "挚爱",
+      "picUrl": "http://p2.music.126.net/xAgYhBNGpMD-1MRGPL_prw==/18896206835242746.jpg",
+      "pic_str": "18896206835242746",
+      "pic": 18896206835242744
+    },
+    "artists": [
+      {
+        "id": 6454,
+        "name": "张信哲",
+        "alia": [
+          "阿哲",
+          "Jeff Chang"
+        ]
+      }
+    ],
+    "fee": 8,
+    "ftype": 0,
+    "no": 3,
+    "publishTime": 0,
+    "score": 90,
+    "copyrightId": 35015,
+    "mvid": 0,
+    "transNames": null,
+    "commentThreadId": "R_SO_4_186694",
+    "name": "多想",
+    "id": 186694,
+    "source": {
+      "title": "歌手",
+      "link": "/artist?id=6454&_hash=songlist-186694",
+      "fid": 2,
+      "fdata": "6454"
+    }
+  },
+  {
+    "type": 0,
+    "duration": 272096,
+    "status": 0,
+    "alias": [],
+    "privilege": {
+      "id": 477331020,
+      "fee": 8,
+      "payed": 0,
+      "st": 0,
+      "pl": 128000,
+      "dl": 0,
+      "sp": 7,
+      "cp": 1,
+      "subp": 1,
+      "cs": false,
+      "maxbr": 999000,
+      "fl": 128000,
+      "toast": false,
+      "flag": 68,
+      "preSell": false
+    },
+    "djid": 0,
+    "album": {
+      "id": 74972359,
+      "name": "拥恒",
+      "picUrl": "http://p2.music.126.net/uTnzlYwcrwjZo9gGe2Eq1A==/109951163745353666.jpg",
+      "pic_str": "109951163745353666",
+      "pic": 109951163745353660
+    },
+    "artists": [
+      {
+        "id": 6454,
+        "name": "张信哲",
+        "alia": [
+          "阿哲",
+          "Jeff Chang"
+        ]
+      }
+    ],
+    "fee": 8,
+    "ftype": 0,
+    "no": 5,
+    "publishTime": 0,
+    "score": 90,
+    "copyrightId": 0,
+    "mvid": 5526933,
+    "transNames": null,
+    "commentThreadId": "R_SO_4_477331020",
+    "name": "迁徙",
+    "id": 477331020,
+    "source": {
+      "title": "歌手",
+      "link": "/artist?id=6454&_hash=songlist-477331020",
+      "fid": 2,
+      "fdata": "6454"
+    }
+  },
+  {
+    "type": 0,
+    "duration": 279720,
+    "status": 0,
+    "alias": [],
+    "privilege": {
+      "id": 186088,
+      "fee": 8,
+      "payed": 0,
+      "st": 0,
+      "pl": 128000,
+      "dl": 0,
+      "sp": 7,
+      "cp": 1,
+      "subp": 1,
+      "cs": false,
+      "maxbr": 999000,
+      "fl": 128000,
+      "toast": false,
+      "flag": 320,
+      "preSell": false
+    },
+    "djid": 0,
+    "album": {
+      "id": 18912,
+      "name": "逃生",
+      "picUrl": "http://p2.music.126.net/0YcjXMvQAIVxBtbNxyv7mw==/115448720929685.jpg",
+      "pic_str": "115448720929685",
+      "pic": 115448720929685
+    },
+    "artists": [
+      {
+        "id": 6454,
+        "name": "张信哲",
+        "alia": [
+          "阿哲",
+          "Jeff Chang"
+        ]
+      }
+    ],
+    "fee": 8,
+    "ftype": 0,
+    "no": 1,
+    "publishTime": 0,
+    "score": 90,
+    "copyrightId": 35015,
+    "mvid": 0,
+    "transNames": null,
+    "commentThreadId": "R_SO_4_186088",
+    "name": "残念",
+    "id": 186088,
+    "source": {
+      "title": "歌手",
+      "link": "/artist?id=6454&_hash=songlist-186088",
+      "fid": 2,
+      "fdata": "6454"
+    }
+  },
+  {
+    "type": 0,
+    "duration": 237689,
+    "status": 0,
+    "alias": [
+      "韩剧《来自星星的你》中文版主题曲"
+    ],
+    "privilege": {
+      "id": 30512410,
+      "fee": 8,
+      "payed": 0,
+      "st": 0,
+      "pl": 128000,
+      "dl": 0,
+      "sp": 7,
+      "cp": 1,
+      "subp": 1,
+      "cs": false,
+      "maxbr": 999000,
+      "fl": 128000,
+      "toast": false,
+      "flag": 320,
+      "preSell": false
+    },
+    "djid": 0,
+    "album": {
+      "id": 3102401,
+      "name": "还爱",
+      "picUrl": "http://p2.music.126.net/xk73RjGFRvAj-B7HwObTqA==/7920881766684846.jpg",
+      "pic_str": "7920881766684846",
+      "pic": 7920881766684846
+    },
+    "artists": [
+      {
+        "id": 6454,
+        "name": "张信哲",
+        "alia": [
+          "阿哲",
+          "Jeff Chang"
+        ]
+      }
+    ],
+    "fee": 8,
+    "ftype": 0,
+    "no": 1,
+    "publishTime": 0,
+    "score": 90,
+    "copyrightId": 35015,
+    "mvid": 349505,
+    "transNames": null,
+    "commentThreadId": "R_SO_4_30512410",
+    "name": "爱你的宿命",
+    "id": 30512410,
+    "source": {
+      "title": "歌手",
+      "link": "/artist?id=6454&_hash=songlist-30512410",
+      "fid": 2,
+      "fdata": "6454"
+    }
+  },
+  {
+    "type": 0,
+    "duration": 227000,
+    "status": 3,
+    "alias": [],
+    "privilege": {
+      "id": 5279150,
+      "fee": 8,
+      "payed": 0,
+      "st": 0,
+      "pl": 128000,
+      "dl": 0,
+      "sp": 7,
+      "cp": 1,
+      "subp": 1,
+      "cs": false,
+      "maxbr": 320000,
+      "fl": 128000,
+      "toast": false,
+      "flag": 0,
+      "preSell": false
+    },
+    "djid": 0,
+    "album": {
+      "id": 513510,
+      "name": "流行对唱嘴对嘴",
+      "picUrl": "http://p2.music.126.net/cL0L1vBRx7Zy7d4VN_4BEw==/80264348844458.jpg",
+      "pic_str": "80264348844458",
+      "pic": 80264348844458
+    },
+    "artists": [
+      {
+        "id": 8402,
+        "name": "刘嘉玲"
+      },
+      {
+        "id": 6454,
+        "name": "张信哲",
+        "alia": [
+          "阿哲",
+          "Jeff Chang"
+        ]
+      }
+    ],
+    "fee": 8,
+    "ftype": 0,
+    "no": 12,
+    "publishTime": 0,
+    "score": 90,
+    "copyrightId": 7001,
+    "mvid": 0,
+    "transNames": null,
+    "commentThreadId": "R_SO_4_5279150",
+    "name": "有一点心动",
+    "id": 5279150,
+    "source": {
+      "title": "歌手",
+      "link": "/artist?id=6454&_hash=songlist-5279150",
+      "fid": 2,
+      "fdata": "6454"
+    }
+  },
+  {
+    "type": 0,
+    "duration": 278208,
+    "status": 1,
+    "alias": [
+      "原唱 : 罗大佑"
+    ],
+    "privilege": {
+      "id": 403711381,
+      "fee": 8,
+      "payed": 0,
+      "st": 0,
+      "pl": 128000,
+      "dl": 0,
+      "sp": 7,
+      "cp": 1,
+      "subp": 1,
+      "cs": false,
+      "maxbr": 999000,
+      "fl": 128000,
+      "toast": false,
+      "flag": 0,
+      "preSell": false
+    },
+    "djid": 0,
+    "album": {
+      "id": 34497112,
+      "name": "我是歌手第四季 第6期",
+      "picUrl": "http://p2.music.126.net/8INL3nPv3FVF3eAiGwrG8Q==/528865152667909.jpg",
+      "pic_str": "528865152667909",
+      "pic": 528865152667909
+    },
+    "artists": [
+      {
+        "id": 6454,
+        "name": "张信哲",
+        "alia": [
+          "阿哲",
+          "Jeff Chang"
+        ]
+      }
+    ],
+    "fee": 8,
+    "ftype": 0,
+    "no": 6,
+    "publishTime": 0,
+    "score": 90,
+    "copyrightId": 404023,
+    "mvid": 0,
+    "transNames": null,
+    "commentThreadId": "R_SO_4_403711381",
+    "name": "爱的箴言",
+    "id": 403711381,
+    "source": {
+      "title": "歌手",
+      "link": "/artist?id=6454&_hash=songlist-403711381",
+      "fid": 2,
+      "fdata": "6454"
+    }
+  },
+  {
+    "type": 0,
+    "duration": 223900,
+    "status": 0,
+    "alias": [
+      "电影《超时空同居》主题曲"
+    ],
+    "privilege": {
+      "id": 562592169,
+      "fee": 0,
+      "payed": 0,
+      "st": 0,
+      "pl": 999000,
+      "dl": 0,
+      "sp": 7,
+      "cp": 1,
+      "subp": 1,
+      "cs": false,
+      "maxbr": 999000,
+      "fl": 128000,
+      "toast": false,
+      "flag": 128,
+      "preSell": false
+    },
+    "djid": 0,
+    "album": {
+      "id": 38985061,
+      "name": "初恋的地方",
+      "picUrl": "http://p2.music.126.net/QqCE12PEPXqA1_3fnaZ5KQ==/109951163303394133.jpg",
+      "pic_str": "109951163303394133",
+      "pic": 109951163303394130,
+      "alia": [
+        "电影《超时空同居》主题曲"
+      ]
+    },
+    "artists": [
+      {
+        "id": 6454,
+        "name": "张信哲",
+        "alia": [
+          "阿哲",
+          "Jeff Chang"
+        ]
+      }
+    ],
+    "fee": 8,
+    "ftype": 0,
+    "no": 0,
+    "publishTime": 0,
+    "score": 90,
+    "copyrightId": 35015,
+    "mvid": 5913031,
+    "transNames": null,
+    "commentThreadId": "R_SO_4_562592169",
+    "name": "初恋的地方",
+    "id": 562592169,
+    "source": {
+      "title": "歌手",
+      "link": "/artist?id=6454&_hash=songlist-562592169",
+      "fid": 2,
+      "fdata": "6454"
+    }
+  },
+  {
+    "type": 0,
+    "duration": 282496,
+    "status": 1,
+    "alias": [
+      "原唱 : 华晨宇"
+    ],
+    "privilege": {
+      "id": 404744053,
+      "fee": 8,
+      "payed": 0,
+      "st": 0,
+      "pl": 128000,
+      "dl": 0,
+      "sp": 7,
+      "cp": 1,
+      "subp": 1,
+      "cs": false,
+      "maxbr": 999000,
+      "fl": 128000,
+      "toast": false,
+      "flag": 0,
+      "preSell": false
+    },
+    "djid": 0,
+    "album": {
+      "id": 34524032,
+      "name": "我是歌手第四季 第7期",
+      "picUrl": "http://p2.music.126.net/2Ebep__M1wdvgP9TzHErmQ==/3294136847495302.jpg",
+      "pic_str": "3294136847495302",
+      "pic": 3294136847495302
+    },
+    "artists": [
+      {
+        "id": 6454,
+        "name": "张信哲",
+        "alia": [
+          "阿哲",
+          "Jeff Chang"
+        ]
+      }
+    ],
+    "fee": 8,
+    "ftype": 0,
+    "no": 1,
+    "publishTime": 0,
+    "score": 90,
+    "copyrightId": 404023,
+    "mvid": 0,
+    "transNames": null,
+    "commentThreadId": "R_SO_4_404744053",
+    "name": "微光",
+    "id": 404744053,
+    "source": {
+      "title": "歌手",
+      "link": "/artist?id=6454&_hash=songlist-404744053",
+      "fid": 2,
+      "fdata": "6454"
+    }
+  },
+  {
+    "type": 0,
+    "duration": 295184,
+    "status": 0,
+    "alias": [],
+    "privilege": {
+      "id": 186584,
+      "fee": 8,
+      "payed": 0,
+      "st": 0,
+      "pl": 128000,
+      "dl": 0,
+      "sp": 7,
+      "cp": 1,
+      "subp": 1,
+      "cs": false,
+      "maxbr": 999000,
+      "fl": 128000,
+      "toast": false,
+      "flag": 320,
+      "preSell": false
+    },
+    "djid": 0,
+    "album": {
+      "id": 18947,
+      "name": "选哲",
+      "picUrl": "http://p2.music.126.net/BbtqIF_OYpDk21lqTKROCQ==/638816255750141.jpg",
+      "pic_str": "638816255750141",
+      "pic": 638816255750141
+    },
+    "artists": [
+      {
+        "id": 6454,
+        "name": "张信哲",
+        "alia": [
+          "阿哲",
+          "Jeff Chang"
+        ]
+      }
+    ],
+    "fee": 8,
+    "ftype": 0,
+    "no": 9,
+    "publishTime": 0,
+    "score": 90,
+    "copyrightId": 35015,
+    "mvid": 0,
+    "transNames": null,
+    "commentThreadId": "R_SO_4_186584",
+    "name": "且行且珍惜",
+    "id": 186584,
+    "source": {
+      "title": "歌手",
+      "link": "/artist?id=6454&_hash=songlist-186584",
+      "fid": 2,
+      "fdata": "6454"
+    }
+  },
+  {
+    "type": 0,
+    "duration": 279040,
+    "status": 1,
+    "alias": [],
+    "privilege": {
+      "id": 5252709,
+      "fee": 8,
+      "payed": 0,
+      "st": 0,
+      "pl": 128000,
+      "dl": 0,
+      "sp": 7,
+      "cp": 1,
+      "subp": 1,
+      "cs": false,
+      "maxbr": 128000,
+      "fl": 128000,
+      "toast": false,
+      "flag": 0,
+      "preSell": false
+    },
+    "djid": 0,
+    "album": {
+      "id": 511932,
+      "name": "海蝶夯之唱响世界",
+      "picUrl": "http://p2.music.126.net/Idvy0astfIET8_3bsu8TqQ==/106652627911549.jpg",
+      "pic_str": "106652627911549",
+      "pic": 106652627911549
+    },
+    "artists": [
+      {
+        "id": 6454,
+        "name": "张信哲",
+        "alia": [
+          "阿哲",
+          "Jeff Chang"
+        ]
+      },
+      {
+        "id": 5441,
+        "name": "王传一"
+      },
+      {
+        "id": 3684,
+        "name": "林俊杰",
+        "alia": [
+          "JJ Lin"
+        ]
+      },
+      {
+        "id": 8259,
+        "name": "金莎",
+        "alia": [
+          "蓝菲琳"
+        ]
+      },
+      {
+        "id": 3736,
+        "name": "林宇中"
+      },
+      {
+        "id": 8408,
+        "name": "李冰冰"
+      },
+      {
+        "id": 3142,
+        "name": "洪俊扬"
+      },
+      {
+        "id": 7958,
+        "name": "胡灵"
+      },
+      {
+        "id": 1876,
+        "name": "阿杜",
+        "alia": [
+          "A Do",
+          "杜成义"
+        ]
+      }
+    ],
+    "fee": 8,
+    "ftype": 0,
+    "no": 1,
+    "publishTime": 0,
+    "score": 90,
+    "copyrightId": 14026,
+    "mvid": 0,
+    "transNames": null,
+    "commentThreadId": "R_SO_4_5252709",
+    "name": "唱响世界",
+    "id": 5252709,
+    "source": {
+      "title": "歌手",
+      "link": "/artist?id=6454&_hash=songlist-5252709",
+      "fid": 2,
+      "fdata": "6454"
+    }
+  },
+  {
+    "type": 0,
+    "duration": 299129,
+    "status": 0,
+    "alias": [],
+    "privilege": {
+      "id": 186307,
+      "fee": 8,
+      "payed": 0,
+      "st": 0,
+      "pl": 128000,
+      "dl": 0,
+      "sp": 7,
+      "cp": 1,
+      "subp": 1,
+      "cs": false,
+      "maxbr": 999000,
+      "fl": 128000,
+      "toast": false,
+      "flag": 320,
+      "preSell": false
+    },
+    "djid": 0,
+    "album": {
+      "id": 18931,
+      "name": "我好想",
+      "picUrl": "http://p2.music.126.net/BnLD1PAtriy9mo444lfh-Q==/109951163511561818.jpg",
+      "pic_str": "109951163511561818",
+      "pic": 109951163511561820
+    },
+    "artists": [
+      {
+        "id": 6454,
+        "name": "张信哲",
+        "alia": [
+          "阿哲",
+          "Jeff Chang"
+        ]
+      }
+    ],
+    "fee": 8,
+    "ftype": 0,
+    "no": 1,
+    "publishTime": 0,
+    "score": 85,
+    "copyrightId": 35015,
+    "mvid": 0,
+    "transNames": null,
+    "commentThreadId": "R_SO_4_186307",
+    "name": "爱情余味",
+    "id": 186307,
+    "source": {
+      "title": "歌手",
+      "link": "/artist?id=6454&_hash=songlist-186307",
+      "fid": 2,
+      "fdata": "6454"
+    }
+  }
+]

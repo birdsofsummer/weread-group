@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+    <base target="_blank">
+    <meta charset="UTF-8">
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <meta name="referrer" content="never">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="shortcut icon" href="https://image.flaticon.com/icons/png/512/346/346195.png" type="image/x-icon" />
+    <link href="https://spin.js.org/spin.css" type="text/css" rel="stylesheet">
+    <title></title>
+</head>
+<body>
+    <script src="https://cdn.bootcss.com/localforage/1.7.3/localforage.min.js"></script>
+    <script>
+        const parse_query=(u=location.href)=>Object.fromEntries([...new URL(u).searchParams])
+        const back_to_home=async ()=>{
+            let u=new URL(location.href)
+            let query=parse_query()
+            let s=(await localforage.getItem("store"))||{}
+            s.user=query
+            await localforage.setItem("store",s)
+            location.href="/"
+        }
+        back_to_home()
+    </script>
+</body>
+</html>

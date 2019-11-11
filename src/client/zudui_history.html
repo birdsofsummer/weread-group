@@ -1,0 +1,1005 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <base target="_blank">
+    <meta charset="UTF-8">
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <meta name="referrer" content="never">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="shortcut icon" href="https://image.flaticon.com/icons/png/512/346/346195.png" type="image/x-icon" />
+    <link href="https://spin.js.org/spin.css" type="text/css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vuetify@2.1.7/dist/vuetify.min.css">
+    <title>history</title>
+    <style>
+        *{
+            padding:0;
+            margin:0;
+        }
+        body{
+            text-align: center;
+            min-height:100%;
+            width:100%;
+            background-image: url(https://hbimg.huabanimg.com/d9c17420e2c80a0051cc6b06fa5fa44763fe1ddb60df8-udyON3);            
+            background-size: fixed;
+
+        }
+        article{
+            display:grid;
+            grid-auto-flow: row;
+            grid-template-columns: 1fr 2fr;
+            grid-template-rows: 1fr;
+        }
+        .time{
+         /*   position: absolute;*/
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            width: 100vw;
+            min-height:50%;
+            line-height: 2;
+            margin: 1rem;
+            padding: 1rem;
+            border-radius: 1rem;
+            background: rgba(255, 255, 255, .3);
+            box-shadow: 3px 3px 6px 3px rgba(0, 0, 0, .3);
+            overflow: visible;
+            
+        }
+        .time::before {
+            background-image: url(https://hbimg.huabanimg.com/d9c17420e2c80a0051cc6b06fa5fa44763fe1ddb60df8-udyON3);            
+            content: '';
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            filter: blur(4px);
+            z-index: -1;
+            margin: -1rem;
+        }
+        a{
+            color:grey;
+            text-decoration: none;
+        }
+        fieldset{
+            border: none;
+        }
+        @media max-width: 1000px {
+            body {
+                    grid-template-columns: auto;
+            }
+        }        
+        figure {
+            text-align: right;
+            margin: 1rem;
+        }        
+        .loading{
+            pointer-events: none;    
+            position: fixed;
+            top: 50%;
+            left:50%;
+            z-index: 999;
+        }
+        [v-cloak]{
+            display: none;
+        }
+        .theme--light.v-application{
+            background:none;
+        }
+        iframe{
+                border: none;
+        }
+
+        .controls {
+          /*position: relative;*/
+         margin-bottom: 3rem;
+        }
+    </style>
+</head>
+
+<body>
+    <v-app id="app">
+    <article data-app="app">
+    <aside>
+        <section class="time">
+
+          <v-container fluid>
+                <v-avatar color="orange" size="62">
+                    <img :src="get_user(my_vid)['avatar']" />
+                </v-avatar>
+                <span class=" headline">{{get_user(my_vid)['name']}}</span>
+                <span class=" headline">{{my_vid}}</span>
+                <!--v-text-field label="写" ></v-text-field-->
+                <v-textarea label="vid" v-model="my_vid" placeholder="VID" @change="change_vid"></v-textarea> 
+          </v-container>                        
+
+          <v-row class="controls">
+            <v-col sm="12" lg="12" class="mb-4 " >
+              <v-btn fab outlined small absolute left color="primary" @click="$refs.calendar.prev()" > <v-icon dark>mdi-chevron-left</v-icon> </v-btn> 
+              <span>{{now}}</span>
+              <v-btn fab outlined small absolute right color="primary" @click="$refs.calendar.next()" > <v-icon dark>mdi-chevron-right</v-icon> </v-btn>
+            </v-col>
+          </v-row>
+          <v-divider></v-divider>
+          <v-row>
+            <v-col sm="12" lg="12" class="pl-4" >
+              <v-sheet height="500">
+                <v-calendar
+                  ref="calendar"
+                  v-model="start"
+                  type="month"
+                  :start="start"
+                  :end="end"
+                  :min-weeks="minWeeks"
+                  :max-days="maxDays"
+                  :now="now"
+                  :dark="dark"
+                  :weekdays="weekdays"
+                  :first-interval="intervals.first"
+                  :interval-minutes="intervals.minutes"
+                  :interval-count="intervals.count"
+                  :interval-height="intervals.height"
+                  :interval-style="intervalStyle"
+                  :show-interval-label="showIntervalLabel"
+                  :short-intervals="shortIntervals"
+                  :short-months="shortMonths"
+                  :short-weekdays="shortWeekdays"
+                  :color="color"
+                >
+                  <template v-slot:day="day">
+
+                    <v-sheet v-if="[2,4,6].includes(day.weekday)"  class="white--text pa-1" @click="say(day)" >
+                        <a :href="vid2zudui1(my_vid,day.date)"> {{ day.date }}</a>
+                    </v-sheet>
+                  </template>
+
+                  <template v-slot:header="day">
+                    <div v-if="day.weekday == 4" class="day-header" @click="say(day)">
+                        day-header slot {{ day.date }} 
+                    </div>
+                  </template>
+
+                  <template v-slot:day-body="day">
+                    <div v-if="day.weekday  == 2" class="day-body" @click="say(day)">
+                          day-body slot {{ day.date }} 
+                    </div>
+                  </template>
+
+                </v-calendar>
+              </v-sheet>
+            </v-col>
+          </v-row>
+
+
+
+
+              <v-row>
+                <v-col cols="12" sm="6" offset-sm="3">
+                  <v-card>
+                    <v-container fluid>
+                      <v-row>
+                        <v-col
+                          v-for="a,i in vids"
+                          :key="'a'+i"
+                          class="d-flex child-flex"
+                          cols="2"
+                        >
+                          <v-card flat tile class="d-flex" >
+                            <v-img
+                              :src="a.avatar"
+                              :lazy-src="a.avatar"
+                              aspect-ratio="1"
+                              class="grey lighten-2"
+                              @click=change_vid(a.userVid)
+                            >
+                              <template v-slot:placeholder>
+                                <v-row
+                                  class="fill-height ma-0"
+                                  align="center"
+                                  justify="center"
+                                >
+                                  <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
+                                </v-row>
+                              </template>
+                            </v-img>
+                          </v-card>
+                        </v-col>
+                      </v-row>
+                    </v-container>
+                  </v-card>
+                </v-col>
+              </v-row>
+
+
+            <v-flex v-if="is_weixin()">
+                <a href="https://weread.qq.com/wrpage/infinite/lottery/history?isAnimateNavBarBackground=1">history</a>
+            </v-flex>
+            <v-flex v-if="is_weixin()"> 
+                <iframe src="https://i.weread.qq.com/friend/ranking?mine=1"></iframe>
+                <iframe src="https://i.weread.qq.com/user/notebooks"></iframe>
+                <iframe src="https://i.weread.qq.com/friend/ranking"></iframe>
+
+
+                <iframe :src=`https://i.weread.qq.com/user/profile?gender=1&signature=1&vDesc=1&location=1&totalReadingTime=1&currentReadingTime=1&finishedBookCount=1&followerCount=1&followingCount=1&buyCount=1&reviewCount=1&reviewLikedCount=1&sameFollowing=1&reviewCommentedCount=1&likeBookCount=1&isFollowing=1&isFollower=1&isBlackMe=1&isInBlackList=1&bookReviewCount=1&noteBookCount=1&exchangedMoney=1&recentReadingBooks=1&booklistCount=1&booklistCollectCount=1&articleBookId=1&articleCount=1&articleDraftCount=1&articleReadCount=1&articleSubscribeCount=1&articleWordCount=1&audioCount=1&audioListenCount=1&audioLikedCount=1&audioCommentedCount=1&totalLikedCount=1&mpAccount=1&canExchange=1&isSubscribing=1&hideMe=1&wechatFriendCount=1&wechatFriendSubscribeCount=1&userVid=${my_vid}`>
+                </iframe>
+
+                <iframe :src=`https://i.weread.qq.com/shelf/friendCommon?userVid=${my_vid}`></iframe>
+
+            </v-flex>
+
+
+
+
+        </section>
+
+
+        <section class="time">
+
+                  <v-timeline v-for="(z,i) in zudui_history" :key=`z_${i}` dense>
+                        <v-timeline-item color="purple lighten-2" fill-dot right small>
+                            <v-card class="elevation-2">
+                              <v-card-title class="headline">
+                                  <a :href="z.url" >{{z.week}} {{z.day}} </a>
+                              </v-card-title>
+                              <v-card-text >
+                                  <a :href="z.url">{{ z.url}}</a>
+                              </v-card-text>
+                            </v-card>
+                        </v-timeline-item>
+                  </v-timeline>
+
+
+
+
+
+        </section>
+
+
+
+
+
+    </aside>
+
+    <main>
+    </main>
+
+
+    </article>
+    </v-app >
+</body>
+
+<script src="https://cdn.bootcss.com/spin.js/2.3.2/spin.min.js"></script>
+<script src="https://cdn.bootcss.com/rxjs/6.5.2/rxjs.umd.min.js"></script>
+<script src="https://cdn.bootcss.com/moment.js/2.24.0/moment.min.js"></script>
+<script src="https://cdn.bootcss.com/ramda/0.26.1/ramda.min.js"></script>
+<script src="https://cdn.bootcss.com/localforage/1.7.3/localforage.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/babel-polyfill/dist/polyfill.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.x/dist/vue.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vuetify@2.1.7/dist/vuetify.min.js"></script>
+
+<script>
+
+ vids=  [
+	{
+		"name": "",
+		"userVid": "0",
+		"avatar": 'https://picsum.photos/500/300?image=20',
+	},
+
+	{
+		"name": "elin1",
+		"userVid": "204529794",
+		"avatar": "http://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTJ3UwSfKJuPFdibgLJPcQAw54YvB4PrrsZg4KrKo09ib4Y6PADH5J86HdWic1jK9tlSejpBCkG84rlEg/132"
+	},
+	{
+		"name": "小凯",
+		"userVid": "299568063",
+		"avatar": "http://wx.qlogo.cn/mmhead/wcib2GksmGOkxvDaicdrz6dFuAEMNmJ8R9UOPxPIXibW9AbMPVboMSlng/0"
+	},
+	{
+		"name": "随风",
+		"userVid": "4463598",
+		"avatar": "http://thirdwx.qlogo.cn/mmopen/vi_32/icZeGGO59G650N22VwvE5fElxDreXPVzOfn2OkdbiacNfdGGvXuAc93GswrL3aztjlww6XLJvrNgaEygzp5fjxeg/132"
+	},
+	{
+		"name": "owen",
+		"userVid": "25900246",
+		"avatar": "http://wx.qlogo.cn/mmhead/ajNVdqHZLLCupKM29Aw883tWAOOdcwibHdbibPpXjtWaLknkXLh1XHug/0"
+	},
+	{
+		"name": "A✨✨ ZW勝",
+		"userVid": "76972770",
+		"avatar": "http://thirdwx.qlogo.cn/mmopen/vi_32/oQAT6caNoKdD8ETyRTmseYfiae2oMuiaNG44q8mUJ2Zt2Be2iayruauAPztFmDeQTSocnuuEaBibBjdYh2JtcHeoIw/132"
+	},
+	{
+		"name": "圆滾滾",
+		"userVid": "25369455",
+		"avatar": "http://thirdwx.qlogo.cn/mmopen/vi_32/DYAIOgq83eoLtQPznOYu70ylK3BpzqrrSicCQic2ib5xplHicYAgKAmGzM5O4ot9eyaSQvf0sfdl7cuHdmHGvTt3tg/132"
+	},
+	{
+		"name": "枇杷这货甜惨了",
+		"userVid": "6100534",
+		"avatar": "http://thirdwx.qlogo.cn/mmopen/vi_32/Q3auHgzwzM74Nw1AaibpACJd9mJCLWEry76MgOMY3AY5QUZ6E8nJEXzgIZYcHmAzWAFr2uZc3CqgfrX1tXM0Ofg/132"
+	},
+	{
+		"name": "我觉得没有问题",
+		"userVid": "58770736",
+		"avatar": "http://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIy5gf2iaoLNwibYI8lqoib5aoeAAxmRKASOgXNSW3hOJqFuThnp9LQYR5IA4CAcHkWSGGKjQ02NhyVA/132"
+	},
+	{
+		"name": "寿成承",
+		"userVid": "8226312",
+		"avatar": "http://wx.qlogo.cn/mmhead/YvJlFuI10ibRiaZnH1iaMKmss7Iyud7bwAf1yx2RO0LibnM/0"
+	},
+	{
+		"name": "德",
+		"userVid": "287664857",
+		"avatar": "http://wx.qlogo.cn/mmhead/PiajxSqBRaEI79FJzh1s0tKHibSckeNxkojJ1HdPR82rFRKRBd6wj2dw/0"
+	},
+	{
+		"name": "麦兜🌚",
+		"userVid": "8947478",
+		"avatar": "http://wx.qlogo.cn/mmhead/7SPO0mRJt6CJaP24BD9FTsRT5TcPhtmSJ7L7vpm0MGf6TXerjBEZzg/0"
+	},
+	{
+		"name": "break",
+		"userVid": "274578034",
+		"avatar": "http://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIGGX0StBKwa0aiaWXK0F2ibHSW2CAXnZ1czNG16ciaSyxJ9iculH4UWVeFHP1Rh58qCykmlbIiblqOHog/132"
+	},
+	{
+		"name": "苏法禧253.com",
+		"userVid": "325811992",
+		"avatar": "http://thirdwx.qlogo.cn/mmopen/vi_32/EfxX7nqBUbUdk0GLicI0M1I1L4GQicY5EDd1M8IURXviag08fmb7gdyiaM7obY8jDAvlxcfLpJbk97wLSNfIibAe7kA/132"
+	},
+	{
+		"name": "我麋鹿啦",
+		"userVid": "375223504",
+		"avatar": "http://wx.qlogo.cn/mmhead/wcib2GksmGOkVic8WuPq3DvCwq1RCeYfvia6bTfCJ4eibmK5yBBnWj0Qgg/0"
+	},
+	{
+		"name": "梦想成真",
+		"userVid": "345315037",
+		"avatar": "http://wx.qlogo.cn/mmhead/bofA1vl6EUZPddxEH1Sh3JuOxpSSIdHhibHD5PicIyh9VkZDk74SuoIw/0"
+	},
+	{
+		"name": "余远生",
+		"userVid": "10711549",
+		"avatar": "http://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIsdRrBgLQXC3AljfvvdpC2gjnicz2WHia64VSt1A74icItiaicDBM43pcic1CXDyE23aGUUoV5t0wo4BHg/132"
+	},
+	{
+		"name": "Elson辉哥",
+		"userVid": "27930537",
+		"avatar": "http://thirdwx.qlogo.cn/mmopen/vi_32/fYOZYWQFFiceoSEkSdDkmyL44ric5KfSzDSgXbKnibUWzCZ2c2IDwAThnI4Fbuiak1D9cX4oA4GbQZFJAxymwyyvHQ/132"
+	},
+	{
+		"name": "莫言人非",
+		"userVid": "12520162",
+		"avatar": "https://wx.qlogo.cn/mmopen/vi_32/LVDk8la8NpJbicdF0LfsgaiaQBkzWBJyW9ztbavmbvn2xB6ia6yia9M7Dww2Oj5mGjEg4Ze4uiapt08liagzHribr8cNA/0"
+	},
+	{
+		"name": "擎天胡杨",
+		"userVid": "33505816",
+		"avatar": "http://thirdwx.qlogo.cn/mmopen/vi_32/PiajxSqBRaEIGAuG0MWA6IibNsly7ofWchEpW0zslWpx68tDcpOUETJNoEXuTQAb5lMT1NmgeSjb0fgjic9kBPiaJw/132"
+	},
+	{
+		"name": "文文小杰",
+		"userVid": "856918",
+		"avatar": "http://thirdwx.qlogo.cn/mmopen/vi_32/pkRzY55hyPU63pCyJaZFU8t4s3BP4uqXaBWjdGkSHyjmCvD3qniaQfuY03yIRBP3f0ZnhfYN3cPRGUZhWX06hew/132"
+	},
+	{
+		"name": "彭素华",
+		"userVid": "15200111",
+		"avatar": "http://wx.qlogo.cn/mmhead/Q3auHgzwzM4OfbJjfic7AfatribFkRTTUFmrdN2DXu2jWNeg399h3lnA/0"
+	},
+	{
+		"name": "ET",
+		"userVid": "15613559",
+		"avatar": "http://wx.qlogo.cn/mmhead/PiajxSqBRaELOicEaalFnkoIib2Y6Ckkw1sntS807IJzMrIMd7jEicMCTQ/0"
+	},
+	{
+		"name": "夏海荣",
+		"userVid": "76993588",
+		"avatar": "http://wx.qlogo.cn/mmhead/lV0d907m3OXIiaLQ2ib5ICibALaia8dYciaNIbOCNBd6YRGR63RoqS5Qhgg/0"
+	},
+	{
+		"name": "(๑`･ᴗ･´๑)",
+		"userVid": "48990547",
+		"avatar": "http://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTLgZK43CgcILiahlib4KMM18YHZE0e5sPMUrVzuuFLEdlLCiczb50jXcHvzl3TxJWXDuWgSn1WcPXcJQ/132"
+	},
+	{
+		"name": "小舟从此逝",
+		"userVid": "76924631",
+		"avatar": "https://res.weread.qq.com/wravatar/WV0001-t2CeI~XM8mfbVVEM6Kx189b/0"
+	},
+	{
+		"name": "彭陆琼Julie",
+		"userVid": "28912141",
+		"avatar": "http://wx.qlogo.cn/mmhead/PiajxSqBRaEKEjabsSlJ4qJFNYZvPuHOZ4NfQ5icXEia3AgJOmCicNSRrQ/0"
+	},
+	{
+		"name": "Y_gtao",
+		"userVid": "201989055",
+		"avatar": "http://thirdwx.qlogo.cn/mmopen/vi_32/PQxKfm8F19icfBichibEoTJvEs424jDgGF0yhD5R3ZRWrELrDLvnxW7KkWZ1XnOWJJyGibh5c1sqkxngYybicoPRxgg/132"
+	},
+	{
+		"name": "Nemo",
+		"userVid": "322648073",
+		"avatar": "http://thirdwx.qlogo.cn/mmopen/vi_32/Vl88HzmmfcsAkohIl68LvnuCp62S6icVAh8IzaIpFfVCrsJNRlpCovBk1qBkvHibKZJqbZ7tKmzzMXcb6SiaEQS6Q/132"
+	},
+	{
+		"name": "梅姐🌹",
+		"userVid": "21268570",
+		"avatar": "http://thirdwx.qlogo.cn/mmopen/vi_32/icd28X66GfhPUpTnzEYqR1h6GvxiaDGcDlibKxAvEj01yvTNb19WcJhGNCiaCiblaQicmrMBNkRKAkW2qo91RLV96OXg/132"
+	},
+	{
+		"name": "言彦",
+		"userVid": "13300554",
+		"avatar": "http://thirdwx.qlogo.cn/mmopen/vi_32/Qiamq5dtAn4NyibS4gQeicAvDV5V5T6Pyz0tcAE49qzp0exlgeuZ04GVibibLPiaxdhSzQjxkqQp9VfQVh1UO9b0y9bw/132"
+	},
+	{
+		"name": "宁弘道",
+		"userVid": "268039999",
+		"avatar": "https://res.weread.qq.com/wravatar/WV0023-bFOFxTJ1f4bZv7DttwnfB98/0"
+	},
+	{
+		"name": "浮Å旋",
+		"userVid": "76421842",
+		"avatar": "https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTJvxTO5l5tNHXycIV7yubFcEtOIO00H28KvTmXJ7THg24kVcFicAAmAPLcGSFicKVMQgm6d0GSTSgNg/132"
+	},
+	{
+		"name": "ranger",
+		"userVid": "23287857",
+		"avatar": "http://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTJUO46ibVX7nKjj31UNJibUic0T1htGaPwFwicn9zOkupR7CwxrMC898GUWCJaEHiapD1JxzUxhRvxll1Q/132"
+	},
+	{
+		"name": "喵喵",
+		"userVid": "256533126",
+		"avatar": "http://wx.qlogo.cn/mmhead/PiajxSqBRaEKSFbvUvH7ZmHc9TGaSfOltQCMdVwpAvXP7icwX9Ca5sSg/0"
+	},
+	{
+		"name": "轮布",
+		"userVid": "26403210",
+		"avatar": "http://wx.qlogo.cn/mmhead/PdibpV1sFDHcicllRwF0icKTsXeNw6NArj5pvb4MXYbbqHebmRUjICRSA/0"
+	},
+	{
+		"name": "深染樱花色",
+		"userVid": "153365679",
+		"avatar": "https://res.weread.qq.com/wravatar/WV0016-hSoh8d3gASWp_fSosWbe693/0"
+	},
+	{
+		"name": "小兔子",
+		"userVid": "397516138",
+		"avatar": "http://wx.qlogo.cn/mmhead/Q3auHgzwzM4Yia79HuR9ZhvXHn8UOAITDvv1IXbre0U3krxIzAjnfnQ/0"
+	},
+	{
+		"name": "lee",
+		"userVid": "20139141",
+		"avatar": "http://wx.qlogo.cn/mmhead/PiajxSqBRaELgsrzDFaAIPACH9GewiahUsKoKxOLsuEhc30SQoy1x9IQ/0"
+	},
+	{
+		"name": "随便起",
+		"userVid": "607184",
+		"avatar": "http://thirdwx.qlogo.cn/mmopen/vi_32/DYAIOgq83eqPMEKmoOiaShfbDj1e2C45UZ9YpEvVgW9omiaobpJP7GHV9mEORYDDfRv2ia3ZTBmgwfd20mg2locAg/132"
+	},
+	{
+		"name": "Licques",
+		"userVid": "49476812",
+		"avatar": "http://wx.qlogo.cn/mmhead/wjVtTPhRGGicdCfcmPWo2n2sxwM5mMBWlibP5AM3TTP16wF6MAiaB7cyQ/0"
+	},
+	{
+		"name": "微信读书团队",
+		"userVid": "10000",
+		"avatar": "http://rescdn.qqmail.com/weread/cover/icon/weread10002.png"
+	},
+	{
+		"name": "MP",
+		"userVid": "10003",
+		"avatar": ""
+	},
+	{
+		"name": "来生",
+		"userVid": "260302172",
+		"avatar": "http://thirdwx.qlogo.cn/mmopen/vi_32/Gqb1C5qib4hwKkfUyuFjGx72iag1K3icgbFITlrCGSbPgE3AvZg7iaWGVcyO2uM3T2W064vg86a0yicYnniax1g6gBicw/132"
+	},
+	{
+		"name": "嘿茶郎-卢斌强",
+		"userVid": "5002368",
+		"avatar": "http://thirdwx.qlogo.cn/mmopen/vi_32/LoeRDEfMJBtKrnOAlo41wQVMrIUEHgZlrW62mob5lAgCWxbhrticzlt3DK4MtfHWaNc70D8cibLV6UPZwzvEVnag/132"
+	},
+	{
+		"name": "高维内推-邓霞",
+		"userVid": "57260637",
+		"avatar": "http://wx.qlogo.cn/mmhead/4h0Uv4XOMvPEZ2vHLdzs0PiaiaZjKSQxrQUJAytD3Zjsoh9wea4jcJTA/0"
+	},
+	{
+		"name": "眉尖瘦",
+		"userVid": "48846907",
+		"avatar": "http://thirdwx.qlogo.cn/mmopen/vi_32/DYAIOgq83eo6Dz7DdEOecmUbs77tO9os9UzNFrcuCUFdtibHcGVmrMEQibhTeibnbRssWtsx5j28bhrvgAL6vicn6A/132"
+	},
+	{
+		"name": "小李飞刀",
+		"userVid": "36284348",
+		"avatar": "http://thirdwx.qlogo.cn/mmopen/vi_32/K5HT6wFpFIggEeWU9SOBN6TejyX1JmS9AvuF3fE3ppBmZIsPTJqTpUWcBSYY7HqMG1ZMg5S9pbWib1etfateEEg/132"
+	},
+	{
+		"name": "唯读",
+		"userVid": "252311083",
+		"avatar": "https://res.weread.qq.com/wravatar/WV0023-Z0xVxDIK3tcKd3gil3y7y84/0"
+	},
+	{
+		"name": "阿卡迪亚",
+		"userVid": "63657466",
+		"avatar": "https://res.weread.qq.com/wravatar/WV0025-G~ERcyaOV5wcGBtAgT_ZY88/0"
+	},
+	{
+		"name": "玛詩",
+		"userVid": "29674363",
+		"avatar": "http://thirdwx.qlogo.cn/mmopen/vi_32/rIFgFBXjOuXWnckRmIF9pAxlsGWpQxVPvUm37GWSoq7WstxFjefkResYVMPDr9Xpw7KODNaVvvCUIXWGKsbpQA/132"
+	},
+	{
+		"name": "那年的今日",
+		"userVid": "24509303",
+		"avatar": "http://wx.qlogo.cn/mmhead/XxT9TiaJ1ibf1rxQyqOxtSKotV9MJiaibw1ScB2XG4Jb0KWRhCGhGpW42Q/0"
+	},
+	{
+		"name": "宇曦设计",
+		"userVid": "21628311",
+		"avatar": "http://thirdwx.qlogo.cn/mmopen/vi_32/DchwKZQSkdzQ9tl4gmeJb2qZgOIRsGCBc9t4fMgG5RVIPQBpDMiaUqMiciaoEpgE0WQAtYiaYJDmJ1MsI5uNnwPjLA/132"
+	},
+	{
+		"name": "不知名",
+		"userVid": "14600155",
+		"avatar": "http://thirdwx.qlogo.cn/mmopen/vi_32/DYAIOgq83eoWQD3Hicg7juuERJDEd2XPHqT1vtlmyQN3wmIudrIovnicVOL8bZx4F3Uc0CibGL3251eOk7tRkeP1w/132"
+	},
+	{
+		"name": "陈亮",
+		"userVid": "14061112",
+		"avatar": "http://thirdwx.qlogo.cn/mmopen/vi_32/DYAIOgq83erAjShic0GhvfibhYv6fRN7jPKXY2cHkppRyyia5iaM5IV16jI5PoLa5qr9fvBkg5tt7TFW7PWEacB2Nw/132"
+	},
+	{
+		"name": "Tiger",
+		"userVid": "211842184",
+		"avatar": "http://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTLryXMOOic4ODWCTWCo27lAAZszIqJiaEfgeQEmUSnWGjye7SfIODmdpGN9QBZ5fTjSw9WWgQXz68icA/132"
+	},
+	{
+		"name": "欧阳军",
+		"userVid": "78766077",
+		"avatar": "http://thirdwx.qlogo.cn/mmopen/vi_32/b0zpPRxOaH8X6LS7cgNJeQy0wRDpN5ha3PibZLDeZUmpcWOQbWzu0wn7wribtjaPZz5Wrrwb7ib2V1ic4oz8VI0Lnw/132"
+	},
+	{
+		"name": "睡醒咖啡",
+		"userVid": "32882388",
+		"avatar": "http://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTLib3rlsyfXaYCl0HROnGz0S3IDK1ZcHLhhia09jd9A8ZXtWia6QCiapD53KZkKLPd66nly4XPibib9ianTw/132"
+	},
+	{
+		"name": "Deng Man 鄧滿",
+		"userVid": "2034055",
+		"avatar": "http://thirdwx.qlogo.cn/mmopen/vi_32/XH44vXRcibpWlIJHMguPyeusLN3fzUTKMI567KhLAawQ9TNsjMaWIJqaKeLicibvmyr9p0mj1CHQzicILCwVPic54qw/132"
+	},
+	{
+		"name": "佳鑫",
+		"userVid": "1506105",
+		"avatar": "http://wx.qlogo.cn/mmhead/PiajxSqBRaEKh7y62iaIrBXic91oAbA54sJU8MpBApYkOQ7q4pbq7Ubww/0"
+	},
+	{
+		"name": "老舍茶馆",
+		"userVid": "240514970",
+		"avatar": "http://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTLM6pIKfRqnNOsntnoufnJUQ5O724Yaic4KHhyP3JeDx85fgBoQjbHNhu5w9WYs2doxzVrVkwNeouw/132"
+	}
+]
+
+
+const vids1=R.indexBy(x=>x['userVid'],vids)
+const {
+    ArgumentOutOfRangeError,
+    AsyncSubject,
+    BehaviorSubject,
+    ConnectableObservable,
+    EMPTY,
+    EmptyError,
+    GroupedObservable,
+    NEVER,
+    Notification,
+    NotificationKind,
+    ObjectUnsubscribedError,
+    Observable,
+    ReplaySubject,
+    Scheduler,
+    Subject,
+    Subscriber,
+    Subscription,
+    TimeoutError,
+    UnsubscriptionError,
+    VirtualAction,
+    VirtualTimeScheduler,
+    ajax,
+    animationFrameScheduler,
+    asapScheduler,
+    asyncScheduler,
+    bindCallback,
+    bindNodeCallback,
+    config,
+    defer,
+    empty,
+   //combineLatest,
+   //concat,
+   //onErrorResumeNext,
+   //race,
+   //zip,
+   //fetch,
+   //merge,
+   //partition,
+    forkJoin,
+    from,
+    fromEvent,
+    fromEventPattern,
+    generate,
+    identity,
+    iif,
+    interval,
+    isObservable,
+    never,
+    noop,
+    observable,
+    of,
+    operators,
+    pairs,
+    pipe,
+    queueScheduler,
+    range,
+    scheduled,
+    testing,
+    throwError,
+    timer,
+    using,
+    webSocket,
+}=rxjs
+
+const {
+        audit,
+        auditTime,
+        buffer,
+        bufferCount,
+        bufferTime,
+        bufferToggle,
+        bufferWhen,
+        catchError,
+        combineAll,
+        combineLatest,
+        concat,
+        concatAll,
+        concatMap,
+        concatMapTo,
+        count,
+        debounce,
+        debounceTime,
+        defaultIfEmpty,
+        delay,
+        delayWhen,
+        dematerialize,
+        distinct,
+        distinctUntilChanged,
+        distinctUntilKeyChanged,
+        elementAt,
+        endWith,
+        every,
+        exhaust,
+        exhaustMap,
+        expand,
+        filter,
+        finalize,
+        find,
+        findIndex,
+        first,
+        groupBy,
+        ignoreElements,
+        isEmpty,
+        last,
+        map,
+        mapTo,
+        materialize,
+        max,
+        merge,
+        mergeAll,
+        mergeMap,
+        flatMap,
+        mergeMapTo,
+        mergeScan,
+        min,
+        multicast,
+        observeOn,
+        onErrorResumeNext,
+        pairwise,
+        partition,
+        pluck,
+        publish,
+        publishBehavior,
+        publishLast,
+        publishReplay,
+        race,
+        reduce,
+        repeat,
+        repeatWhen,
+        retry,
+        retryWhen,
+        refCount,
+        sample,
+        sampleTime,
+        scan,
+        sequenceEqual,
+        share,
+        shareReplay,
+        single,
+        skip,
+        skipLast,
+        skipUntil,
+        skipWhile,
+        startWith,
+        subscribeOn,
+        switchAll,
+        switchMap,
+        switchMapTo,
+        take,
+        takeLast,
+        takeUntil,
+        takeWhile,
+        tap,
+        throttle,
+        throttleTime,
+        throwIfEmpty,
+        timeInterval,
+        timeout,
+        timeoutWith,
+        timestamp,
+        toArray,
+        //window,
+        windowCount,
+        windowTime,
+        windowToggle,
+        windowWhen,
+        withLatestFrom,
+        zip,
+        zipAll,
+}=rxjs.operators
+
+localforage.config({
+    name: 'zudui_history'
+})
+
+VID=76924631
+// localforage.iterate(console.log)
+show_track=async ()=>Promise.all((await localforage.keys()).map(async (x)=>[x,await localforage.getItem(x)]))
+store=(k,v)=>v ? localforage.setItem(k,v):localforage.getItem(k)
+
+today=()=>moment().format('YYYY-MM-DD') 
+now=()=>moment().format('YYYY-MM-DD hh:mm:ss'),
+is_weixin=()=>/micro/i.test(navigator.userAgent)
+
+
+const vid2zan=(vid=VID,d)=>`https://weread.qq.com/wrpage/huodong/abtest/jizan?isAnimateNavBarBackground=1&senderVid=${vid}&vol=${d}&designId=${d}_0&from=timeline&wrRefCgi=`
+const vid2fan=(vid=VID,d)=>`https://weread.qq.com/wrpage/huodong/abtest/fan?vol=${d}&inviteVid=${vid}&wrRefCgi=`
+const vid2zudui=(vid=VID,d)=>`https://weread.qq.com/wrpage/huodong/abtest/zudui?collageId=${vid}_${d}&shareVid=${vid}&from=timeline&wrRefCgi=`
+
+const vid2zudui1=(vid,d)=>{
+    let d1=moment(d).format("YYYYMMDD")
+    let w=moment(d).weekday() 
+    let a={
+        "2":vid2fan,
+        "6":vid2zudui,
+        "4":vid2zan,
+    }
+    let fn=a[w]
+    return fn ? fn(vid,d1):""
+}
+
+
+const sat=(y=moment().year())=>{
+    t0=moment().add(-1-moment().weekday()-7*(moment().weeks()),"days")
+    t2=R.range(0,55)
+        .map(x=>moment(t0).add(x*7,"days").format("YYYYMMDD"))
+        .filter(x=>moment(x).year()>=y)
+        .map(x=>[moment(x).weeks(),moment(x).year(),x])
+    return t2       
+}
+
+const vid2url=(vid=VID)=>sat().map(([week,year,day])=>({week,year,vid,day,url:vid2zudui(vid,day)}))
+
+const load_img=(src="https://image.flaticon.com/icons/png/512/346/346204.png")=>new Promise((f1,f2)=>{
+    let img = new Image()
+    img.src=src
+    img.onload=f1(img)
+})
+
+load_fan=()=>{
+    wx=`https://weread.qq.com/wrpage/flip/card?vol=20191022&isAnimateNavBarBackground=1`
+    load_img(wx)
+}
+
+
+//日历-----------------------------------------------------------------------------------
+
+
+  const weekdaysDefault = [0, 1, 2, 3, 4, 5, 6]
+  const intervalsDefault = {
+    first: 0,
+    minutes: 60,
+    count: 24,
+    height: 40,
+  }
+
+  const stylings = {
+    default (interval) {
+      return undefined
+    },
+    workday (interval) {
+      const inactive = interval.weekday === 0 ||
+        interval.weekday === 6 ||
+        interval.hour < 9 ||
+        interval.hour >= 17
+      const startOfHour = interval.minute === 0
+      const dark = this.dark
+      const mid = dark ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.1)'
+
+      return {
+        backgroundColor: inactive ? (dark ? 'rgba(0,0,0,0.4)' : 'rgba(0,0,0,0.05)') : undefined,
+        borderTop: startOfHour ? undefined : '1px dashed ' + mid,
+      }
+    },
+    past (interval) {
+      return {
+        backgroundColor: interval.past ? (this.dark ? 'rgba(0,0,0,0.4)' : 'rgba(0,0,0,0.05)') : undefined,
+      }
+    },
+  }
+//日历-----------------------------------------------------------------------------------
+
+
+
+var app = new Vue({
+  el: '#app',
+  vuetify: new Vuetify(),    
+    data: ()=>({
+        VID:76924631,
+        my_vid:76924631,
+        zudui_history:[],
+        vids,
+        vids1,
+
+
+      dark: false,
+      startMenu: false,
+      start: moment().format('YYYY-MM-01'),
+      endMenu: false,
+      end: moment().add(1,"months").format('YYYY-MM-DD'),
+      nowMenu: false,
+      minWeeks: 1,
+  //    now: null,
+      type: 'month',
+      typeOptions: [
+        { text: 'Day', value: 'day' },
+        { text: '4 Day', value: '4day' },
+        { text: 'Week', value: 'week' },
+        { text: 'Month', value: 'month' },
+        { text: 'Custom Daily', value: 'custom-daily' },
+        { text: 'Custom Weekly', value: 'custom-weekly' },
+      ],
+      weekdays: weekdaysDefault,
+      weekdaysOptions: [
+        { text: 'Sunday - Saturday', value: weekdaysDefault },
+        { text: 'Mon, Wed, Fri', value: [1, 3, 5] },
+        { text: 'Mon - Fri', value: [1, 2, 3, 4, 5] },
+        { text: 'Mon - Sun', value: [1, 2, 3, 4, 5, 6, 0] },
+      ],
+      intervals: intervalsDefault,
+      intervalsOptions: [
+        { text: 'Default', value: intervalsDefault },
+        { text: 'Workday', value: { first: 16, minutes: 30, count: 20, height: 40 } },
+      ],
+      maxDays: 7,
+      maxDaysOptions: [
+        { text: '7 days', value: 7 },
+        { text: '5 days', value: 5 },
+        { text: '4 days', value: 4 },
+        { text: '3 days', value: 3 },
+      ],
+      styleInterval: 'default',
+      styleIntervalOptions: [
+        { text: 'Default', value: 'default' },
+        { text: 'Workday', value: 'workday' },
+        { text: 'Past', value: 'past' },
+      ],
+      color: 'light-blue',
+      colorOptions: [
+        { text: 'Primary', value: 'primary' },
+        { text: 'Secondary', value: 'secondary' },
+        { text: 'Accent', value: 'accent' },
+        { text: 'Red', value: 'red' },
+        { text: 'Pink', value: 'pink' },
+        { text: 'Purple', value: 'purple' },
+        { text: 'Deep Purple', value: 'deep-purple' },
+        { text: 'Indigo', value: 'indigo' },
+        { text: 'Blue', value: 'blue' },
+        { text: 'Light Blue', value: 'light-blue' },
+        { text: 'Cyan', value: 'cyan' },
+        { text: 'Teal', value: 'teal' },
+        { text: 'Green', value: 'green' },
+        { text: 'Light Green', value: 'light-green' },
+        { text: 'Lime', value: 'lime' },
+        { text: 'Yellow', value: 'yellow' },
+        { text: 'Amber', value: 'amber' },
+        { text: 'Orange', value: 'orange' },
+        { text: 'Deep Orange', value: 'deep-orange' },
+        { text: 'Brown', value: 'brown' },
+        { text: 'Blue Gray', value: 'blue-gray' },
+        { text: 'Gray', value: 'gray' },
+        { text: 'Black', value: 'black' },
+      ],
+      shortIntervals: true,
+      shortMonths: false,
+      shortWeekdays: false,
+        
+    }),
+    filters:{},
+    watch:{
+    },    
+    computed:{
+      now,
+      intervalStyle () {
+        return stylings[this.styleInterval].bind(this)
+      },
+      hasIntervals () {
+        return this.type in {
+          week: 1, day: 1, '4day': 1, 'custom-daily': 1,
+        }
+      },
+      hasEnd () {
+        return this.type in {
+          'custom-weekly': 1, 'custom-daily': 1,
+        }
+      },
+
+    },
+    methods:{
+        today,
+        is_weixin,
+        change_vid(v){
+            if (/^\d+/.test(v)){
+                this.zudui_history=vid2url(v).reverse()
+                this.my_vid=v
+                store("vid",v)
+            }else{
+                alert('wrong vid')
+            }
+        },
+        get_user(vid) {
+            return vids1[vid] || vids1["0"]
+        },
+        vid2zudui1,
+      viewDay ({ date }) {
+        this.start = date
+        this.type = 'day'
+      },
+      getEventColor (event) {
+        return event.color
+      },
+      showIntervalLabel (interval) {
+        return interval.minute === 0
+      },
+      say:console.log,
+        
+    },
+   async  mounted() {
+        await load_fan()
+        let v=await store("vid")
+        this.change_vid(v||VID)
+    },    
+})
+
+</script>
+</html>

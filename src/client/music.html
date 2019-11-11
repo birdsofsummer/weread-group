@@ -1,0 +1,362 @@
+<html lang="en">
+
+<head>
+    <base target="_blank">
+    <meta charset="UTF-8">
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <meta name="referrer" content="never">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>music</title>
+
+    <link rel="shortcut icon" href="https://image.flaticon.com/icons/png/512/346/346195.png" type="image/x-icon" />
+    <link href="https://spin.js.org/spin.css" type="text/css" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/video.js/7.6.0/video-js.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vuetify@2.0.0/dist/vuetify.min.css">
+
+</head>
+
+<style>
+
+[v-cloak]{
+    display: none;
+}
+a,a *{
+	color: gray;
+	text-decoration: none;
+}
+
+.my-video-dimensions {
+	width: 100%;
+	height: 50vh;
+}
+#audio{
+    width: 100%;
+}
+
+.v-list-item__title,.time{
+    font-size:0.8rem;
+}
+.v-application--wrap{
+    max-width: 100vw;
+    width: 100vw;
+}
+.author-container{
+    display:inline-flex;
+    flex-direction: row;
+    font-size:0.7rem;
+}
+
+.card-container{
+	display: grid;
+	grid-auto-flow: column;
+	grid-template-columns: 100%;
+    max-width: 100%;
+    width:100vw;
+}
+.card-container .v-card{ 
+    max-width: 100%;
+    flex: 1 1 auto;
+    width:100%;
+}  
+.v-toolbar__title{
+   font-size:1rem;
+   margin: 0 1rem;
+}
+.hit{
+    border-radius: 1rem;
+    margin: 0 0.5rem;
+} 
+section.row1{
+    width:100vw;
+    max-width: 100%;
+}
+
+@media (max-width: 1000px) {
+    .card-container{
+        grid-auto-flow: row;
+        grid-template-columns: auto;
+    }
+    .card-container .v-card{
+       max-width:100%;
+       flex: 1 1 auto;
+       width: 100vw;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+</style>
+
+
+
+
+
+<body>
+    <main id="app">
+
+        <v-app id="inspire" class="card-container">
+
+        <section class="row1">
+            <figure>
+                <figcaption></figcaption>
+                <audio preload="auto"  id="audio" controls crossOrigin = "Anonymous" autoplay>
+                    <source :src="music[offset].url">
+                </audio>
+            </figure>
+        </section>
+
+
+        <section class="row1">
+
+        <v-card  class="mx-auto" >
+            <v-toolbar color="green" dark>
+                <!--
+                <v-app-bar-nav-icon></v-app-bar-nav-icon>
+
+                <a :href="to_csv(items)" :download="names[i]+'_'+today()+'.csv'">
+                    <v-avatar>
+                      <img :src="logo[i]" alt="avatar">
+                    </v-avatar>
+                </a>
+
+                -->
+                <v-toolbar-title class="white--text"> {{ offset+1 }}/{{music.length}} {{music[offset].songname}} </v-toolbar-title>
+                <v-spacer></v-spacer>
+                <!--
+                <v-btn icon>
+                    <v-icon>search</v-icon>
+                </v-btn>
+                <v-btn icon>
+                    <v-icon>check_circle</v-icon>
+                </v-btn>
+                -->
+            </v-toolbar>
+
+            <v-list two-line>
+                <v-list-item-group  multiple active-class="green--text" >
+                    <template v-for="(item, index) in music">
+                        <v-list-item :key="index"  @click="change_music(index)">
+                            <template v-slot:default="{ active, toggle }">
+
+                                <v-list-item-content>
+                                    <v-list-item-title v-text="index+1 +' '+item.songname" :title="item.songname"></v-list-item-title>
+                                    <!--v-list-item-subtitle class="text-primary" v-text="item.author"> </v-list-item-subtitle-->
+                                    <!--v-list-item-subtitle class="time"  v-text="item.time"></v-list-item-subtitle-->
+                                </v-list-item-content>
+
+                                <v-list-item-action style="" class="author-container">
+                                    <a :href="item.url">
+                                        <v-list-item-action-text v-text="item.albumname"></v-list-item-action-text>
+                                    </a>
+
+                                    <a :href="music[index].url" :download="music[index].songname">
+                                        <v-list-item-action-text class="hit lime white--text" v-text="">下载</v-list-item-action-text>
+                                    </a>
+
+
+                                    <!--
+                                            <v-icon v-if="!active" color="grey lighten-1">
+                                                thumb_up
+                                            </v-icon>
+
+                                    <v-icon v-if="!active" color="grey lighten-1">
+                                        thumb_down
+                                    </v-icon>
+
+                                    <v-icon v-if="!active" color="grey lighten-1">
+                                        star_border
+                                    </v-icon>
+
+                                    <v-icon v-else color="yellow">
+                                        star
+                                    </v-icon>
+                                    -->
+                                </v-list-item-action>
+                            </template>
+                        </v-list-item>
+
+                        <v-divider v-if="index + 1 < music.length" :key="'zzz_'+index"></v-divider>
+                    </template>
+                </v-list-item-group>
+            </v-list>
+        </v-card>
+
+
+
+
+
+        </section>
+
+
+
+
+        <!--section class="row1">
+            <figure>
+              <figcaption></figcaption>
+              <video id='my-video' class='video-js' controls preload='auto' crossOrigin = "Anonymous" 
+              poster='https://hbimg.huabanimg.com/5b5850685e8c0c32ed2f4a86b4af5b99b767bc7f6c748-u7bQkZ_fw658' data-setup='{}'
+              >
+                <source src='http://113.113.69.174/vcloud1049.tc.qq.com/1049_F0100608000jQAGX3JMF4U1000581555.f20.mp4?vkey=857DCB53266E9D24D3141F651A35D1871B583F7BFAA69F38DEB6E21CA78C237E66E5BF928D30AF51FC1428C3BEF8D1855F2A8E6635C710A311572C39D234F775EE5B8C9331AB4CCB3803D203CAA3FC61EF39C63750C6E260' type='video/mp4'>
+                <p class='vjs-no-js'>
+                  To view this video please enable JavaScript, and consider upgrading to a web browser that
+                  <a href='https://videojs.com/html5-video-support/' target='_blank'>supports HTML5 video</a>
+                </p>
+              </video>
+            </figure>
+        </section-->
+
+
+    </v-app>
+    </main>
+
+</body>
+<script src="https://cdn.bootcss.com/video.js/7.6.0/video.min.js"></script>
+<script src="https://cdn.bootcss.com/video.js/7.6.0/lang/zh-CN.js"></script>
+<!--script src="https://cdn.bootcss.com/audiojs/1.0.1/audio.min.js"></script-->
+<script src="https://cdn.jsdelivr.net/npm/babel-polyfill/dist/polyfill.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vuetify@2.0.0/dist/vuetify.min.js"></script>
+<script src="https://cdn.bootcss.com/ramda/0.26.1/ramda.min.js"></script>
+<script src="https://cdn.bootcss.com/lodash.js/4.17.15/lodash.min.js"></script>
+<script src="https://cdn.bootcss.com/localforage/1.7.3/localforage.min.js"></script>
+<script src="https://cdn.bootcss.com/moment.js/2.24.0/moment.min.js"></script>
+
+<script>
+
+const say=x=>y=>console.log(x,y)
+const add_qs=(u,params={}) =>R.isEmpty(params) ? u : u + "?" + new URLSearchParams(params).toString()
+const get=(u,params={})=>fetch(add_qs(u,params)).then(x=>x.ok ? x.json(): [] )
+const rnd=(n=1)=>Math.floor(Math.random()*n)
+const rnd1=(arr=[])=>rnd(arr.length)
+const pick=(arr=[],i=0,offset=0)=>({
+    0: (i >arr.length-1 || i<0 ) ?  0 : i, //next
+    1: rnd1(arr),                          //random
+    2: Math.min(offset,arr.length-1),      //loop
+ })
+
+
+const play=async ()=>{
+    let t=document.querySelector('#audio')
+    if(t.readyState < 2) { }
+    t.load();
+    t.play() 
+}
+
+
+const render=(items)=>(
+        new Vue({
+            el: '#app',
+            vuetify: new Vuetify(),
+            methods:{
+                change_music(i=0,mode=0){
+                    let {music,offset}=this
+                    this.offset=pick(music,i,offset)[mode]
+                    play();
+                },
+            },
+            computed:{ 
+            },
+            data: () => ({
+                music:items||[],
+                offset:0,
+            }),
+        })
+)
+
+   const init_audio=()=>{
+          audiojs.events.ready(function() {
+            audiojs.createAll();
+          });
+   }
+   const init=()=>{
+       let d1=[
+            {
+               url:"",
+               songname:"",
+           },
+       ]
+       return render(d1)
+}
+
+const now=()=> moment().unix()
+const music_ok=(t=0)=>now() - (t||0) < 86400;
+
+const test_blob=async()=>{
+     b=await fetch("/jeff1")
+     c=await b.clone().blob()
+     url = URL.createObjectURL(c)
+     console.log(url)
+ //    document.querySelector('#audio').src= url
+     return url
+}
+
+const init_music_player=async (app)=>{
+    let t=document.querySelector('#audio')
+    t.addEventListener("timeupdate",e=>{
+        if (e.target.ended==true){
+            let o=app.offset
+            app.change_music(o+1)
+        }
+    })
+    t.addEventListener('loadeddata', ()=>t.readyState >= 2 && t.play())
+    u=await test_blob()
+    t.src=u
+
+    let s=await localforage.getItem('store')
+    if ( s && s.music && music_ok(s.music_update_time )) {
+        app.music= s.music
+    }else{
+        let music =await get("/jeff")
+        app.music=music
+        let music_update_time=now()
+        localforage.setItem('store',{music, music_update_time})
+    }
+
+}
+
+
+let app=init();
+init_music_player(app);
+
+
+
+
+
+const test_player=()=>{
+   // https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/load
+    const props=["audioTracks","autoplay","buffered","controller","controls","controlsList","crossOrigin","currentSrc","currentTime","defaultMuted","defaultPlaybackRate","duration","ended","error","initialTime","loop","mediaGroup","muted","networkState","onerror","paused","playbackRate","readyState","seekable","sinkId","src","srcObject","textTracks","videoTracks","volume"]
+    const play_events=["abort","canplaythrough","error","loadeddata","loadstart","play","playing","progress","timeupdate","volumechange","waiting"]
+    const methods= ["canPlayType()","captureStream()","fastSeek()","load()","msInsertAudioEffect()","pause()","play()","seekToNextFrame()","setMediaKeys()","setSinkId()"]
+    let t=document.querySelector('#audio')
+    play_events.map(x=>t.addEventListener(x,say(x)))
+}
+
+
+
+const arraybuffer2blob=(a,t={type: "audio/aac" })=>new Blob([a],t)
+const blob2url=b=>URL.createObjectURL(b)
+
+const get2=(u)=>{
+   r1=await fetch(u)
+   r2=await r1.arrayBuffer()
+   blob=arraybuffer2blob(r2)
+   return blob
+}
+
+
+</script>
+</html>

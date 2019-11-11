@@ -1,0 +1,676 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <base target="_blank">
+    <meta charset="UTF-8">
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <meta name="referrer" content="never">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="shortcut icon" href="https://image.flaticon.com/icons/png/512/346/346195.png" type="image/x-icon" />
+    <link href="https://spin.js.org/spin.css" type="text/css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vuetify@2.1.7/dist/vuetify.min.css">
+
+    <title>clock</title>
+    <style>
+        *{
+            padding:0;
+            margin:0;
+        }
+        body{
+            text-align: center;
+            min-height:100%;
+            width:100%;
+            background-image: url(https://hbimg.huabanimg.com/d9c17420e2c80a0051cc6b06fa5fa44763fe1ddb60df8-udyON3);            
+            background-size: fixed;
+
+        }
+        article{
+            display:grid;
+            grid-auto-flow: row;
+            grid-template-columns: 1fr 2fr;
+            grid-template-rows: 1fr;
+        }
+        .time{
+         /*   position: absolute;*/
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            width: 100%;
+            min-height:50%;
+            line-height: 2;
+            margin: 1rem;
+            padding: 1rem;
+            border-radius: 1rem;
+            background: rgba(255, 255, 255, .3);
+            box-shadow: 3px 3px 6px 3px rgba(0, 0, 0, .3);
+            overflow: visible;
+            
+        }
+        .time::before {
+            background-image: url(https://hbimg.huabanimg.com/d9c17420e2c80a0051cc6b06fa5fa44763fe1ddb60df8-udyON3);            
+            content: '';
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            filter: blur(4px);
+            z-index: -1;
+            margin: -1rem;
+        }        
+        fieldset{
+            border: none;
+        }
+        @media max-width: 1000px {
+            body {
+                    grid-template-columns: auto;
+            }
+        }        
+        figure {
+            text-align: right;
+            margin: 1rem;
+        }        
+        .loading{
+            pointer-events: none;    
+            position: fixed;
+            top: 50%;
+            left:50%;
+            z-index: 999;
+        }
+        [v-cloak]{
+            display: none;
+        }
+        .theme--light.v-application{
+            background:none;
+        }
+    </style>
+</head>
+
+<body>
+    <v-app id="app">
+    <article data-app="app">
+    <aside>
+        <section class="time">
+                    <form>
+                        <p>记事本 </p>
+                        <!--v-text-field label="写" ></v-text-field-->
+                          <v-container fluid>
+                            <v-textarea label="write something.." v-model="text" ></v-textarea> 
+                          </v-container>                        
+                        <v-btn class="ma-2" outlined fab color="indigo" @click="add_record">
+                              <v-icon>mdi-pencil</v-icon>
+                        </v-btn>           
+
+                        <v-btn class="ma-2" outlined fab color="indigo" @click="clean_record">
+                              <v-icon>mdi-delete</v-icon>
+                        </v-btn>                    
+
+                    </form>
+                    <v-timeline v-for="(todo,i) in todos" :key=`todo_${i}` dense>
+                        <v-timeline-item :color="todo.ok ? 'pink lighten-5': 'purple lighten-2'" fill-dot right small>
+                            <v-card class="elevation-2">
+                              <v-card-title class="headline">
+                                  {{ todo.time |unix }} 
+
+                                  <v-btn class="ma-2" outlined fab color="indigo" @click="del_record(i)">
+                                          <v-icon>mdi-delete</v-icon>
+                                  </v-btn>                   
+
+
+                                  <v-btn class="ma-2" outlined fab color="indigo" @click="update_record_status(todo)">
+                                      <v-icon>mdi-tilde</v-icon>
+                                  </v-btn>   
+
+                              </v-card-title>
+                              <v-card-text @keyup="update_record($event,todo,i)" contenteditable="true">
+                                    {{ todo.text }}
+                              </v-card-text>
+                            </v-card>
+
+                        </v-timeline-item>
+                    </v-timeline>
+        </section>
+
+        <section class="time">
+            <p>123</p>
+        </section>
+    </aside>
+
+    <main>
+        <figure>
+            <canvas id="clock" height="600px" width="600px" ></canvas>
+        <figure>
+        <section>   
+            <v-flex class="text-center">
+              <v-btn class="ma-2 totato" outlined fab color="indigo" @click="start_25min()">
+                  <v-icon>mdi-tennis</v-icon>
+              </v-btn>
+            </v-flex>
+            <v-flex>
+                <v-row>
+                  <v-col cols="12">
+                    <v-slider v-model="tomato_duration" append-icon="volume_up" prepend-icon="volume_down" label="time" min="1" max="61"></v-slider>
+                  </v-col>
+                </v-row>
+
+                <v-row>
+                    <v-col>
+                        <v-progress-circular :rotate="360" :size="100" :width="5" :value="tomato" color="teal" >
+                              {{ tomato |minute }}
+                        </v-progress-circular>
+                    <v-col>
+                </v-row>
+
+                <v-row>
+                    <v-col>
+                          <v-sheet height="500">
+                            <v-calendar
+                              type="month"
+                              now="2019-01-08"
+                              value="2019-01-08"
+                              :events="events"
+                            ></v-calendar>
+                          </v-sheet>
+                    <v-col>
+                </v-row>
+            </v-flex>
+        </section>   
+    </main>
+
+
+    </article>
+    </v-app >
+</body>
+
+    <script src="https://cdn.bootcss.com/spin.js/2.3.2/spin.min.js"></script>
+    <script src="https://cdn.bootcss.com/rxjs/6.5.2/rxjs.umd.min.js"></script>
+    <script src="https://cdn.bootcss.com/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://cdn.bootcss.com/ramda/0.26.1/ramda.min.js"></script>
+    <script src="https://cdn.bootcss.com/localforage/1.7.3/localforage.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/babel-polyfill/dist/polyfill.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.x/dist/vue.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vuetify@2.1.7/dist/vuetify.min.js"></script>
+
+<script>
+const {
+    ArgumentOutOfRangeError,
+    AsyncSubject,
+    BehaviorSubject,
+    ConnectableObservable,
+    EMPTY,
+    EmptyError,
+    GroupedObservable,
+    NEVER,
+    Notification,
+    NotificationKind,
+    ObjectUnsubscribedError,
+    Observable,
+    ReplaySubject,
+    Scheduler,
+    Subject,
+    Subscriber,
+    Subscription,
+    TimeoutError,
+    UnsubscriptionError,
+    VirtualAction,
+    VirtualTimeScheduler,
+    ajax,
+    animationFrameScheduler,
+    asapScheduler,
+    asyncScheduler,
+    bindCallback,
+    bindNodeCallback,
+    config,
+    defer,
+    empty,
+   //combineLatest,
+   //concat,
+   //onErrorResumeNext,
+   //race,
+   //zip,
+   //fetch,
+   //merge,
+   //partition,
+    forkJoin,
+    from,
+    fromEvent,
+    fromEventPattern,
+    generate,
+    identity,
+    iif,
+    interval,
+    isObservable,
+    never,
+    noop,
+    observable,
+    of,
+    operators,
+    pairs,
+    pipe,
+    queueScheduler,
+    range,
+    scheduled,
+    testing,
+    throwError,
+    timer,
+    using,
+    webSocket,
+}=rxjs
+
+const {
+        audit,
+        auditTime,
+        buffer,
+        bufferCount,
+        bufferTime,
+        bufferToggle,
+        bufferWhen,
+        catchError,
+        combineAll,
+        combineLatest,
+        concat,
+        concatAll,
+        concatMap,
+        concatMapTo,
+        count,
+        debounce,
+        debounceTime,
+        defaultIfEmpty,
+        delay,
+        delayWhen,
+        dematerialize,
+        distinct,
+        distinctUntilChanged,
+        distinctUntilKeyChanged,
+        elementAt,
+        endWith,
+        every,
+        exhaust,
+        exhaustMap,
+        expand,
+        filter,
+        finalize,
+        find,
+        findIndex,
+        first,
+        groupBy,
+        ignoreElements,
+        isEmpty,
+        last,
+        map,
+        mapTo,
+        materialize,
+        max,
+        merge,
+        mergeAll,
+        mergeMap,
+        flatMap,
+        mergeMapTo,
+        mergeScan,
+        min,
+        multicast,
+        observeOn,
+        onErrorResumeNext,
+        pairwise,
+        partition,
+        pluck,
+        publish,
+        publishBehavior,
+        publishLast,
+        publishReplay,
+        race,
+        reduce,
+        repeat,
+        repeatWhen,
+        retry,
+        retryWhen,
+        refCount,
+        sample,
+        sampleTime,
+        scan,
+        sequenceEqual,
+        share,
+        shareReplay,
+        single,
+        skip,
+        skipLast,
+        skipUntil,
+        skipWhile,
+        startWith,
+        subscribeOn,
+        switchAll,
+        switchMap,
+        switchMapTo,
+        take,
+        takeLast,
+        takeUntil,
+        takeWhile,
+        tap,
+        throttle,
+        throttleTime,
+        throwIfEmpty,
+        timeInterval,
+        timeout,
+        timeoutWith,
+        timestamp,
+        toArray,
+        //window,
+        windowCount,
+        windowTime,
+        windowToggle,
+        windowWhen,
+        withLatestFrom,
+        zip,
+        zipAll,
+}=rxjs.operators
+
+
+let shichens= {
+  '0': '子',
+  '1': '丑',
+  '2': '丑',
+  '3': '寅',
+  '4': '寅',
+  '5': '卯',
+  '6': '卯',
+  '7': '辰',
+  '8': '辰',
+  '9': '巳',
+  '10': '巳',
+  '11': '午',
+  '12': '午',
+  '13': '未',
+  '14': '未',
+  '15': '申',
+  '16': '申',
+  '17': '酉',
+  '18': '酉',
+  '19': '戌',
+  '20': '戌',
+  '21': '亥',
+  '22': '亥',
+  '23': '子',
+  '24': '子',
+}
+
+const now=()=>moment().format('YYYY-MM-DD 周d HH:mm:ss')
+const load_img=(src="https://image.flaticon.com/icons/png/512/346/346204.png")=>new Promise((f1,f2)=>{
+    let img = new Image()
+    img.src=src
+    img.onload=f1(img)
+})
+
+function drawBackground(ctx,r,rem) {
+    ctx.save();
+    ctx.translate(r, r);
+    ctx.beginPath();  //每次开始前必须开始一条路径
+    //按比例输出边框宽度，width/200=x/10=rem; 即 x=10 *rem
+    ctx.strokeStyle = '#d0d9de';
+    ctx.lineWidth = 1;
+    ctx.arc(0, 0, r - ctx.lineWidth / 2, 0, 2 * Math.PI, false);
+    ctx.stroke();
+    var hourNumbers = [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 1, 2];
+    hourNumbers.map(function (number, i) {
+        var rad = 2 * Math.PI / 12 * i;
+        var x = Math.cos(rad) * (r - 40 * rem);
+        var y = Math.sin(rad) * (r - 40 * rem);
+        ctx.textAlign = 'center';
+        ctx.textBaseline = 'middle';
+        ctx.font = "1.5rem Arial";
+        ctx.fillStyle = '#46733c';
+        let h=moment().hour()
+        let t=h > 12 ? number+12 : number
+        ctx.fillText(number, x, y)
+    });
+
+    hourNumbers.map(function (number, i) {
+        var rad = 2 * Math.PI / 12 * i;
+        var x = Math.cos(rad) * (r-10 );
+        var y = Math.sin(rad) * (r-10);
+        ctx.textAlign = 'center';
+        ctx.textBaseline = 'middle';
+        ctx.font = "1rem Arial";
+        ctx.fillStyle = '#46733c';
+        let h=moment().hour()
+        let t=h > 12 ? number+12 : number
+        let t1=shichens[t]
+        ctx.fillText(t1, x, y)
+    });
+
+
+    for (var i = 0; i < 60; i++) {
+        var rad = 2 * Math.PI / 60 * i;
+        var x = Math.cos(rad) * (r - 25 * rem);
+        var y = Math.sin(rad) * (r - 25 * rem);
+        ctx.beginPath();
+        if (i % 5 === 0) {
+            ctx.fillStyle = '#46733c';
+            ctx.arc(x, y, 4 , 2 * Math.PI, false);
+        } else {
+            ctx.fillStyle = '#d2d786';
+            ctx.arc(x, y, 2 , 2 * Math.PI, false);
+        }
+        ctx.fill();
+    }
+}
+
+function drawHour(ctx,r,rem,hour, minute) {
+    ctx.save();
+    ctx.fillStyle = '#c7d8f0';
+    ctx.beginPath();
+    var rad = 2 * Math.PI / 12 * hour;
+    var mrad = 2 * Math.PI / 12 / 60 * minute;
+    ctx.rotate(rad + mrad);
+    ctx.lineWidth = 8 ;
+    ctx.moveTo(0, 10 * rem);
+    ctx.lineTo(0, -r / 2);
+    ctx.lineCap = 'round';
+    ctx.strokeStyle = '#7087f7';
+    ctx.stroke();
+    ctx.restore();
+}
+
+function drawMinute(ctx,r,rem,minute) {
+    ctx.save();
+    ctx.beginPath();
+    var rad = 2 * Math.PI / 60 * minute;
+    ctx.rotate(rad);
+    ctx.lineWidth = 5;
+    ctx.moveTo(0, 10 * rem);
+    ctx.lineTo(0, -r / 2 - 10);
+    ctx.lineCap = 'round';
+    ctx.strokeStyle = '#ccdaed';
+    ctx.stroke();
+    ctx.restore();
+}
+
+function drawSecond(ctx,r,rem,second,img) {
+    ctx.save();
+    ctx.beginPath();
+    ctx.font = "0.7 rem Arial";
+    ctx.fillText(now(), 0.4*r,0)
+    var rad = 2 * Math.PI / 60 * second;
+    ctx.rotate(rad);
+    ctx.lineWidth = 2;
+    ctx.moveTo(-2 , 20 * rem);
+    ctx.lineTo(2 , 20 * rem);
+    ctx.lineTo(1, -r + 18 * rem);
+    ctx.lineTo(1, -r + 18 * rem);
+    //ctx.fillStyle = '#7087f7';
+    ctx.drawImage(img, 0, 40-r,20,20)
+    ctx.fillStyle = '#dadfa0';
+    ctx.fill();
+    ctx.restore();
+}
+
+function drawDot(ctx,r,rem) {
+    ctx.beginPath();
+    ctx.fillStyle = '#fff';
+    ctx.arc(0, 0, 3 * rem, 2 * Math.PI, false);
+    ctx.fill();
+}
+
+function draw(ctx,r,rem,img) {
+    ctx.clearRect(0, 0, r*2, r*2);
+    var hour =moment().hour()
+    var minute =moment().minute()  
+    var second =moment().second() 
+    drawBackground(ctx,r,rem);
+    drawHour(ctx,r,rem,hour, minute);
+    drawMinute(ctx,r,rem,minute);
+    drawSecond(ctx,r,rem,second,img);
+    drawDot(ctx,r,rem);
+    ctx.restore();
+}
+
+const clock=async(dom,r)=>{
+    let ctx = dom.getContext('2d');
+    var rem = r / 200;
+    let img=await load_img()
+    ctx.canvas.width=r*2
+    ctx.canvas.height=r*2
+    rxjs.interval(1000).subscribe(x => {
+  //      console.log(x)
+        draw(ctx,r,rem,img)
+    });
+
+}
+
+
+localforage.config({
+    name: 'time_track'
+})
+
+// localforage.iterate(console.log)
+show_track=async ()=>Promise.all((await localforage.keys()).map(async (x)=>[x,await localforage.getItem(x)]))
+
+mmseconds=(t="0")=>parseInt(t)/1000
+format_unix=(t="0")=> moment.unix(t).format("YYYY-MM-DD HH:mm:SS") 
+format_unix1=R.pipe(mmseconds,format_unix)
+
+Vue.filter('unix',format_unix1)
+Vue.filter('unix1',format_unix)
+Vue.filter('minute',t=>{
+   t1=moment.duration(t, 'seconds')
+   m=t1.minutes()
+   s=t1.seconds()
+   return `${m}:${s}`
+})
+
+
+var app = new Vue({
+  el: '#app',
+  vuetify: new Vuetify(),    
+    data: ()=>({
+    todos: [ ],
+    text:"",
+    interval:{},
+    tomato:25*60,
+    tomato_duration:25,
+    events: [
+            {
+              name: 'Vacation',
+              start: '2018-12-30',
+              end: '2019-01-02',
+            },
+            {
+              name: 'Meeting',
+              start: '2019-01-07',
+            },
+            {
+              name: '30th Birthday',
+              start: '2019-01-03',
+            },
+            {
+              name: 'New Year',
+              start: '2019-01-01',
+            },
+            {
+              name: 'Conference',
+              start: '2019-01-21',
+            },
+            {
+              name: 'Hackathon',
+              start: '2019-01-30',
+              end: '2019-02-01',
+            },
+      ],
+  }),
+//    filters:[],
+    watch:{
+        tomato_duration(a,b){
+            this.tomato=a*60
+        },
+    },    
+    methods:{
+       add_record(){
+           let text=this.text
+           if (text==""){
+               return
+           }
+           let time=moment.now()
+           localforage.setItem(`${time}`,text)
+           let d={time,text,ok:false}
+           this.todos.push(d)
+           this.text=""
+       },
+       del_record(i){
+              let t=this.todos
+              let t1=t.filter((x,i1)=>i1!=i)
+              this.todos=t1
+        },
+       clean_record(){
+            this.todos=[]
+        },
+       update_record(e,todo,i){
+            v=e.target.innerText
+            t=todo.txt
+            if (v=="" || v == t){
+                return
+            }
+            todo.text=v
+       },
+       update_record_status(todo){
+           todo.ok=!(todo.ok)
+       },
+       start_25min(){
+           init_tomato=()=>{
+                this.tomato1 && this.tomato1.unsubscribe() 
+                this.tomato=this.tomato_duration*60
+                console.log('zzz')
+          }
+          init_tomato()
+          this.tomato1=this.interval.subscribe(x => {
+                   console.log(x)
+                   this.tomato-=1
+           },x=>console.log("fail"),init_tomato)
+       }
+    },
+    mounted () {
+           $t=document.querySelector('.tomato') 
+           $tomato=fromEvent($t, 'click');
+            this.interval=rxjs.interval(1000)
+           .pipe(takeWhile(x=>this.tomato>0))
+           .pipe(take(60*this.tomato_duration))
+    },    
+})
+
+init_clock=()=>{
+    let dom = document.getElementById('clock');
+    let width  = window.innerWidth 
+    let height = window.innerHeight
+    let r1= R.min(width,height)-100
+    clock(dom,r1/2)
+}
+init_clock()
+
+
+
+</script>
+</html>

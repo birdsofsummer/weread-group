@@ -1,0 +1,5966 @@
+{
+  "code": 0,
+  "color": 1704579,
+  "comment_num": 63143,
+  "cur_song_num": 100,
+  "date": "2019-07-28",
+  "day_of_year": "209",
+  "song_begin": 0,
+  "songlist": [
+    {
+      "Franking_value": "1",
+      "cur_count": "1",
+      "data": {
+        "albumdesc": "",
+        "albumid": 7215891,
+        "albummid": "002N84iF3QxG1c",
+        "albumname": "差不多姑娘",
+        "alertid": 21,
+        "belongCD": 1,
+        "cdIdx": 0,
+        "interval": 230,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 14,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 0,
+          "paytrackmouth": 1,
+          "paytrackprice": 200,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 960887
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 13948,
+            "mid": "001fNHEf1SFEFN",
+            "name": "G.E.M. 邓紫棋"
+          }
+        ],
+        "size128": 3682018,
+        "size320": 9204722,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 26527121,
+        "sizeogg": 5277229,
+        "songid": 234824638,
+        "songmid": "000wocYU11tSzS",
+        "songname": "差不多姑娘",
+        "songorig": "差不多姑娘",
+        "songtype": 0,
+        "strMediaMid": "000wocYU11tSzS",
+        "stream": 1,
+        "switch": 17413891,
+        "type": 0,
+        "vid": "b0031kyhy1p"
+      },
+      "in_count": "7",
+      "old_count": "1"
+    },
+    {
+      "Franking_value": "1",
+      "cur_count": "2",
+      "data": {
+        "albumdesc": "",
+        "albumid": 7064087,
+        "albummid": "000DMpJ73yeITP",
+        "albumname": "尘",
+        "alertid": 11,
+        "belongCD": 2,
+        "cdIdx": 0,
+        "interval": 241,
+        "isonly": 0,
+        "label": "0",
+        "msgid": 0,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 0,
+          "payinfo": 0,
+          "payplay": 0,
+          "paytrackmouth": 0,
+          "paytrackprice": 0,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 0
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 5062,
+            "mid": "002J4UUk29y8BY",
+            "name": "薛之谦"
+          }
+        ],
+        "size128": 3867562,
+        "size320": 9668627,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 54146718,
+        "sizeogg": 5619032,
+        "songid": 233704309,
+        "songmid": "002qpjAV2lYx81",
+        "songname": "慢半拍",
+        "songorig": "慢半拍",
+        "songtype": 0,
+        "strMediaMid": "002qpjAV2lYx81",
+        "stream": 1,
+        "switch": 605971,
+        "type": 0,
+        "vid": "q0031nsvyig"
+      },
+      "in_count": "11",
+      "old_count": "2"
+    },
+    {
+      "Franking_value": "3",
+      "cur_count": "3",
+      "data": {
+        "albumdesc": "",
+        "albumid": 7159902,
+        "albummid": "002FN1rR4PKMng",
+        "albumname": "bad guy",
+        "alertid": 21,
+        "belongCD": 1,
+        "cdIdx": 0,
+        "interval": 194,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 14,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 0,
+          "paytrackmouth": 1,
+          "paytrackprice": 200,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 0
+        },
+        "rate": 7,
+        "singer": [
+          {
+            "id": 1124294,
+            "mid": "0034MZS446AF7O",
+            "name": "Billie Eilish"
+          },
+          {
+            "id": 16257,
+            "mid": "002DYpxl3hW3EP",
+            "name": "Justin Bieber"
+          }
+        ],
+        "size128": 3118623,
+        "size320": 7796164,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 0,
+        "sizeogg": 4681088,
+        "songid": 234396009,
+        "songmid": "000AHdHp1WuDoZ",
+        "songname": "bad guy",
+        "songorig": "bad guy",
+        "songtype": 0,
+        "strMediaMid": "000AHdHp1WuDoZ",
+        "stream": 1,
+        "switch": 17409795,
+        "type": 0,
+        "vid": "s00315slxzn"
+      },
+      "in_count": "16",
+      "old_count": "3"
+    },
+    {
+      "Franking_value": "4",
+      "cur_count": "4",
+      "data": {
+        "albumdesc": "",
+        "albumid": 7219892,
+        "albummid": "000nfK6i38nMBo",
+        "albumname": "生长",
+        "alertid": 21,
+        "belongCD": 1,
+        "cdIdx": 0,
+        "interval": 287,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 14,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 0,
+          "paytrackmouth": 1,
+          "paytrackprice": 200,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 960887
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 91580,
+            "mid": "004E2BBy3X9xne",
+            "name": "王俊凯"
+          }
+        ],
+        "size128": 4593561,
+        "size320": 11483455,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 40232795,
+        "sizeogg": 6956173,
+        "songid": 234843399,
+        "songmid": "001b27bh1na0hB",
+        "songname": "生长",
+        "songorig": "生长",
+        "songtype": 0,
+        "strMediaMid": "001b27bh1na0hB",
+        "stream": 1,
+        "switch": 17413891,
+        "type": 0,
+        "vid": ""
+      },
+      "in_count": "6",
+      "old_count": "4"
+    },
+    {
+      "Franking_value": "5",
+      "cur_count": "5",
+      "data": {
+        "albumdesc": "",
+        "albumid": 7229873,
+        "albummid": "000DGvbm2iKrNf",
+        "albumname": "The Archer",
+        "alertid": 21,
+        "belongCD": 1,
+        "cdIdx": 0,
+        "interval": 211,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 14,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 0,
+          "paytrackmouth": 1,
+          "paytrackprice": 200,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 0
+        },
+        "rate": 7,
+        "singer": [
+          {
+            "id": 11921,
+            "mid": "000qrPik2w6lDr",
+            "name": "Taylor Swift"
+          }
+        ],
+        "size128": 3381947,
+        "size320": 8454509,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 0,
+        "sizeogg": 4361559,
+        "songid": 234902470,
+        "songmid": "000ITCef3bSWsq",
+        "songname": "The Archer",
+        "songorig": "The Archer",
+        "songtype": 0,
+        "strMediaMid": "000ITCef3bSWsq",
+        "stream": 1,
+        "switch": 17413891,
+        "type": 0,
+        "vid": "k0031d9im61"
+      },
+      "in_count": "4",
+      "old_count": "5"
+    },
+    {
+      "Franking_value": "2",
+      "cur_count": "6",
+      "data": {
+        "albumdesc": "",
+        "albumid": 7158268,
+        "albummid": "00465GJx0hFaMe",
+        "albumname": "我的朋友",
+        "alertid": 21,
+        "belongCD": 1,
+        "cdIdx": 0,
+        "interval": 219,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 14,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 0,
+          "paytrackmouth": 1,
+          "paytrackprice": 200,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 0
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 34412,
+            "mid": "000zmpju02bEBm",
+            "name": "TFBOYS"
+          }
+        ],
+        "size128": 3510225,
+        "size320": 8774996,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 48542743,
+        "sizeogg": 4987347,
+        "songid": 234381105,
+        "songmid": "001nGinl3Tsk4H",
+        "songname": "我的朋友",
+        "songorig": "我的朋友",
+        "songtype": 0,
+        "strMediaMid": "001nGinl3Tsk4H",
+        "stream": 1,
+        "switch": 17413891,
+        "type": 0,
+        "vid": ""
+      },
+      "in_count": "16",
+      "old_count": "6"
+    },
+    {
+      "Franking_value": "7",
+      "cur_count": "7",
+      "data": {
+        "albumdesc": "",
+        "albumid": 7156278,
+        "albummid": "0019Oi682i0RfX",
+        "albumname": "YOUNG",
+        "alertid": 7,
+        "belongCD": 1,
+        "cdIdx": 0,
+        "interval": 225,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 13,
+        "pay": {
+          "payalbum": 1,
+          "payalbumprice": 500,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 1,
+          "paytrackmouth": 0,
+          "paytrackprice": 0,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 0
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 1016794,
+            "mid": "002nXp292LIOGV",
+            "name": "蔡徐坤"
+          }
+        ],
+        "size128": 3608861,
+        "size320": 9021851,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 29275066,
+        "sizeogg": 5708251,
+        "songid": 234369105,
+        "songmid": "004BxrBT3coQnC",
+        "songname": "YOUNG",
+        "songorig": "YOUNG",
+        "songtype": 0,
+        "strMediaMid": "004BxrBT3coQnC",
+        "stream": 1,
+        "switch": 594177,
+        "type": 0,
+        "vid": "l00314ko477"
+      },
+      "in_count": "2",
+      "old_count": "7"
+    },
+    {
+      "Franking_value": "17",
+      "cur_count": "8",
+      "data": {
+        "albumdesc": "",
+        "albumid": 7243990,
+        "albummid": "004WXaO10CWsze",
+        "albumname": "We Boom - The 3rd Mini Album",
+        "alertid": 22,
+        "belongCD": 1,
+        "cdIdx": 0,
+        "interval": 195,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 13,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 1,
+          "paytrackmouth": 1,
+          "paytrackprice": 200,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 960887
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 1221053,
+            "mid": "004cyCLc1ByKPx",
+            "name": "NCT DREAM (엔시티 드림)"
+          }
+        ],
+        "size128": 3122413,
+        "size320": 7805645,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 23827633,
+        "sizeogg": 4857841,
+        "songid": 234984054,
+        "songmid": "0047R4U14BJUL6",
+        "songname": "BOOM",
+        "songorig": "BOOM",
+        "songtype": 0,
+        "strMediaMid": "0047R4U14BJUL6",
+        "stream": 1,
+        "switch": 17421569,
+        "type": 0,
+        "vid": "o0031tjedpr"
+      },
+      "in_count": "2",
+      "old_count": "17"
+    },
+    {
+      "Franking_value": "4",
+      "cur_count": "9",
+      "data": {
+        "albumdesc": "",
+        "albumid": 7137847,
+        "albummid": "0037RJbA0NJ0tv",
+        "albumname": "别再靠近我了",
+        "alertid": 2,
+        "belongCD": 1,
+        "cdIdx": 0,
+        "interval": 273,
+        "isonly": 0,
+        "label": "0",
+        "msgid": 14,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 0,
+          "paytrackmouth": 1,
+          "paytrackprice": 200,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 960887
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 1473880,
+            "mid": "004V53Ga0bV65j",
+            "name": "陈雪凝"
+          }
+        ],
+        "size128": 4372059,
+        "size320": 10929838,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 32545450,
+        "sizeogg": 6275749,
+        "songid": 234235088,
+        "songmid": "000CLThZ1MBRc1",
+        "songname": "别再靠近我了",
+        "songorig": "别再靠近我了",
+        "songtype": 0,
+        "strMediaMid": "000CLThZ1MBRc1",
+        "stream": 1,
+        "switch": 17413891,
+        "type": 0,
+        "vid": ""
+      },
+      "in_count": "20",
+      "old_count": "8"
+    },
+    {
+      "Franking_value": "16",
+      "cur_count": "10",
+      "data": {
+        "albumdesc": "《哪吒之魔童降世》电影片尾曲",
+        "albumid": 7200158,
+        "albummid": "000H0F5w0a7qO8",
+        "albumname": "今后我与自己流浪",
+        "alertid": 11,
+        "belongCD": 1,
+        "cdIdx": 0,
+        "interval": 277,
+        "isonly": 0,
+        "label": "0",
+        "msgid": 0,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 0,
+          "payinfo": 0,
+          "payplay": 0,
+          "paytrackmouth": 0,
+          "paytrackprice": 0,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 960887
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 199515,
+            "mid": "0003ZpE43ypssl",
+            "name": "张碧晨"
+          }
+        ],
+        "size128": 4436432,
+        "size320": 11090761,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 52133346,
+        "sizeogg": 5718355,
+        "songid": 234706815,
+        "songmid": "003aLIjx2X4Dw7",
+        "songname": "今后我与自己流浪",
+        "songorig": "今后我与自己流浪",
+        "songtype": 0,
+        "strMediaMid": "003aLIjx2X4Dw7",
+        "stream": 1,
+        "switch": 605971,
+        "type": 0,
+        "vid": "z0031xr1rrf"
+      },
+      "in_count": "8",
+      "old_count": "16"
+    },
+    {
+      "Franking_value": "8",
+      "cur_count": "11",
+      "data": {
+        "albumdesc": "《德鲁纳酒店》韩剧插曲",
+        "albumid": 7200615,
+        "albummid": "003K0S7x1fIqtw",
+        "albumname": "호텔 델루나 OST Part.3 (德鲁纳酒店 OST Part.3)",
+        "alertid": 22,
+        "belongCD": 1,
+        "cdIdx": 0,
+        "interval": 209,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 13,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 1,
+          "paytrackmouth": 1,
+          "paytrackprice": 200,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 960887
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 12967,
+            "mid": "000Dt3oh13pg4o",
+            "name": "태연 (太妍)"
+          }
+        ],
+        "size128": 3353094,
+        "size320": 8381967,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 40696731,
+        "sizeogg": 4356779,
+        "songid": 234709089,
+        "songmid": "0017UPfN1WIcfr",
+        "songname": "그대라는 시 (All about you)",
+        "songorig": "그대라는 시",
+        "songtype": 0,
+        "strMediaMid": "0017UPfN1WIcfr",
+        "stream": 1,
+        "switch": 17421569,
+        "type": 0,
+        "vid": "a0031j51ays"
+      },
+      "in_count": "7",
+      "old_count": "9"
+    },
+    {
+      "Franking_value": "12",
+      "cur_count": "12",
+      "data": {
+        "albumdesc": "",
+        "albumid": 7215778,
+        "albummid": "000e7lik0IeArf",
+        "albumname": "《明日之子》水晶时代 第五期",
+        "alertid": 43,
+        "belongCD": 7,
+        "cdIdx": 0,
+        "interval": 236,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 14,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 0,
+          "paytrackmouth": 1,
+          "paytrackprice": 200,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 0
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 157821,
+            "mid": "001fHe3P3HNKBJ",
+            "name": "高姗"
+          },
+          {
+            "id": 2078591,
+            "mid": "000G8eu32uah5Q",
+            "name": "陈昊姝"
+          },
+          {
+            "id": 1516756,
+            "mid": "004JlKV21vyxNE",
+            "name": "二毛"
+          },
+          {
+            "id": 1441531,
+            "mid": "001mA3R93Aw7lX",
+            "name": "彭雅琦"
+          }
+        ],
+        "size128": 3781072,
+        "size320": 9452361,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 47160081,
+        "sizeogg": 5011422,
+        "songid": 234824302,
+        "songmid": "001Nignt2R04Lg",
+        "songname": "我想要",
+        "songorig": "我想要",
+        "songtype": 0,
+        "strMediaMid": "001Nignt2R04Lg",
+        "stream": 1,
+        "switch": 17413891,
+        "type": 0,
+        "vid": "p0031dpo8rb"
+      },
+      "in_count": "7",
+      "old_count": "12"
+    },
+    {
+      "Franking_value": "11",
+      "cur_count": "13",
+      "data": {
+        "albumdesc": "《上海堡垒》电影推广曲",
+        "albumid": 7225792,
+        "albummid": "004by6Rc3xLLVs",
+        "albumname": "如果当时",
+        "alertid": 2,
+        "belongCD": 1,
+        "cdIdx": 0,
+        "interval": 239,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 14,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 0,
+          "paytrackmouth": 1,
+          "paytrackprice": 200,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 960887
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 24833,
+            "mid": "002mze3U0NYXOM",
+            "name": "胡夏"
+          }
+        ],
+        "size128": 3830791,
+        "size320": 9576685,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 25879859,
+        "sizeogg": 5642827,
+        "songid": 234868445,
+        "songmid": "001Q5es30XG6Zo",
+        "songname": "如果当时",
+        "songorig": "如果当时",
+        "songtype": 0,
+        "strMediaMid": "001Q5es30XG6Zo",
+        "stream": 1,
+        "switch": 17409795,
+        "type": 0,
+        "vid": "e0031rgejsc"
+      },
+      "in_count": "4",
+      "old_count": "11"
+    },
+    {
+      "Franking_value": "9",
+      "cur_count": "14",
+      "data": {
+        "albumdesc": "《上海堡垒》电影片尾主题曲",
+        "albumid": 7198723,
+        "albummid": "004PARd92iApmD",
+        "albumname": "无愧",
+        "alertid": 11,
+        "belongCD": 1,
+        "cdIdx": 0,
+        "interval": 240,
+        "isonly": 0,
+        "label": "0",
+        "msgid": 0,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 0,
+          "payinfo": 0,
+          "payplay": 0,
+          "paytrackmouth": 0,
+          "paytrackprice": 0,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 960887
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 3274273,
+            "mid": "000EHxwK0G7M6S",
+            "name": "R1SE"
+          }
+        ],
+        "size128": 3847506,
+        "size320": 9618161,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 55393301,
+        "sizeogg": 5608959,
+        "songid": 234701461,
+        "songmid": "003dB43N2X0PCk",
+        "songname": "无愧",
+        "songorig": "无愧",
+        "songtype": 0,
+        "strMediaMid": "003dB43N2X0PCk",
+        "stream": 1,
+        "switch": 605971,
+        "type": 0,
+        "vid": "w0031bm06a7"
+      },
+      "in_count": "9",
+      "old_count": "10"
+    },
+    {
+      "Franking_value": "10",
+      "cur_count": "15",
+      "data": {
+        "albumdesc": "《德鲁纳酒店》韩剧插曲",
+        "albumid": 7171161,
+        "albummid": "0014cEw84HMx0Q",
+        "albumname": "호텔 델루나 OST Part.1 (德鲁纳酒店 OST Part.1)",
+        "alertid": 22,
+        "belongCD": 1,
+        "cdIdx": 0,
+        "interval": 217,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 13,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 1,
+          "paytrackmouth": 1,
+          "paytrackprice": 200,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 960887
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 12840,
+            "mid": "002YHRCp0ElnKa",
+            "name": "먼데이 키즈 (Monday Kiz)"
+          },
+          {
+            "id": 176687,
+            "mid": "000lHQbb1VAljd",
+            "name": "펀치 (PUNCH)"
+          }
+        ],
+        "size128": 3488949,
+        "size320": 8721740,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 47381418,
+        "sizeogg": 4864128,
+        "songid": 234482781,
+        "songmid": "004USnSu10Ylb0",
+        "songname": "Another Day",
+        "songorig": "Another Day",
+        "songtype": 0,
+        "strMediaMid": "004USnSu10Ylb0",
+        "stream": 1,
+        "switch": 17421569,
+        "type": 0,
+        "vid": "t0031uwuhjq"
+      },
+      "in_count": "13",
+      "old_count": "13"
+    },
+    {
+      "Franking_value": "9",
+      "cur_count": "16",
+      "data": {
+        "albumdesc": "",
+        "albumid": 7096319,
+        "albummid": "002Tryw33HIGNP",
+        "albumname": "陈情令 国风音乐专辑",
+        "alertid": 7,
+        "belongCD": 5,
+        "cdIdx": 0,
+        "interval": 233,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 13,
+        "pay": {
+          "payalbum": 1,
+          "payalbumprice": 2000,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 1,
+          "paytrackmouth": 0,
+          "paytrackprice": 0,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 0
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 1060985,
+            "mid": "0022eAG537I1bg",
+            "name": "肖战"
+          }
+        ],
+        "size128": 3743878,
+        "size320": 9359369,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 51958619,
+        "sizeogg": 5536741,
+        "songid": 234119460,
+        "songmid": "001vl06k1uzyie",
+        "songname": "【魏无羡】曲尽陈情",
+        "songorig": "【魏无羡】曲尽陈情",
+        "songtype": 0,
+        "strMediaMid": "001vl06k1uzyie",
+        "stream": 1,
+        "switch": 594177,
+        "type": 0,
+        "vid": "t0031yk89m0"
+      },
+      "in_count": "6",
+      "old_count": "15"
+    },
+    {
+      "Franking_value": "19",
+      "cur_count": "17",
+      "data": {
+        "albumdesc": "",
+        "albumid": 7221346,
+        "albummid": "002hPHf24Hc0mt",
+        "albumname": "守护永恒的爱",
+        "alertid": 21,
+        "belongCD": 1,
+        "cdIdx": 0,
+        "interval": 182,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 14,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 0,
+          "paytrackmouth": 1,
+          "paytrackprice": 200,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 0
+        },
+        "rate": 7,
+        "singer": [
+          {
+            "id": 109,
+            "mid": "001pWERg3vFgg8",
+            "name": "孙燕姿"
+          }
+        ],
+        "size128": 2922576,
+        "size320": 7306132,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 0,
+        "sizeogg": 4223262,
+        "songid": 234849902,
+        "songmid": "003vI0qe0Wlyqh",
+        "songname": "守护永恒的爱",
+        "songorig": "守护永恒的爱",
+        "songtype": 0,
+        "strMediaMid": "003vI0qe0Wlyqh",
+        "stream": 1,
+        "switch": 17413891,
+        "type": 0,
+        "vid": "n0031dzaovx"
+      },
+      "in_count": "5",
+      "old_count": "20"
+    },
+    {
+      "Franking_value": "21",
+      "cur_count": "18",
+      "data": {
+        "albumdesc": "《银河补习班》电影共鸣曲",
+        "albumid": 7233786,
+        "albummid": "003wugZH3gUWdD",
+        "albumname": "一番星",
+        "alertid": 2,
+        "belongCD": 1,
+        "cdIdx": 0,
+        "interval": 295,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 14,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 0,
+          "paytrackmouth": 1,
+          "paytrackprice": 200,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 0
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 1005787,
+            "mid": "001KH1tJ02U8KY",
+            "name": "摩登兄弟"
+          }
+        ],
+        "size128": 4732329,
+        "size320": 11830530,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 60575797,
+        "sizeogg": 6522426,
+        "songid": 234924983,
+        "songmid": "003VmOok3M0KVV",
+        "songname": "一番星",
+        "songorig": "一番星",
+        "songtype": 0,
+        "strMediaMid": "000Wy8DG3AaNkb",
+        "stream": 1,
+        "switch": 17413891,
+        "type": 0,
+        "vid": "v0031e9t6tc"
+      },
+      "in_count": "2",
+      "old_count": "21"
+    },
+    {
+      "Franking_value": "8",
+      "cur_count": "19",
+      "data": {
+        "albumdesc": "《宸汐缘》电视剧插曲",
+        "albumid": 7130475,
+        "albummid": "001HvHaq3E9E9Y",
+        "albumname": "水从天上来",
+        "alertid": 2,
+        "belongCD": 1,
+        "cdIdx": 0,
+        "interval": 294,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 14,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 0,
+          "paytrackmouth": 1,
+          "paytrackprice": 200,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 0
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 199515,
+            "mid": "0003ZpE43ypssl",
+            "name": "张碧晨"
+          },
+          {
+            "id": 2696301,
+            "mid": "0010ZEtk1CMl32",
+            "name": "郑云龙"
+          }
+        ],
+        "size128": 4714363,
+        "size320": 11785606,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 33486492,
+        "sizeogg": 6713003,
+        "songid": 234178231,
+        "songmid": "001X26co3oP5wy",
+        "songname": "水从天上来",
+        "songorig": "水从天上来",
+        "songtype": 0,
+        "strMediaMid": "002cDjUY3TJ6eZ",
+        "stream": 1,
+        "switch": 17413891,
+        "type": 0,
+        "vid": "g0031w8dhqz"
+      },
+      "in_count": "11",
+      "old_count": "18"
+    },
+    {
+      "Franking_value": "9",
+      "cur_count": "20",
+      "data": {
+        "albumdesc": "",
+        "albumid": 7096319,
+        "albummid": "002Tryw33HIGNP",
+        "albumname": "陈情令 国风音乐专辑",
+        "alertid": 7,
+        "belongCD": 1,
+        "cdIdx": 0,
+        "interval": 253,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 13,
+        "pay": {
+          "payalbum": 1,
+          "payalbumprice": 2000,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 1,
+          "paytrackmouth": 0,
+          "paytrackprice": 0,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 0
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 1060985,
+            "mid": "0022eAG537I1bg",
+            "name": "肖战"
+          },
+          {
+            "id": 1471877,
+            "mid": "004OG5IM1BYEI3",
+            "name": "王一博"
+          }
+        ],
+        "size128": 4051504,
+        "size320": 10128080,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 30180998,
+        "sizeogg": 5899537,
+        "songid": 234119465,
+        "songmid": "0001pvv81ydFtp",
+        "songname": "【主题曲】无羁（合唱版）",
+        "songorig": "【主题曲】无羁（合唱版）",
+        "songtype": 0,
+        "strMediaMid": "000jdN7D0xR9IX",
+        "stream": 1,
+        "switch": 594177,
+        "type": 0,
+        "vid": ""
+      },
+      "in_count": "20",
+      "old_count": "19"
+    },
+    {
+      "Franking_value": "28",
+      "cur_count": "21",
+      "data": {
+        "albumdesc": "《哪吒之魔童降世》电影主题曲",
+        "albumid": 7163930,
+        "albummid": "000657sU1wUTIM",
+        "albumname": "哪吒",
+        "alertid": 11,
+        "belongCD": 1,
+        "cdIdx": 0,
+        "interval": 163,
+        "isonly": 0,
+        "label": "0",
+        "msgid": 0,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 0,
+          "payinfo": 0,
+          "payplay": 0,
+          "paytrackmouth": 0,
+          "paytrackprice": 0,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 960887
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 1121441,
+            "mid": "004LV0lb4fOw89",
+            "name": "GAI"
+          },
+          {
+            "id": 978597,
+            "mid": "000irxpp340wvO",
+            "name": "大痒痒"
+          }
+        ],
+        "size128": 2612017,
+        "size320": 6529757,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 35259918,
+        "sizeogg": 3534763,
+        "songid": 234428361,
+        "songmid": "002AsrO40MCS5d",
+        "songname": "哪吒",
+        "songorig": "哪吒",
+        "songtype": 0,
+        "strMediaMid": "002AsrO40MCS5d",
+        "stream": 1,
+        "switch": 605971,
+        "type": 0,
+        "vid": "x00313gy46p"
+      },
+      "in_count": "10",
+      "old_count": "28"
+    },
+    {
+      "Franking_value": "7",
+      "cur_count": "22",
+      "data": {
+        "albumdesc": "",
+        "albumid": 7170994,
+        "albummid": "004Nr7vW1sXkXR",
+        "albumname": "《明日之子》水晶时代 第四期（纯享版）",
+        "alertid": 42,
+        "belongCD": 11,
+        "cdIdx": 0,
+        "interval": 91,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 13,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 1,
+          "paytrackmouth": 1,
+          "paytrackprice": 200,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 481070
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 165743,
+            "mid": "0028F2cT0zWp5a",
+            "name": "张钰琪"
+          }
+        ],
+        "size128": 1468524,
+        "size320": 3670960,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 19163871,
+        "sizeogg": 1937632,
+        "songid": 234481962,
+        "songmid": "0032m5TD3hmzeC",
+        "songname": "Outside (纯享版)",
+        "songorig": "Outside",
+        "songtype": 0,
+        "strMediaMid": "0032m5TD3hmzeC",
+        "stream": 1,
+        "switch": 17405185,
+        "type": 0,
+        "vid": "h0031rjjyc5"
+      },
+      "in_count": "14",
+      "old_count": "22"
+    },
+    {
+      "Franking_value": "11",
+      "cur_count": "23",
+      "data": {
+        "albumdesc": "《宸汐缘》电视剧女主情感主题曲",
+        "albumid": 7186757,
+        "albummid": "003ynUZN1wLh1F",
+        "albumname": "解忧",
+        "alertid": 2,
+        "belongCD": 1,
+        "cdIdx": 0,
+        "interval": 254,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 14,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 0,
+          "paytrackmouth": 1,
+          "paytrackprice": 200,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 960887
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 4607,
+            "mid": "000aw4WC2EQYTv",
+            "name": "张靓颖"
+          }
+        ],
+        "size128": 4071530,
+        "size320": 10178541,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 30413517,
+        "sizeogg": 6056727,
+        "songid": 234629379,
+        "songmid": "001Hm9o11wnhSO",
+        "songname": "解忧",
+        "songorig": "解忧",
+        "songtype": 0,
+        "strMediaMid": "001Hm9o11wnhSO",
+        "stream": 1,
+        "switch": 17413891,
+        "type": 0,
+        "vid": ""
+      },
+      "in_count": "10",
+      "old_count": "14"
+    },
+    {
+      "Franking_value": "13",
+      "cur_count": "24",
+      "data": {
+        "albumdesc": "",
+        "albumid": 7096319,
+        "albummid": "002Tryw33HIGNP",
+        "albumname": "陈情令 国风音乐专辑",
+        "alertid": 7,
+        "belongCD": 6,
+        "cdIdx": 0,
+        "interval": 316,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 13,
+        "pay": {
+          "payalbum": 1,
+          "payalbumprice": 2000,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 1,
+          "paytrackmouth": 0,
+          "paytrackprice": 0,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 0
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 1471877,
+            "mid": "004OG5IM1BYEI3",
+            "name": "王一博"
+          }
+        ],
+        "size128": 5071314,
+        "size320": 12677963,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 65223849,
+        "sizeogg": 6833324,
+        "songid": 234119458,
+        "songmid": "0016VFTz1tWeXx",
+        "songname": "【蓝忘机】不忘",
+        "songorig": "【蓝忘机】不忘",
+        "songtype": 0,
+        "strMediaMid": "0016VFTz1tWeXx",
+        "stream": 1,
+        "switch": 594177,
+        "type": 0,
+        "vid": "n0031qg6eg5"
+      },
+      "in_count": "6",
+      "old_count": "24"
+    },
+    {
+      "Franking_value": "33",
+      "cur_count": "25",
+      "data": {
+        "albumdesc": "",
+        "albumid": 7243990,
+        "albummid": "004WXaO10CWsze",
+        "albumname": "We Boom - The 3rd Mini Album",
+        "alertid": 22,
+        "belongCD": 3,
+        "cdIdx": 0,
+        "interval": 239,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 13,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 1,
+          "paytrackmouth": 1,
+          "paytrackprice": 200,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 960887
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 1221053,
+            "mid": "004cyCLc1ByKPx",
+            "name": "NCT DREAM (엔시티 드림)"
+          }
+        ],
+        "size128": 3830851,
+        "size320": 9576259,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 32025387,
+        "sizeogg": 6046364,
+        "songid": 234984057,
+        "songmid": "001NuRZM0gQK0d",
+        "songname": "119",
+        "songorig": "119",
+        "songtype": 0,
+        "strMediaMid": "001NuRZM0gQK0d",
+        "stream": 1,
+        "switch": 17421569,
+        "type": 0,
+        "vid": ""
+      },
+      "in_count": "2",
+      "old_count": "33"
+    },
+    {
+      "Franking_value": "5",
+      "cur_count": "26",
+      "data": {
+        "albumdesc": "《乱世王者》手游·玩家故事主题曲",
+        "albumid": 7096138,
+        "albummid": "002BE7cO4JXBoF",
+        "albumname": "烽火成书",
+        "alertid": 2,
+        "belongCD": 1,
+        "cdIdx": 0,
+        "interval": 262,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 14,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 0,
+          "paytrackmouth": 1,
+          "paytrackprice": 200,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 960887
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 1507534,
+            "mid": "001BHDR33FZVZ0",
+            "name": "毛不易"
+          }
+        ],
+        "size128": 4204031,
+        "size320": 10509781,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 56566976,
+        "sizeogg": 6031290,
+        "songid": 233935486,
+        "songmid": "000cYd3N2Jyfk3",
+        "songname": "烽火成书",
+        "songorig": "烽火成书",
+        "songtype": 0,
+        "strMediaMid": "000cYd3N2Jyfk3",
+        "stream": 1,
+        "switch": 17409795,
+        "type": 0,
+        "vid": ""
+      },
+      "in_count": "25",
+      "old_count": "25"
+    },
+    {
+      "Franking_value": "35",
+      "cur_count": "27",
+      "data": {
+        "albumdesc": "",
+        "albumid": 7243990,
+        "albummid": "004WXaO10CWsze",
+        "albumname": "We Boom - The 3rd Mini Album",
+        "alertid": 22,
+        "belongCD": 2,
+        "cdIdx": 0,
+        "interval": 206,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 13,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 1,
+          "paytrackmouth": 1,
+          "paytrackprice": 200,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 960887
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 1221053,
+            "mid": "004cyCLc1ByKPx",
+            "name": "NCT DREAM (엔시티 드림)"
+          }
+        ],
+        "size128": 3305905,
+        "size320": 8264364,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 27002199,
+        "sizeogg": 4955418,
+        "songid": 234984058,
+        "songmid": "001Adp1x0EQOaE",
+        "songname": "STRONGER",
+        "songorig": "STRONGER",
+        "songtype": 0,
+        "strMediaMid": "001Adp1x0EQOaE",
+        "stream": 1,
+        "switch": 17421569,
+        "type": 0,
+        "vid": ""
+      },
+      "in_count": "2",
+      "old_count": "35"
+    },
+    {
+      "Franking_value": "20",
+      "cur_count": "28",
+      "data": {
+        "albumdesc": "《宸汐缘》电视剧插曲",
+        "albumid": 7186810,
+        "albummid": "0023Nv4P1grn4W",
+        "albumname": "鸟语林",
+        "alertid": 2,
+        "belongCD": 1,
+        "cdIdx": 0,
+        "interval": 259,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 14,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 0,
+          "paytrackmouth": 1,
+          "paytrackprice": 200,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 960887
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 1011983,
+            "mid": "001t94rh4OpQn0",
+            "name": "双笙"
+          }
+        ],
+        "size128": 4147601,
+        "size320": 10368714,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 55422799,
+        "sizeogg": 6130345,
+        "songid": 234629643,
+        "songmid": "000ZtjCJ3DUyY0",
+        "songname": "鸟语林",
+        "songorig": "鸟语林",
+        "songtype": 0,
+        "strMediaMid": "000ZtjCJ3DUyY0",
+        "stream": 1,
+        "switch": 17413891,
+        "type": 0,
+        "vid": ""
+      },
+      "in_count": "9",
+      "old_count": "29"
+    },
+    {
+      "Franking_value": "41",
+      "cur_count": "29",
+      "data": {
+        "albumdesc": "",
+        "albumid": 7243990,
+        "albummid": "004WXaO10CWsze",
+        "albumname": "We Boom - The 3rd Mini Album",
+        "alertid": 22,
+        "belongCD": 5,
+        "cdIdx": 0,
+        "interval": 204,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 13,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 1,
+          "paytrackmouth": 1,
+          "paytrackprice": 200,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 960887
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 1221053,
+            "mid": "004cyCLc1ByKPx",
+            "name": "NCT DREAM (엔시티 드림)"
+          }
+        ],
+        "size128": 3269548,
+        "size320": 8173139,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 22952300,
+        "sizeogg": 4700349,
+        "songid": 234984053,
+        "songmid": "001EzWjK14XYCO",
+        "songname": "Best Friend",
+        "songorig": "Best Friend",
+        "songtype": 0,
+        "strMediaMid": "001EzWjK14XYCO",
+        "stream": 1,
+        "switch": 17421569,
+        "type": 0,
+        "vid": ""
+      },
+      "in_count": "2",
+      "old_count": "41"
+    },
+    {
+      "Franking_value": "22",
+      "cur_count": "30",
+      "data": {
+        "albumdesc": "",
+        "albumid": 7096319,
+        "albummid": "002Tryw33HIGNP",
+        "albumname": "陈情令 国风音乐专辑",
+        "alertid": 7,
+        "belongCD": 15,
+        "cdIdx": 0,
+        "interval": 254,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 13,
+        "pay": {
+          "payalbum": 1,
+          "payalbumprice": 2000,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 1,
+          "paytrackmouth": 0,
+          "paytrackprice": 0,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 0
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 91610,
+            "mid": "001axJJM4SezGt",
+            "name": "银临"
+          }
+        ],
+        "size128": 4066117,
+        "size320": 10164977,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 29261400,
+        "sizeogg": 5870914,
+        "songid": 234119454,
+        "songmid": "003c61d31FW6FP",
+        "songname": "【插曲】意难平",
+        "songorig": "【插曲】意难平",
+        "songtype": 0,
+        "strMediaMid": "003c61d31FW6FP",
+        "stream": 1,
+        "switch": 594177,
+        "type": 0,
+        "vid": "p0031xy989a"
+      },
+      "in_count": "20",
+      "old_count": "27"
+    },
+    {
+      "Franking_value": "38",
+      "cur_count": "31",
+      "data": {
+        "albumdesc": "",
+        "albumid": 7243990,
+        "albummid": "004WXaO10CWsze",
+        "albumname": "We Boom - The 3rd Mini Album",
+        "alertid": 22,
+        "belongCD": 4,
+        "cdIdx": 0,
+        "interval": 207,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 13,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 1,
+          "paytrackmouth": 1,
+          "paytrackprice": 200,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 960887
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 1221053,
+            "mid": "004cyCLc1ByKPx",
+            "name": "NCT DREAM (엔시티 드림)"
+          }
+        ],
+        "size128": 3315928,
+        "size320": 8289213,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 25322024,
+        "sizeogg": 5038713,
+        "songid": 234984055,
+        "songmid": "002T1tx63rK0ko",
+        "songname": "再见初恋",
+        "songorig": "再见初恋",
+        "songtype": 0,
+        "strMediaMid": "002T1tx63rK0ko",
+        "stream": 1,
+        "switch": 17421569,
+        "type": 0,
+        "vid": ""
+      },
+      "in_count": "2",
+      "old_count": "38"
+    },
+    {
+      "Franking_value": "14",
+      "cur_count": "32",
+      "data": {
+        "albumdesc": "《宸汐缘》电视剧片头主题曲",
+        "albumid": 7164493,
+        "albummid": "004Vea452f96K4",
+        "albumname": "是缘",
+        "alertid": 2,
+        "belongCD": 1,
+        "cdIdx": 0,
+        "interval": 274,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 14,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 0,
+          "paytrackmouth": 1,
+          "paytrackprice": 200,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 0
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 11608,
+            "mid": "003tMm0y0TuewY",
+            "name": "杨宗纬"
+          }
+        ],
+        "size128": 4397120,
+        "size320": 10992516,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 28799358,
+        "sizeogg": 6102623,
+        "songid": 234430630,
+        "songmid": "004N829C38qQ4i",
+        "songname": "是缘",
+        "songorig": "是缘",
+        "songtype": 0,
+        "strMediaMid": "001pbfEC3dCITM",
+        "stream": 1,
+        "switch": 17413891,
+        "type": 0,
+        "vid": "i0031eg8xx8"
+      },
+      "in_count": "13",
+      "old_count": "26"
+    },
+    {
+      "Franking_value": "20",
+      "cur_count": "33",
+      "data": {
+        "albumdesc": "",
+        "albumid": 7096319,
+        "albummid": "002Tryw33HIGNP",
+        "albumname": "陈情令 国风音乐专辑",
+        "alertid": 7,
+        "belongCD": 3,
+        "cdIdx": 0,
+        "interval": 253,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 13,
+        "pay": {
+          "payalbum": 1,
+          "payalbumprice": 2000,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 1,
+          "paytrackmouth": 0,
+          "paytrackprice": 0,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 0
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 1060985,
+            "mid": "0022eAG537I1bg",
+            "name": "肖战"
+          }
+        ],
+        "size128": 4055246,
+        "size320": 10137806,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 29720753,
+        "sizeogg": 5944634,
+        "songid": 234119462,
+        "songmid": "0035gXZd23PAHQ",
+        "songname": "【主题曲】无羁（肖战 独唱版）",
+        "songorig": "【主题曲】无羁（肖战 独唱版）",
+        "songtype": 0,
+        "strMediaMid": "0035gXZd23PAHQ",
+        "stream": 1,
+        "switch": 594177,
+        "type": 0,
+        "vid": ""
+      },
+      "in_count": "20",
+      "old_count": "31"
+    },
+    {
+      "Franking_value": "7",
+      "cur_count": "34",
+      "data": {
+        "albumdesc": "《使徒行者2：谍影行动》电影主题曲",
+        "albumid": 7162783,
+        "albummid": "003r6H084Rsr41",
+        "albumname": "如约",
+        "alertid": 2,
+        "belongCD": 1,
+        "cdIdx": 0,
+        "interval": 288,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 14,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 0,
+          "paytrackmouth": 1,
+          "paytrackprice": 200,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 960887
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 1005787,
+            "mid": "001KH1tJ02U8KY",
+            "name": "摩登兄弟"
+          }
+        ],
+        "size128": 4610699,
+        "size320": 11526461,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 52698090,
+        "sizeogg": 5905657,
+        "songid": 234423829,
+        "songmid": "004FKATr1PB2ff",
+        "songname": "如约",
+        "songorig": "如约",
+        "songtype": 0,
+        "strMediaMid": "004FKATr1PB2ff",
+        "stream": 1,
+        "switch": 17413891,
+        "type": 0,
+        "vid": "o0031vnmgdo"
+      },
+      "in_count": "13",
+      "old_count": "30"
+    },
+    {
+      "Franking_value": "46",
+      "cur_count": "35",
+      "data": {
+        "albumdesc": "",
+        "albumid": 7243990,
+        "albummid": "004WXaO10CWsze",
+        "albumname": "We Boom - The 3rd Mini Album",
+        "alertid": 22,
+        "belongCD": 6,
+        "cdIdx": 0,
+        "interval": 224,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 13,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 1,
+          "paytrackmouth": 1,
+          "paytrackprice": 200,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 960887
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 1221053,
+            "mid": "004cyCLc1ByKPx",
+            "name": "NCT DREAM (엔시티 드림)"
+          }
+        ],
+        "size128": 3588447,
+        "size320": 8970717,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 28993152,
+        "sizeogg": 5414962,
+        "songid": 234984056,
+        "songmid": "002bWvFc4BMHKW",
+        "songname": "Dream Run",
+        "songorig": "Dream Run",
+        "songtype": 0,
+        "strMediaMid": "002bWvFc4BMHKW",
+        "stream": 1,
+        "switch": 17421569,
+        "type": 0,
+        "vid": ""
+      },
+      "in_count": "2",
+      "old_count": "46"
+    },
+    {
+      "Franking_value": "5",
+      "cur_count": "36",
+      "data": {
+        "albumdesc": "",
+        "albumid": 7089921,
+        "albummid": "003Uwz2p0PUPNA",
+        "albumname": "괜찮아도 괜찮아 (That's okay) (没关系)",
+        "alertid": 22,
+        "belongCD": 1,
+        "cdIdx": 0,
+        "interval": 221,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 13,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 1,
+          "paytrackmouth": 1,
+          "paytrackprice": 200,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 960887
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 165153,
+            "mid": "003GCOTD01jbLj",
+            "name": "D.O. (都暻秀)"
+          }
+        ],
+        "size128": 3543312,
+        "size320": 8857872,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 23848374,
+        "sizeogg": 4559016,
+        "songid": 233901194,
+        "songmid": "0044E7UB4GjnkK",
+        "songname": "괜찮아도 괜찮아 (That's okay) (没关系)",
+        "songorig": "괜찮아도 괜찮아 (That's okay)",
+        "songtype": 0,
+        "strMediaMid": "0044E7UB4GjnkK",
+        "stream": 1,
+        "switch": 17421569,
+        "type": 0,
+        "vid": "v00313g98yo"
+      },
+      "in_count": "27",
+      "old_count": "32"
+    },
+    {
+      "Franking_value": "36",
+      "cur_count": "37",
+      "data": {
+        "albumdesc": "",
+        "albumid": 7200510,
+        "albummid": "004PlBZ30MMiYr",
+        "albumname": "These Are The Times",
+        "alertid": 21,
+        "belongCD": 1,
+        "cdIdx": 0,
+        "interval": 188,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 14,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 0,
+          "paytrackmouth": 1,
+          "paytrackprice": 200,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 0
+        },
+        "rate": 7,
+        "singer": [
+          {
+            "id": 160774,
+            "mid": "003gHa6S2vmcbq",
+            "name": "Martin Garrix"
+          },
+          {
+            "id": 1392098,
+            "mid": "003BguKe1zo3Ju",
+            "name": "JRM"
+          }
+        ],
+        "size128": 3020033,
+        "size320": 7549665,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 0,
+        "sizeogg": 4498756,
+        "songid": 234708270,
+        "songmid": "000oGNRc3bniJH",
+        "songname": "These Are The Times",
+        "songorig": "These Are The Times",
+        "songtype": 0,
+        "strMediaMid": "000oGNRc3bniJH",
+        "stream": 1,
+        "switch": 17413891,
+        "type": 0,
+        "vid": "a0031tevfxr"
+      },
+      "in_count": "9",
+      "old_count": "36"
+    },
+    {
+      "Franking_value": "24",
+      "cur_count": "38",
+      "data": {
+        "albumdesc": "",
+        "albumid": 7096319,
+        "albummid": "002Tryw33HIGNP",
+        "albumname": "陈情令 国风音乐专辑",
+        "alertid": 7,
+        "belongCD": 9,
+        "cdIdx": 0,
+        "interval": 284,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 13,
+        "pay": {
+          "payalbum": 1,
+          "payalbumprice": 2000,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 1,
+          "paytrackmouth": 0,
+          "paytrackprice": 0,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 0
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 1321419,
+            "mid": "0042TlHo3Q4sUe",
+            "name": "刘海宽"
+          }
+        ],
+        "size128": 4558896,
+        "size320": 11396918,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 58589835,
+        "sizeogg": 6369283,
+        "songid": 234119456,
+        "songmid": "000E3ydA3jKCJW",
+        "songname": "【蓝曦臣】不由",
+        "songorig": "【蓝曦臣】不由",
+        "songtype": 0,
+        "strMediaMid": "000E3ydA3jKCJW",
+        "stream": 1,
+        "switch": 594177,
+        "type": 0,
+        "vid": ""
+      },
+      "in_count": "6",
+      "old_count": "39"
+    },
+    {
+      "Franking_value": "8",
+      "cur_count": "39",
+      "data": {
+        "albumdesc": "《银河补习班》电影推广曲",
+        "albumid": 7127676,
+        "albummid": "003e7ZYp0jwp9h",
+        "albumname": "相信你的人",
+        "alertid": 40,
+        "belongCD": 1,
+        "cdIdx": 0,
+        "interval": 274,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 0,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 0,
+          "payinfo": 1,
+          "payplay": 0,
+          "paytrackmouth": 1,
+          "paytrackprice": 200,
+          "timefree": 1
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 0
+        },
+        "rate": 7,
+        "singer": [
+          {
+            "id": 143,
+            "mid": "003Nz2So3XXYek",
+            "name": "陈奕迅"
+          }
+        ],
+        "size128": 4388801,
+        "size320": 10971658,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 0,
+        "sizeogg": 5366125,
+        "songid": 234163497,
+        "songmid": "000kCM271tnBIx",
+        "songname": "相信你的人",
+        "songorig": "相信你的人",
+        "songtype": 0,
+        "strMediaMid": "000kCM271tnBIx",
+        "stream": 1,
+        "switch": 636679,
+        "type": 0,
+        "vid": "k0031rcj4c2"
+      },
+      "in_count": "23",
+      "old_count": "47"
+    },
+    {
+      "Franking_value": "26",
+      "cur_count": "40",
+      "data": {
+        "albumdesc": "《德鲁纳酒店》韩剧插曲",
+        "albumid": 7200626,
+        "albummid": "004ATp4h4IOCHb",
+        "albumname": "호텔 델루나 OST Part.2 (德鲁纳酒店 OST Part.2)",
+        "alertid": 22,
+        "belongCD": 1,
+        "cdIdx": 0,
+        "interval": 210,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 13,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 1,
+          "paytrackmouth": 1,
+          "paytrackprice": 200,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 960887
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 25804,
+            "mid": "003iSnza20JVfx",
+            "name": "10cm (십센치)"
+          }
+        ],
+        "size128": 3374006,
+        "size320": 8434656,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 43112190,
+        "sizeogg": 4497451,
+        "songid": 234709152,
+        "songmid": "001EeeKJ1VH0Fh",
+        "songname": "나의 어깨에 기대어요 (Lean on me)",
+        "songorig": "나의 어깨에 기대어요",
+        "songtype": 0,
+        "strMediaMid": "001EeeKJ1VH0Fh",
+        "stream": 1,
+        "switch": 17421569,
+        "type": 0,
+        "vid": "t00315vcodv"
+      },
+      "in_count": "7",
+      "old_count": "40"
+    },
+    {
+      "Franking_value": "18",
+      "cur_count": "41",
+      "data": {
+        "albumdesc": "《请输入搜索词：WWW》韩剧插曲",
+        "albumid": 7123617,
+        "albummid": "003Z20cR0NUr9e",
+        "albumname": "검색어를 입력하세요 WWW OST Part 5 (请输入搜索词：WWW OST Part 5)",
+        "alertid": 22,
+        "belongCD": 1,
+        "cdIdx": 0,
+        "interval": 200,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 13,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 1,
+          "paytrackmouth": 1,
+          "paytrackprice": 200,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 960887
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 176744,
+            "mid": "001p5MSX07YGwi",
+            "name": "MAMAMOO (마마무)"
+          }
+        ],
+        "size128": 3216441,
+        "size320": 8040735,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 46731290,
+        "sizeogg": 5187985,
+        "songid": 234138704,
+        "songmid": "00385Kue2CWCG1",
+        "songname": "WOW",
+        "songorig": "WOW",
+        "songtype": 0,
+        "strMediaMid": "00385Kue2CWCG1",
+        "stream": 1,
+        "switch": 17421569,
+        "type": 0,
+        "vid": "s0031uwmt6u"
+      },
+      "in_count": "24",
+      "old_count": "37"
+    },
+    {
+      "Franking_value": "25",
+      "cur_count": "42",
+      "data": {
+        "albumdesc": "",
+        "albumid": 7096319,
+        "albummid": "002Tryw33HIGNP",
+        "albumname": "陈情令 国风音乐专辑",
+        "alertid": 7,
+        "belongCD": 4,
+        "cdIdx": 0,
+        "interval": 253,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 13,
+        "pay": {
+          "payalbum": 1,
+          "payalbumprice": 2000,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 1,
+          "paytrackmouth": 0,
+          "paytrackprice": 0,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 0
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 1471877,
+            "mid": "004OG5IM1BYEI3",
+            "name": "王一博"
+          }
+        ],
+        "size128": 4055248,
+        "size320": 10137808,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 30040520,
+        "sizeogg": 5899253,
+        "songid": 234119463,
+        "songmid": "001lSbF72AUZKB",
+        "songname": "【主题曲】无羁（王一博 独唱版）",
+        "songorig": "【主题曲】无羁（王一博 独唱版）",
+        "songtype": 0,
+        "strMediaMid": "001lSbF72AUZKB",
+        "stream": 1,
+        "switch": 594177,
+        "type": 0,
+        "vid": ""
+      },
+      "in_count": "20",
+      "old_count": "42"
+    },
+    {
+      "Franking_value": "29",
+      "cur_count": "43",
+      "data": {
+        "albumdesc": "",
+        "albumid": 7165102,
+        "albummid": "003nuEZN2Yz02O",
+        "albumname": "失眠",
+        "alertid": 2,
+        "belongCD": 1,
+        "cdIdx": 0,
+        "interval": 222,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 14,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 0,
+          "paytrackmouth": 1,
+          "paytrackprice": 200,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 960887
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 2369008,
+            "mid": "001GaMrB1a0yat",
+            "name": "Ice Paper"
+          }
+        ],
+        "size128": 3559542,
+        "size320": 8898553,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 45308319,
+        "sizeogg": 4859856,
+        "songid": 234435278,
+        "songmid": "0042LnBW3iL5Zi",
+        "songname": "失眠",
+        "songorig": "失眠",
+        "songtype": 0,
+        "strMediaMid": "0042LnBW3iL5Zi",
+        "stream": 1,
+        "switch": 17413891,
+        "type": 0,
+        "vid": ""
+      },
+      "in_count": "13",
+      "old_count": "51"
+    },
+    {
+      "Franking_value": "27",
+      "cur_count": "44",
+      "data": {
+        "albumdesc": "",
+        "albumid": 7096319,
+        "albummid": "002Tryw33HIGNP",
+        "albumname": "陈情令 国风音乐专辑",
+        "alertid": 7,
+        "belongCD": 11,
+        "cdIdx": 0,
+        "interval": 233,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 13,
+        "pay": {
+          "payalbum": 1,
+          "payalbumprice": 2000,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 1,
+          "paytrackmouth": 0,
+          "paytrackprice": 0,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 0
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 2141385,
+            "mid": "002b4zIq3s1zPX",
+            "name": "高秋梓"
+          }
+        ],
+        "size128": 3743044,
+        "size320": 9357281,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 50534952,
+        "sizeogg": 5323846,
+        "songid": 234119453,
+        "songmid": "0041LjP82qfueO",
+        "songname": "【温情】疏林如有诉",
+        "songorig": "【温情】疏林如有诉",
+        "songtype": 0,
+        "strMediaMid": "0041LjP82qfueO",
+        "stream": 1,
+        "switch": 594177,
+        "type": 0,
+        "vid": "k0031ixu2bb"
+      },
+      "in_count": "6",
+      "old_count": "43"
+    },
+    {
+      "Franking_value": "36",
+      "cur_count": "45",
+      "data": {
+        "albumdesc": "《魔道祖师》动画前尘篇片尾曲",
+        "albumid": 7139783,
+        "albummid": "000f4RF60A5lDH",
+        "albumname": "魔道祖师动画原声带",
+        "alertid": 21,
+        "belongCD": 2,
+        "cdIdx": 0,
+        "interval": 196,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 14,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 0,
+          "paytrackmouth": 1,
+          "paytrackprice": 200,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 960887
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 91610,
+            "mid": "001axJJM4SezGt",
+            "name": "银临"
+          }
+        ],
+        "size128": 3147016,
+        "size320": 7867225,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 38055585,
+        "sizeogg": 4431951,
+        "songid": 234246612,
+        "songmid": "004cpjt63NADye",
+        "songname": "问琴",
+        "songorig": "问琴",
+        "songtype": 0,
+        "strMediaMid": "004cpjt63NADye",
+        "stream": 1,
+        "switch": 17413891,
+        "type": 0,
+        "vid": "g0031t4m63j"
+      },
+      "in_count": "19",
+      "old_count": "57"
+    },
+    {
+      "Franking_value": "44",
+      "cur_count": "46",
+      "data": {
+        "albumdesc": "《天雷一部之春花秋月》电视剧片尾曲",
+        "albumid": 7130500,
+        "albummid": "00114Qgs28y0vr",
+        "albumname": "未完成的瞬间",
+        "alertid": 21,
+        "belongCD": 1,
+        "cdIdx": 0,
+        "interval": 271,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 14,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 0,
+          "paytrackmouth": 1,
+          "paytrackprice": 200,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 960887
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 199883,
+            "mid": "0004jpfm0BKFv6",
+            "name": "李宏毅"
+          }
+        ],
+        "size128": 4352415,
+        "size320": 10880728,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 30124090,
+        "sizeogg": 6235450,
+        "songid": 234178330,
+        "songmid": "003ezEFB0hmZlK",
+        "songname": "未完成的瞬间",
+        "songorig": "未完成的瞬间",
+        "songtype": 0,
+        "strMediaMid": "003ezEFB0hmZlK",
+        "stream": 1,
+        "switch": 17413891,
+        "type": 0,
+        "vid": ""
+      },
+      "in_count": "20",
+      "old_count": "56"
+    },
+    {
+      "Franking_value": "9",
+      "cur_count": "47",
+      "data": {
+        "albumdesc": "",
+        "albumid": 7165126,
+        "albummid": "0027xSBT3kSzyk",
+        "albumname": "一念之间",
+        "alertid": 21,
+        "belongCD": 1,
+        "cdIdx": 0,
+        "interval": 294,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 14,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 0,
+          "paytrackmouth": 1,
+          "paytrackprice": 200,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 960887
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 6499,
+            "mid": "002azErJ0UcDN6",
+            "name": "张杰"
+          }
+        ],
+        "size128": 4718119,
+        "size320": 11794661,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 58321361,
+        "sizeogg": 6448935,
+        "songid": 234435479,
+        "songmid": "000BbAjd0uSJYv",
+        "songname": "一念之间",
+        "songorig": "一念之间",
+        "songtype": 0,
+        "strMediaMid": "000BbAjd0uSJYv",
+        "stream": 1,
+        "switch": 17413891,
+        "type": 0,
+        "vid": ""
+      },
+      "in_count": "15",
+      "old_count": "50"
+    },
+    {
+      "Franking_value": "63",
+      "cur_count": "48",
+      "data": {
+        "albumdesc": "",
+        "albumid": 7240769,
+        "albummid": "001uuOXB0fZY0Z",
+        "albumname": "投名状（The Oath）",
+        "alertid": 11,
+        "belongCD": 1,
+        "cdIdx": 0,
+        "interval": 289,
+        "isonly": 0,
+        "label": "0",
+        "msgid": 0,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 0,
+          "payinfo": 0,
+          "payplay": 0,
+          "paytrackmouth": 0,
+          "paytrackprice": 0,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 960887
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 1121441,
+            "mid": "004LV0lb4fOw89",
+            "name": "GAI"
+          },
+          {
+            "id": 1539522,
+            "mid": "003Lrjje2DKfiq",
+            "name": "大傻DamnShine"
+          },
+          {
+            "id": 2148055,
+            "mid": "001fTI5Y1PL7Bz",
+            "name": "Ranzer"
+          }
+        ],
+        "size128": 4627838,
+        "size320": 11569053,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 62619545,
+        "sizeogg": 6469100,
+        "songid": 234964629,
+        "songmid": "000tyOR048mMVg",
+        "songname": "投名状（The Oath）",
+        "songorig": "投名状（The Oath）",
+        "songtype": 0,
+        "strMediaMid": "000tyOR048mMVg",
+        "stream": 1,
+        "switch": 605971,
+        "type": 0,
+        "vid": "i00318r2i7s"
+      },
+      "in_count": "2",
+      "old_count": "63"
+    },
+    {
+      "Franking_value": "8",
+      "cur_count": "49",
+      "data": {
+        "albumdesc": "",
+        "albumid": 7137443,
+        "albummid": "000ivjYl4eUvjy",
+        "albumname": "We don't talk together",
+        "alertid": 21,
+        "belongCD": 1,
+        "cdIdx": 0,
+        "interval": 199,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 14,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 0,
+          "paytrackmouth": 1,
+          "paytrackprice": 200,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 960887
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 946540,
+            "mid": "002aMjMG1OxMB5",
+            "name": "헤이즈 (Heize)"
+          },
+          {
+            "id": 57575,
+            "mid": "000Q7wkS323U2F",
+            "name": "기리보이 (Giriboy)"
+          }
+        ],
+        "size128": 3188932,
+        "size320": 7971848,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 46251086,
+        "sizeogg": 5103505,
+        "songid": 234232462,
+        "songmid": "000KKcHK4ZYcDo",
+        "songname": "We don't talk together(Prod. SUGA)",
+        "songorig": "We don't talk together(Prod. SUGA)",
+        "songtype": 0,
+        "strMediaMid": "000KKcHK4ZYcDo",
+        "stream": 1,
+        "switch": 17413891,
+        "type": 0,
+        "vid": "w00315mhu6j"
+      },
+      "in_count": "20",
+      "old_count": "48"
+    },
+    {
+      "Franking_value": "49",
+      "cur_count": "50",
+      "data": {
+        "albumdesc": "《沉默的证人》电影主题曲",
+        "albumid": 7205770,
+        "albummid": "001bz71f2VprGw",
+        "albumname": "打破沉默",
+        "alertid": 2,
+        "belongCD": 1,
+        "cdIdx": 0,
+        "interval": 190,
+        "isonly": 0,
+        "label": "0",
+        "msgid": 14,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 0,
+          "paytrackmouth": 1,
+          "paytrackprice": 200,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 960887
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 13537,
+            "mid": "003XbbyD06iu1p",
+            "name": "杨紫"
+          },
+          {
+            "id": 62,
+            "mid": "002cENGP2BtEVR",
+            "name": "任贤齐"
+          },
+          {
+            "id": 13716,
+            "mid": "001PVcZX1QojtW",
+            "name": "欧阳靖"
+          }
+        ],
+        "size128": 3054643,
+        "size320": 7636312,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 42980001,
+        "sizeogg": 4376472,
+        "songid": 234736246,
+        "songmid": "000ibvD52wgRl8",
+        "songname": "打破沉默",
+        "songorig": "打破沉默",
+        "songtype": 0,
+        "strMediaMid": "000ibvD52wgRl8",
+        "stream": 1,
+        "switch": 17413891,
+        "type": 0,
+        "vid": "k003179dluw"
+      },
+      "in_count": "6",
+      "old_count": "49"
+    },
+    {
+      "Franking_value": "9",
+      "cur_count": "51",
+      "data": {
+        "albumdesc": "《长安十二时辰》电视剧主题推广曲",
+        "albumid": 7098128,
+        "albummid": "001g37Bs1NN64j",
+        "albumname": "清平乐",
+        "alertid": 40,
+        "belongCD": 1,
+        "cdIdx": 0,
+        "interval": 179,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 0,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 0,
+          "payinfo": 1,
+          "payplay": 0,
+          "paytrackmouth": 1,
+          "paytrackprice": 200,
+          "timefree": 1
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 960887
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 2141439,
+            "mid": "003aimy84MvdqA",
+            "name": "火箭少女101紫宁"
+          }
+        ],
+        "size128": 2876601,
+        "size320": 7190869,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 35074585,
+        "sizeogg": 4157862,
+        "songid": 233944836,
+        "songmid": "003hIItM3MwRVK",
+        "songname": "清平乐",
+        "songorig": "清平乐",
+        "songtype": 0,
+        "strMediaMid": "003hIItM3MwRVK",
+        "stream": 1,
+        "switch": 636679,
+        "type": 0,
+        "vid": "p0031xh8oek"
+      },
+      "in_count": "25",
+      "old_count": "54"
+    },
+    {
+      "Franking_value": "26",
+      "cur_count": "52",
+      "data": {
+        "albumdesc": "",
+        "albumid": 7096319,
+        "albummid": "002Tryw33HIGNP",
+        "albumname": "陈情令 国风音乐专辑",
+        "alertid": 7,
+        "belongCD": 2,
+        "cdIdx": 0,
+        "interval": 254,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 13,
+        "pay": {
+          "payalbum": 1,
+          "payalbumprice": 2000,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 1,
+          "paytrackmouth": 0,
+          "paytrackprice": 0,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 0
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 4610,
+            "mid": "004HlS192u9J5g",
+            "name": "周笔畅"
+          }
+        ],
+        "size128": 4075758,
+        "size320": 10189038,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 23741994,
+        "sizeogg": 5436835,
+        "songid": 234119461,
+        "songmid": "001IfIWt0QizRp",
+        "songname": "【主题曲】无羁（ 周笔畅 特别版 ）",
+        "songorig": "【主题曲】无羁（ 周笔畅 特别版 ）",
+        "songtype": 0,
+        "strMediaMid": "001QGiX81lZ6VD",
+        "stream": 1,
+        "switch": 594177,
+        "type": 0,
+        "vid": "a0031cykaeb"
+      },
+      "in_count": "6",
+      "old_count": "55"
+    },
+    {
+      "Franking_value": "33",
+      "cur_count": "53",
+      "data": {
+        "albumdesc": "",
+        "albumid": 7231713,
+        "albummid": "001ZeJHC2bZPPi",
+        "albumname": "다 빛이나 (Gleam)",
+        "alertid": 21,
+        "belongCD": 1,
+        "cdIdx": 0,
+        "interval": 184,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 14,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 0,
+          "paytrackmouth": 1,
+          "paytrackprice": 200,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 960887
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 176744,
+            "mid": "001p5MSX07YGwi",
+            "name": "MAMAMOO (마마무)"
+          }
+        ],
+        "size128": 2951017,
+        "size320": 7377205,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 22908054,
+        "sizeogg": 4573104,
+        "songid": 234912641,
+        "songmid": "001W57FU09A8iE",
+        "songname": "다 빛이나 (Gleam)",
+        "songorig": "다 빛이나 (Gleam)",
+        "songtype": 0,
+        "strMediaMid": "001W57FU09A8iE",
+        "stream": 1,
+        "switch": 17413891,
+        "type": 0,
+        "vid": "u0031jyhvwy"
+      },
+      "in_count": "3",
+      "old_count": "52"
+    },
+    {
+      "Franking_value": "19",
+      "cur_count": "54",
+      "data": {
+        "albumdesc": "",
+        "albumid": 7175506,
+        "albummid": "0029uc7J1hB81F",
+        "albumname": "Fireflies - THE OFFICIAL SONG OF THE WORLD SCOUT FOUNDATION",
+        "alertid": 22,
+        "belongCD": 1,
+        "cdIdx": 0,
+        "interval": 200,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 13,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 1,
+          "paytrackmouth": 1,
+          "paytrackprice": 200,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 960887
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 1221053,
+            "mid": "004cyCLc1ByKPx",
+            "name": "NCT DREAM (엔시티 드림)"
+          }
+        ],
+        "size128": 3216943,
+        "size320": 8041864,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 26140020,
+        "sizeogg": 5158459,
+        "songid": 234543083,
+        "songmid": "0035kiTy1qBtam",
+        "songname": "Fireflies",
+        "songorig": "Fireflies",
+        "songtype": 0,
+        "strMediaMid": "0035kiTy1qBtam",
+        "stream": 1,
+        "switch": 17421569,
+        "type": 0,
+        "vid": ""
+      },
+      "in_count": "13",
+      "old_count": "53"
+    },
+    {
+      "Franking_value": "6",
+      "cur_count": "55",
+      "data": {
+        "albumdesc": "",
+        "albumid": 7128478,
+        "albummid": "001YOS0W3ZAWv0",
+        "albumname": "蝴蝶知道她爱谁",
+        "alertid": 21,
+        "belongCD": 1,
+        "cdIdx": 0,
+        "interval": 278,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 14,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 0,
+          "paytrackmouth": 1,
+          "paytrackprice": 200,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 960887
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 6499,
+            "mid": "002azErJ0UcDN6",
+            "name": "张杰"
+          }
+        ],
+        "size128": 4451891,
+        "size320": 11129416,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 53250791,
+        "sizeogg": 5969551,
+        "songid": 234167436,
+        "songmid": "002mmfW24W7bDu",
+        "songname": "蝴蝶知道她爱谁",
+        "songorig": "蝴蝶知道她爱谁",
+        "songtype": 0,
+        "strMediaMid": "002mmfW24W7bDu",
+        "stream": 1,
+        "switch": 17413891,
+        "type": 0,
+        "vid": ""
+      },
+      "in_count": "22",
+      "old_count": "68"
+    },
+    {
+      "Franking_value": "13",
+      "cur_count": "56",
+      "data": {
+        "albumdesc": "《狮子王》全球唯一国际版主题曲",
+        "albumid": 7185258,
+        "albummid": "003wRRpN4OjX9M",
+        "albumname": "今夜我属于爱情",
+        "alertid": 21,
+        "belongCD": 1,
+        "cdIdx": 0,
+        "interval": 185,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 14,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 0,
+          "paytrackmouth": 1,
+          "paytrackprice": 200,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 0
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 174,
+            "mid": "004Be55m1SJaLk",
+            "name": "张学友"
+          },
+          {
+            "id": 4161,
+            "mid": "000WivmL3V12Fc",
+            "name": "Beyoncé"
+          }
+        ],
+        "size128": 2967720,
+        "size320": 7418516,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 19597010,
+        "sizeogg": 3900786,
+        "songid": 234618323,
+        "songmid": "0027YKjK3kOEgy",
+        "songname": "今夜我属于爱情",
+        "songorig": "今夜我属于爱情",
+        "songtype": 0,
+        "strMediaMid": "0028PZey4aMZLg",
+        "stream": 1,
+        "switch": 17413891,
+        "type": 0,
+        "vid": "j0031oaw45m"
+      },
+      "in_count": "12",
+      "old_count": "58"
+    },
+    {
+      "Franking_value": "11",
+      "cur_count": "57",
+      "data": {
+        "albumdesc": "",
+        "albumid": 7096295,
+        "albummid": "002ci94M4fMYjm",
+        "albumname": "City Lights",
+        "alertid": 7,
+        "belongCD": 1,
+        "cdIdx": 0,
+        "interval": 235,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 13,
+        "pay": {
+          "payalbum": 1,
+          "payalbumprice": 1800,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 1,
+          "paytrackmouth": 0,
+          "paytrackprice": 0,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 0
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 940913,
+            "mid": "0029SxgR215af5",
+            "name": "伯贤 (백현)"
+          }
+        ],
+        "size128": 3769377,
+        "size320": 9422325,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 28460410,
+        "sizeogg": 5242525,
+        "songid": 233936469,
+        "songmid": "002OUbWj02qwNc",
+        "songname": "UN Village",
+        "songorig": "UN Village",
+        "songtype": 0,
+        "strMediaMid": "002OUbWj02qwNc",
+        "stream": 1,
+        "switch": 594177,
+        "type": 0,
+        "vid": "o0031uynzbi"
+      },
+      "in_count": "18",
+      "old_count": "62"
+    },
+    {
+      "Franking_value": "18",
+      "cur_count": "58",
+      "data": {
+        "albumdesc": "",
+        "albumid": 7198552,
+        "albummid": "001wTT6U3cXe0g",
+        "albumname": "Long Flight",
+        "alertid": 22,
+        "belongCD": 1,
+        "cdIdx": 0,
+        "interval": 198,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 13,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 1,
+          "paytrackmouth": 1,
+          "paytrackprice": 200,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 960887
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 1480130,
+            "mid": "002ZHmp02EFtH4",
+            "name": "태용 (泰容)"
+          }
+        ],
+        "size128": 3173788,
+        "size320": 7934134,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 25558358,
+        "sizeogg": 4798778,
+        "songid": 234700058,
+        "songmid": "003hqU0X0esryG",
+        "songname": "Long Flight",
+        "songorig": "Long Flight",
+        "songtype": 0,
+        "strMediaMid": "003hqU0X0esryG",
+        "stream": 1,
+        "switch": 17421569,
+        "type": 0,
+        "vid": "o0031yzcq95"
+      },
+      "in_count": "10",
+      "old_count": "59"
+    },
+    {
+      "Franking_value": "21",
+      "cur_count": "59",
+      "data": {
+        "albumdesc": "",
+        "albumid": 7170994,
+        "albummid": "004Nr7vW1sXkXR",
+        "albumname": "《明日之子》水晶时代 第四期（纯享版）",
+        "alertid": 42,
+        "belongCD": 17,
+        "cdIdx": 0,
+        "interval": 222,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 13,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 1,
+          "paytrackmouth": 1,
+          "paytrackprice": 200,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 960887
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 3305674,
+            "mid": "004XXbzU3d2ASF",
+            "name": "冯希瑶"
+          }
+        ],
+        "size128": 3558314,
+        "size320": 8895444,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 42231399,
+        "sizeogg": 4508469,
+        "songid": 234481953,
+        "songmid": "002CcxGj31FayO",
+        "songname": "那个男人 (纯享版)",
+        "songorig": "那个男人",
+        "songtype": 0,
+        "strMediaMid": "002CcxGj31FayO",
+        "stream": 1,
+        "switch": 17405185,
+        "type": 0,
+        "vid": ""
+      },
+      "in_count": "14",
+      "old_count": "60"
+    },
+    {
+      "Franking_value": "34",
+      "cur_count": "60",
+      "data": {
+        "albumdesc": "",
+        "albumid": 7240067,
+        "albummid": "001kF8qB3T7XcL",
+        "albumname": "？？-Ⅰ",
+        "alertid": 22,
+        "belongCD": 1,
+        "cdIdx": 0,
+        "interval": 356,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 13,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 1,
+          "paytrackmouth": 1,
+          "paytrackprice": 200,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 960887
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 940748,
+            "mid": "004WgCsE3KBddt",
+            "name": "陈粒"
+          }
+        ],
+        "size128": 5707844,
+        "size320": 14269320,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 72058035,
+        "sizeogg": 8217396,
+        "songid": 234962751,
+        "songmid": "004EMhdU3klkCf",
+        "songname": "有雾来",
+        "songorig": "有雾来",
+        "songtype": 0,
+        "strMediaMid": "004EMhdU3klkCf",
+        "stream": 1,
+        "switch": 17405185,
+        "type": 0,
+        "vid": ""
+      },
+      "in_count": "2",
+      "old_count": "34"
+    },
+    {
+      "Franking_value": "41",
+      "cur_count": "61",
+      "data": {
+        "albumdesc": "",
+        "albumid": 7127700,
+        "albummid": "001PYyFv2jGfL1",
+        "albumname": "Goodbyes (Explicit)",
+        "alertid": 21,
+        "belongCD": 1,
+        "cdIdx": 0,
+        "interval": 174,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 14,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 0,
+          "paytrackmouth": 1,
+          "paytrackprice": 200,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 0
+        },
+        "rate": 7,
+        "singer": [
+          {
+            "id": 968065,
+            "mid": "000IDHDK3CxrAZ",
+            "name": "Post Malone"
+          },
+          {
+            "id": 175022,
+            "mid": "003FLtGb2Otuyw",
+            "name": "Young Thug"
+          }
+        ],
+        "size128": 2800556,
+        "size320": 7000898,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 0,
+        "sizeogg": 4033115,
+        "songid": 234163624,
+        "songmid": "000Tvt5O4OVoNh",
+        "songname": "Goodbyes (Explicit)",
+        "songorig": "Goodbyes",
+        "songtype": 0,
+        "strMediaMid": "000Tvt5O4OVoNh",
+        "stream": 1,
+        "switch": 17413891,
+        "type": 0,
+        "vid": "j0031hbjtxi"
+      },
+      "in_count": "22",
+      "old_count": "65"
+    },
+    {
+      "Franking_value": "0",
+      "cur_count": "62",
+      "data": {
+        "albumdesc": "",
+        "albumid": 7204260,
+        "albummid": "003umWnB3mpIGZ",
+        "albumname": "别懂李宗盛",
+        "alertid": 11,
+        "belongCD": 1,
+        "cdIdx": 0,
+        "interval": 299,
+        "isonly": 0,
+        "label": "0",
+        "msgid": 0,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 0,
+          "payinfo": 0,
+          "payplay": 0,
+          "paytrackmouth": 0,
+          "paytrackprice": 0,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 0
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 2174935,
+            "mid": "003qgGOe1Gcnz9",
+            "name": "王弦"
+          }
+        ],
+        "size128": 4785414,
+        "size320": 11963236,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 27577019,
+        "sizeogg": 6165477,
+        "songid": 234730460,
+        "songmid": "000Ap0Zv2VGGWl",
+        "songname": "别懂李宗盛",
+        "songorig": "别懂李宗盛",
+        "songtype": 0,
+        "strMediaMid": "000Ap0Zv2VGGWl",
+        "stream": 1,
+        "switch": 605971,
+        "type": 0,
+        "vid": ""
+      },
+      "in_count": "1",
+      "old_count": "0"
+    },
+    {
+      "Franking_value": "44",
+      "cur_count": "63",
+      "data": {
+        "albumdesc": "",
+        "albumid": 7240067,
+        "albummid": "001kF8qB3T7XcL",
+        "albumname": "？？-Ⅰ",
+        "alertid": 22,
+        "belongCD": 3,
+        "cdIdx": 0,
+        "interval": 291,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 13,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 1,
+          "paytrackmouth": 1,
+          "paytrackprice": 200,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 960887
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 940748,
+            "mid": "004WgCsE3KBddt",
+            "name": "陈粒"
+          }
+        ],
+        "size128": 4662948,
+        "size320": 11656784,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 59984861,
+        "sizeogg": 6816915,
+        "songid": 234962752,
+        "songmid": "003D4Dnd2NGhuj",
+        "songname": "山水人物",
+        "songorig": "山水人物",
+        "songtype": 0,
+        "strMediaMid": "003D4Dnd2NGhuj",
+        "stream": 1,
+        "switch": 17421569,
+        "type": 0,
+        "vid": ""
+      },
+      "in_count": "2",
+      "old_count": "44"
+    },
+    {
+      "Franking_value": "61",
+      "cur_count": "64",
+      "data": {
+        "albumdesc": "《银河补习班》电影主题曲",
+        "albumid": 7193851,
+        "albummid": "000HYFAR1prGRD",
+        "albumname": "银河里最像的人",
+        "alertid": 2,
+        "belongCD": 1,
+        "cdIdx": 0,
+        "interval": 217,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 14,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 0,
+          "paytrackmouth": 1,
+          "paytrackprice": 200,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 960887
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 12530,
+            "mid": "0039Dmhi0dVZc9",
+            "name": "邓超"
+          }
+        ],
+        "size128": 3476792,
+        "size320": 8691669,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 46700027,
+        "sizeogg": 4986173,
+        "songid": 234676620,
+        "songmid": "002Uu4d10Fa9G6",
+        "songname": "银河里最像的人",
+        "songorig": "银河里最像的人",
+        "songtype": 0,
+        "strMediaMid": "002Uu4d10Fa9G6",
+        "stream": 1,
+        "switch": 17413891,
+        "type": 0,
+        "vid": "l0031ul1axi"
+      },
+      "in_count": "3",
+      "old_count": "61"
+    },
+    {
+      "Franking_value": "66",
+      "cur_count": "65",
+      "data": {
+        "albumdesc": "",
+        "albumid": 7158382,
+        "albummid": "001KND8n17vQ1B",
+        "albumname": "酒过三巡",
+        "alertid": 11,
+        "belongCD": 1,
+        "cdIdx": 0,
+        "interval": 198,
+        "isonly": 0,
+        "label": "0",
+        "msgid": 0,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 0,
+          "payinfo": 0,
+          "payplay": 0,
+          "paytrackmouth": 0,
+          "paytrackprice": 0,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 960887
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 1521450,
+            "mid": "001GKOtx2GKTwL",
+            "name": "福克斯"
+          }
+        ],
+        "size128": 3178777,
+        "size320": 7946647,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 22934764,
+        "sizeogg": 4692780,
+        "songid": 234381615,
+        "songmid": "0022fy204gLlN7",
+        "songname": "酒过三巡",
+        "songorig": "酒过三巡",
+        "songtype": 0,
+        "strMediaMid": "0022fy204gLlN7",
+        "stream": 1,
+        "switch": 605971,
+        "type": 0,
+        "vid": ""
+      },
+      "in_count": "10",
+      "old_count": "83"
+    },
+    {
+      "Franking_value": "33",
+      "cur_count": "66",
+      "data": {
+        "albumdesc": "",
+        "albumid": 7094725,
+        "albummid": "000d4ZXm4JElgo",
+        "albumname": "哇",
+        "alertid": 7,
+        "belongCD": 1,
+        "cdIdx": 0,
+        "interval": 221,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 14,
+        "pay": {
+          "payalbum": 1,
+          "payalbumprice": 2000,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 0,
+          "paytrackmouth": 0,
+          "paytrackprice": 0,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 0
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 4615,
+            "mid": "002ZOuVm3Qn20Y",
+            "name": "李宇春"
+          }
+        ],
+        "size128": 3541554,
+        "size320": 8853606,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 48726999,
+        "sizeogg": 5306000,
+        "songid": 233927403,
+        "songmid": "001Hywpv42Rer5",
+        "songname": "哇",
+        "songorig": "哇",
+        "songtype": 0,
+        "strMediaMid": "001Hywpv42Rer5",
+        "stream": 1,
+        "switch": 602883,
+        "type": 0,
+        "vid": "t00314iusze"
+      },
+      "in_count": "4",
+      "old_count": "72"
+    },
+    {
+      "Franking_value": "10",
+      "cur_count": "67",
+      "data": {
+        "albumdesc": "《深夜食堂》电影片尾曲",
+        "albumid": 7138874,
+        "albummid": "002pb7oQ0XjSrd",
+        "albumname": "都是夜归人",
+        "alertid": 2,
+        "belongCD": 1,
+        "cdIdx": 0,
+        "interval": 248,
+        "isonly": 0,
+        "label": "0",
+        "msgid": 14,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 0,
+          "paytrackmouth": 1,
+          "paytrackprice": 200,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 960887
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 154330,
+            "mid": "000t1B6X1OCGos",
+            "name": "阿云嘎"
+          },
+          {
+            "id": 2696301,
+            "mid": "0010ZEtk1CMl32",
+            "name": "郑云龙"
+          }
+        ],
+        "size128": 3975829,
+        "size320": 9939271,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 51193312,
+        "sizeogg": 5266520,
+        "songid": 234240983,
+        "songmid": "004AwXJk3PdFub",
+        "songname": "都是夜归人",
+        "songorig": "都是夜归人",
+        "songtype": 0,
+        "strMediaMid": "004AwXJk3PdFub",
+        "stream": 1,
+        "switch": 17413891,
+        "type": 0,
+        "vid": "g00317jbt3o"
+      },
+      "in_count": "19",
+      "old_count": "67"
+    },
+    {
+      "Franking_value": "0",
+      "cur_count": "68",
+      "data": {
+        "albumdesc": "",
+        "albumid": 7250722,
+        "albummid": "002cPglG0btYmB",
+        "albumname": "《明日之子》水晶时代 第六期（纯享版）",
+        "alertid": 42,
+        "belongCD": 20,
+        "cdIdx": 0,
+        "interval": 210,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 13,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 1,
+          "paytrackmouth": 1,
+          "paytrackprice": 200,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 960887
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 165743,
+            "mid": "0028F2cT0zWp5a",
+            "name": "张钰琪"
+          }
+        ],
+        "size128": 3365631,
+        "size320": 8413742,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 41992063,
+        "sizeogg": 4455046,
+        "songid": 235021812,
+        "songmid": "002jC7Wx1IC0XW",
+        "songname": "回答 (纯享版)",
+        "songorig": "回答",
+        "songtype": 0,
+        "strMediaMid": "002jC7Wx1IC0XW",
+        "stream": 1,
+        "switch": 17405185,
+        "type": 0,
+        "vid": "i0031qkl9od"
+      },
+      "in_count": "1",
+      "old_count": "0"
+    },
+    {
+      "Franking_value": "30",
+      "cur_count": "69",
+      "data": {
+        "albumdesc": "《扫毒2》主题曲",
+        "albumid": 7076941,
+        "albummid": "0012gZGH0DgfVJ",
+        "albumname": "兄弟不怀疑",
+        "alertid": 11,
+        "belongCD": 1,
+        "cdIdx": 0,
+        "interval": 250,
+        "isonly": 0,
+        "label": "0",
+        "msgid": 0,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 0,
+          "payinfo": 0,
+          "payplay": 0,
+          "paytrackmouth": 0,
+          "paytrackprice": 0,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 960887
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 163,
+            "mid": "003aQYLo2x8izP",
+            "name": "刘德华"
+          },
+          {
+            "id": 4991,
+            "mid": "003iS0ID43LIxm",
+            "name": "古天乐"
+          }
+        ],
+        "size128": 4003833,
+        "size320": 10009082,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 51824959,
+        "sizeogg": 5489032,
+        "songid": 233785021,
+        "songmid": "003MWhO82Cm509",
+        "songname": "兄弟不怀疑",
+        "songorig": "兄弟不怀疑",
+        "songtype": 0,
+        "strMediaMid": "003MWhO82Cm509",
+        "stream": 1,
+        "switch": 605971,
+        "type": 0,
+        "vid": "d0031r4ejr2"
+      },
+      "in_count": "30",
+      "old_count": "74"
+    },
+    {
+      "Franking_value": "30",
+      "cur_count": "70",
+      "data": {
+        "albumdesc": "",
+        "albumid": 7120400,
+        "albummid": "0041ioCQ3EdzSH",
+        "albumname": "归 Way Back Home",
+        "alertid": 2,
+        "belongCD": 1,
+        "cdIdx": 0,
+        "interval": 216,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 14,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 0,
+          "paytrackmouth": 1,
+          "paytrackprice": 200,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 0
+        },
+        "rate": 7,
+        "singer": [
+          {
+            "id": 197898,
+            "mid": "004569pS4AaBj8",
+            "name": "CORSAK"
+          }
+        ],
+        "size128": 3463457,
+        "size320": 8658272,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 0,
+        "sizeogg": 5235103,
+        "songid": 234120964,
+        "songmid": "0028bwdS26w5He",
+        "songname": "归 Way Back Home",
+        "songorig": "归 Way Back Home",
+        "songtype": 0,
+        "strMediaMid": "0028bwdS26w5He",
+        "stream": 1,
+        "switch": 17413891,
+        "type": 0,
+        "vid": ""
+      },
+      "in_count": "23",
+      "old_count": "69"
+    },
+    {
+      "Franking_value": "73",
+      "cur_count": "71",
+      "data": {
+        "albumdesc": "",
+        "albumid": 7236024,
+        "albummid": "00327vCc3sYNKr",
+        "albumname": "World War Joy...Takeaway (Explicit)",
+        "alertid": 21,
+        "belongCD": 1,
+        "cdIdx": 0,
+        "interval": 209,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 14,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 0,
+          "paytrackmouth": 1,
+          "paytrackprice": 200,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 0
+        },
+        "rate": 7,
+        "singer": [
+          {
+            "id": 156095,
+            "mid": "004ABIFV1EZUAj",
+            "name": "The Chainsmokers"
+          },
+          {
+            "id": 972981,
+            "mid": "0020hNzE3kGP45",
+            "name": "ILLENIUM"
+          },
+          {
+            "id": 159908,
+            "mid": "002ykwdV2Swpub",
+            "name": "Lennon Stella"
+          }
+        ],
+        "size128": 3359412,
+        "size320": 8398119,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 0,
+        "sizeogg": 4637929,
+        "songid": 234939651,
+        "songmid": "0003YGFf0xQXAJ",
+        "songname": "Takeaway",
+        "songorig": "Takeaway",
+        "songtype": 0,
+        "strMediaMid": "0003YGFf0xQXAJ",
+        "stream": 1,
+        "switch": 17413891,
+        "type": 0,
+        "vid": "l0031btc27e"
+      },
+      "in_count": "3",
+      "old_count": "73"
+    },
+    {
+      "Franking_value": "14",
+      "cur_count": "72",
+      "data": {
+        "albumdesc": "",
+        "albumid": 7125779,
+        "albummid": "000zRAno4MJEN0",
+        "albumname": "巴别塔庆典",
+        "alertid": 21,
+        "belongCD": 1,
+        "cdIdx": 0,
+        "interval": 212,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 14,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 0,
+          "paytrackmouth": 1,
+          "paytrackprice": 200,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 960887
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 14013,
+            "mid": "004COQ9L4X13uj",
+            "name": "吴青峰"
+          }
+        ],
+        "size128": 3393194,
+        "size320": 8482683,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 47042133,
+        "sizeogg": 4974356,
+        "songid": 234148943,
+        "songmid": "000QAHtT3458sL",
+        "songname": "巴别塔庆典",
+        "songorig": "巴别塔庆典",
+        "songtype": 0,
+        "strMediaMid": "000QAHtT3458sL",
+        "stream": 1,
+        "switch": 17413891,
+        "type": 0,
+        "vid": "j0031xsrcv9"
+      },
+      "in_count": "23",
+      "old_count": "88"
+    },
+    {
+      "Franking_value": "25",
+      "cur_count": "73",
+      "data": {
+        "albumdesc": "",
+        "albumid": 7170994,
+        "albummid": "004Nr7vW1sXkXR",
+        "albumname": "《明日之子》水晶时代 第四期（纯享版）",
+        "alertid": 42,
+        "belongCD": 23,
+        "cdIdx": 0,
+        "interval": 208,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 13,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 1,
+          "paytrackmouth": 1,
+          "paytrackprice": 200,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 960887
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 3305637,
+            "mid": "003Q4Uvt3gj7H9",
+            "name": "洪一诺"
+          }
+        ],
+        "size128": 3344323,
+        "size320": 8360460,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 40796746,
+        "sizeogg": 4307294,
+        "songid": 234481950,
+        "songmid": "001HJriT40crse",
+        "songname": "假如我是真的 (纯享版)",
+        "songorig": "假如我是真的",
+        "songtype": 0,
+        "strMediaMid": "001HJriT40crse",
+        "stream": 1,
+        "switch": 17405185,
+        "type": 0,
+        "vid": ""
+      },
+      "in_count": "14",
+      "old_count": "80"
+    },
+    {
+      "Franking_value": "75",
+      "cur_count": "74",
+      "data": {
+        "albumdesc": "",
+        "albumid": 7204424,
+        "albummid": "004AFMNQ3lgrjE",
+        "albumname": "How Do You Sleep?",
+        "alertid": 21,
+        "belongCD": 1,
+        "cdIdx": 0,
+        "interval": 202,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 14,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 0,
+          "paytrackmouth": 1,
+          "paytrackprice": 200,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 0
+        },
+        "rate": 7,
+        "singer": [
+          {
+            "id": 157918,
+            "mid": "001opJBA3LDeSz",
+            "name": "Sam Smith"
+          }
+        ],
+        "size128": 3236520,
+        "size320": 8090907,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 0,
+        "sizeogg": 4663212,
+        "songid": 234731138,
+        "songmid": "003tsrku4Qb8DE",
+        "songname": "How Do You Sleep?",
+        "songorig": "How Do You Sleep?",
+        "songtype": 0,
+        "strMediaMid": "003tsrku4Qb8DE",
+        "stream": 1,
+        "switch": 17413891,
+        "type": 0,
+        "vid": "i0031u4d65p"
+      },
+      "in_count": "2",
+      "old_count": "75"
+    },
+    {
+      "Franking_value": "39",
+      "cur_count": "75",
+      "data": {
+        "albumdesc": "",
+        "albumid": 7197220,
+        "albummid": "004VaOJ60Mpgnw",
+        "albumname": "What a life - The 1st Mini Album",
+        "alertid": 7,
+        "belongCD": 1,
+        "cdIdx": 0,
+        "interval": 203,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 13,
+        "pay": {
+          "payalbum": 1,
+          "payalbumprice": 1800,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 1,
+          "paytrackmouth": 0,
+          "paytrackprice": 0,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 0
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 3361839,
+            "mid": "003ylKnt4YOaTI",
+            "name": "EXO-SC"
+          }
+        ],
+        "size128": 3263231,
+        "size320": 8157604,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 25656228,
+        "sizeogg": 5246953,
+        "songid": 234696068,
+        "songmid": "001d2wZl2xVvh1",
+        "songname": "What a life",
+        "songorig": "What a life",
+        "songtype": 0,
+        "strMediaMid": "001d2wZl2xVvh1",
+        "stream": 1,
+        "switch": 594177,
+        "type": 0,
+        "vid": "g0031w9po6o"
+      },
+      "in_count": "6",
+      "old_count": "71"
+    },
+    {
+      "Franking_value": "45",
+      "cur_count": "76",
+      "data": {
+        "albumdesc": "《狮子王》电影插曲",
+        "albumid": 7159870,
+        "albummid": "002Z7kaR2vjGyj",
+        "albumname": "The Lion King (Original Motion Picture Soundtrack)",
+        "alertid": 21,
+        "belongCD": 12,
+        "cdIdx": 0,
+        "interval": 182,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 14,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 0,
+          "paytrackmouth": 1,
+          "paytrackprice": 200,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 0
+        },
+        "rate": 7,
+        "singer": [
+          {
+            "id": 4161,
+            "mid": "000WivmL3V12Fc",
+            "name": "Beyoncé"
+          },
+          {
+            "id": 56600,
+            "mid": "003b7jFs10kzVP",
+            "name": "Donald Glover"
+          },
+          {
+            "id": 1102559,
+            "mid": "00009Sox1ESlcj",
+            "name": "Billy Eichner"
+          },
+          {
+            "id": 172972,
+            "mid": "001ir3zD1Jw6l1",
+            "name": "Seth Rogen"
+          }
+        ],
+        "size128": 2923134,
+        "size320": 7307317,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 0,
+        "sizeogg": 3807944,
+        "songid": 234395175,
+        "songmid": "001ZsYoa2CpfBT",
+        "songname": "Can You Feel the Love Tonight",
+        "songorig": "Can You Feel the Love Tonight",
+        "songtype": 0,
+        "strMediaMid": "001ZsYoa2CpfBT",
+        "stream": 1,
+        "switch": 17409795,
+        "type": 0,
+        "vid": ""
+      },
+      "in_count": "15",
+      "old_count": "91"
+    },
+    {
+      "Franking_value": "27",
+      "cur_count": "77",
+      "data": {
+        "albumdesc": "",
+        "albumid": 7177840,
+        "albummid": "003057IK3VkHLe",
+        "albumname": "陪我做梦",
+        "alertid": 2,
+        "belongCD": 1,
+        "cdIdx": 0,
+        "interval": 225,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 14,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 0,
+          "paytrackmouth": 1,
+          "paytrackprice": 200,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 960887
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 3153093,
+            "mid": "003K8Fd33QtWMb",
+            "name": "李鑫一"
+          }
+        ],
+        "size128": 3608021,
+        "size320": 9019716,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 50684015,
+        "sizeogg": 5073682,
+        "songid": 234564000,
+        "songmid": "002SNJIU33W6vT",
+        "songname": "陪我做梦",
+        "songorig": "陪我做梦",
+        "songtype": 0,
+        "strMediaMid": "002SNJIU33W6vT",
+        "stream": 1,
+        "switch": 17413891,
+        "type": 0,
+        "vid": ""
+      },
+      "in_count": "12",
+      "old_count": "78"
+    },
+    {
+      "Franking_value": "0",
+      "cur_count": "78",
+      "data": {
+        "albumdesc": "《斗罗大陆·精英赛》动画主题曲",
+        "albumid": 7098679,
+        "albummid": "003DfJ5i4BJK16",
+        "albumname": "不抛弃不放弃",
+        "alertid": 21,
+        "belongCD": 1,
+        "cdIdx": 0,
+        "interval": 219,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 14,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 0,
+          "paytrackmouth": 1,
+          "paytrackprice": 200,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 960887
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 2176319,
+            "mid": "001O93tk2nlY9T",
+            "name": "ONER"
+          }
+        ],
+        "size128": 3506467,
+        "size320": 8765857,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 51585726,
+        "sizeogg": 5198370,
+        "songid": 233946583,
+        "songmid": "003jLhNi0DDoTP",
+        "songname": "不抛弃不放弃",
+        "songorig": "不抛弃不放弃",
+        "songtype": 0,
+        "strMediaMid": "003jLhNi0DDoTP",
+        "stream": 1,
+        "switch": 17413891,
+        "type": 0,
+        "vid": "i0031hjd7u1"
+      },
+      "in_count": "1",
+      "old_count": "0"
+    },
+    {
+      "Franking_value": "19",
+      "cur_count": "79",
+      "data": {
+        "albumdesc": "",
+        "albumid": 7096295,
+        "albummid": "002ci94M4fMYjm",
+        "albumname": "City Lights",
+        "alertid": 7,
+        "belongCD": 3,
+        "cdIdx": 0,
+        "interval": 201,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 13,
+        "pay": {
+          "payalbum": 1,
+          "payalbumprice": 1800,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 1,
+          "paytrackmouth": 0,
+          "paytrackprice": 0,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 0
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 940913,
+            "mid": "0029SxgR215af5",
+            "name": "伯贤 (백현)"
+          }
+        ],
+        "size128": 3224769,
+        "size320": 8061601,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 26493095,
+        "sizeogg": 4689476,
+        "songid": 233936473,
+        "songmid": "003OnMSc49ERVV",
+        "songname": "Betcha",
+        "songorig": "Betcha",
+        "songtype": 0,
+        "strMediaMid": "003OnMSc49ERVV",
+        "stream": 1,
+        "switch": 590081,
+        "type": 0,
+        "vid": ""
+      },
+      "in_count": "18",
+      "old_count": "86"
+    },
+    {
+      "Franking_value": "32",
+      "cur_count": "80",
+      "data": {
+        "albumdesc": "",
+        "albumid": 7094725,
+        "albummid": "000d4ZXm4JElgo",
+        "albumname": "哇",
+        "alertid": 7,
+        "belongCD": 5,
+        "cdIdx": 0,
+        "interval": 168,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 13,
+        "pay": {
+          "payalbum": 1,
+          "payalbumprice": 2000,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 1,
+          "paytrackmouth": 0,
+          "paytrackprice": 0,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 0
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 4615,
+            "mid": "002ZOuVm3Qn20Y",
+            "name": "李宇春"
+          }
+        ],
+        "size128": 2691011,
+        "size320": 6727243,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 35413530,
+        "sizeogg": 3899539,
+        "songid": 233927397,
+        "songmid": "000RgJpK2NWpJV",
+        "songname": "给女孩",
+        "songorig": "给女孩",
+        "songtype": 0,
+        "strMediaMid": "000RgJpK2NWpJV",
+        "stream": 1,
+        "switch": 594177,
+        "type": 0,
+        "vid": ""
+      },
+      "in_count": "4",
+      "old_count": "70"
+    },
+    {
+      "Franking_value": "45",
+      "cur_count": "81",
+      "data": {
+        "albumdesc": "",
+        "albumid": 7240067,
+        "albummid": "001kF8qB3T7XcL",
+        "albumname": "？？-Ⅰ",
+        "alertid": 22,
+        "belongCD": 2,
+        "cdIdx": 0,
+        "interval": 242,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 13,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 1,
+          "paytrackmouth": 1,
+          "paytrackprice": 200,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 960887
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 940748,
+            "mid": "004WgCsE3KBddt",
+            "name": "陈粒"
+          }
+        ],
+        "size128": 3888050,
+        "size320": 9719835,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 48965503,
+        "sizeogg": 5615008,
+        "songid": 234962754,
+        "songmid": "000CtJF24INdx9",
+        "songname": "第七日",
+        "songorig": "第七日",
+        "songtype": 0,
+        "strMediaMid": "000CtJF24INdx9",
+        "stream": 1,
+        "switch": 17405185,
+        "type": 0,
+        "vid": ""
+      },
+      "in_count": "2",
+      "old_count": "45"
+    },
+    {
+      "Franking_value": "64",
+      "cur_count": "82",
+      "data": {
+        "albumdesc": "",
+        "albumid": 7227614,
+        "albummid": "002L9EkA0RDNxP",
+        "albumname": "color on me",
+        "alertid": 21,
+        "belongCD": 3,
+        "cdIdx": 0,
+        "interval": 182,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 14,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 0,
+          "paytrackmouth": 1,
+          "paytrackprice": 200,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 0
+        },
+        "rate": 7,
+        "singer": [
+          {
+            "id": 1495525,
+            "mid": "0002WcZ72HVZPd",
+            "name": "강다니엘 (姜丹尼尔)"
+          }
+        ],
+        "size128": 2925506,
+        "size320": 7313451,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 0,
+        "sizeogg": 4395646,
+        "songid": 234878554,
+        "songmid": "0009nYvs2flkiw",
+        "songname": "뭐해 (What are you up to)",
+        "songorig": "뭐해",
+        "songtype": 0,
+        "strMediaMid": "0009nYvs2flkiw",
+        "stream": 1,
+        "switch": 17413891,
+        "type": 0,
+        "vid": "s00311bokj0"
+      },
+      "in_count": "3",
+      "old_count": "64"
+    },
+    {
+      "Franking_value": "40",
+      "cur_count": "83",
+      "data": {
+        "albumdesc": "",
+        "albumid": 7127116,
+        "albummid": "002NqXsw1HY9ez",
+        "albumname": "Dynamite",
+        "alertid": 21,
+        "belongCD": 1,
+        "cdIdx": 0,
+        "interval": 212,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 14,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 0,
+          "paytrackmouth": 1,
+          "paytrackprice": 200,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 0
+        },
+        "rate": 7,
+        "singer": [
+          {
+            "id": 4404,
+            "mid": "002uNtOf2Xj5eB",
+            "name": "Westlife"
+          }
+        ],
+        "size128": 3401157,
+        "size320": 8502558,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 0,
+        "sizeogg": 4942448,
+        "songid": 234160363,
+        "songmid": "002VKZ3G05vnQu",
+        "songname": "Dynamite",
+        "songorig": "Dynamite",
+        "songtype": 0,
+        "strMediaMid": "002VKZ3G05vnQu",
+        "stream": 1,
+        "switch": 17413891,
+        "type": 0,
+        "vid": ""
+      },
+      "in_count": "23",
+      "old_count": "87"
+    },
+    {
+      "Franking_value": "54",
+      "cur_count": "84",
+      "data": {
+        "albumdesc": "",
+        "albumid": 7219768,
+        "albummid": "003Rc6Fn3pkLZi",
+        "albumname": "PRODUCE X 101 - FINAL",
+        "alertid": 21,
+        "belongCD": 2,
+        "cdIdx": 0,
+        "interval": 203,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 14,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 0,
+          "paytrackmouth": 1,
+          "paytrackprice": 200,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 960887
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 3133656,
+            "mid": "002pOmiD2e8SMr",
+            "name": "PRODUCE X 101 (프로듀스 X 101)"
+          }
+        ],
+        "size128": 3251152,
+        "size320": 8127482,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 48955056,
+        "sizeogg": 5037939,
+        "songid": 234843031,
+        "songmid": "0029UE923ss95E",
+        "songname": "To My World",
+        "songorig": "To My World",
+        "songtype": 0,
+        "strMediaMid": "0029UE923ss95E",
+        "stream": 1,
+        "switch": 17413891,
+        "type": 0,
+        "vid": ""
+      },
+      "in_count": "6",
+      "old_count": "79"
+    },
+    {
+      "Franking_value": "34",
+      "cur_count": "85",
+      "data": {
+        "albumdesc": "",
+        "albumid": 7124280,
+        "albummid": "004GOu6i0sWXZJ",
+        "albumname": "忆戏 京师名伶",
+        "alertid": 11,
+        "belongCD": 1,
+        "cdIdx": 0,
+        "interval": 243,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 0,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 0,
+          "payinfo": 0,
+          "payplay": 0,
+          "paytrackmouth": 0,
+          "paytrackprice": 0,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 0
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 1011983,
+            "mid": "001t94rh4OpQn0",
+            "name": "双笙"
+          }
+        ],
+        "size128": 3892661,
+        "size320": 9731342,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 29270773,
+        "sizeogg": 5724363,
+        "songid": 234142050,
+        "songmid": "003vfEVK3iRbxs",
+        "songname": "忆戏 京师名伶",
+        "songorig": "忆戏 京师名伶",
+        "songtype": 0,
+        "strMediaMid": "003OdKWP07Jrsi",
+        "stream": 1,
+        "switch": 605971,
+        "type": 0,
+        "vid": ""
+      },
+      "in_count": "23",
+      "old_count": "97"
+    },
+    {
+      "Franking_value": "31",
+      "cur_count": "86",
+      "data": {
+        "albumdesc": "《长安十二时辰》电视剧主题推广曲",
+        "albumid": 7123809,
+        "albummid": "002Mud9108iTt5",
+        "albumname": "长安诀",
+        "alertid": 2,
+        "belongCD": 1,
+        "cdIdx": 0,
+        "interval": 218,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 14,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 0,
+          "paytrackmouth": 1,
+          "paytrackprice": 200,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 960887
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 3954,
+            "mid": "001z2JmX09LLgL",
+            "name": "汪苏泷"
+          }
+        ],
+        "size128": 3491407,
+        "size320": 8727878,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 26702669,
+        "sizeogg": 5023587,
+        "songid": 234139848,
+        "songmid": "002onEVC0Dm6vI",
+        "songname": "长安诀",
+        "songorig": "长安诀",
+        "songtype": 0,
+        "strMediaMid": "002onEVC0Dm6vI",
+        "stream": 1,
+        "switch": 17413891,
+        "type": 0,
+        "vid": "e0031006c38"
+      },
+      "in_count": "23",
+      "old_count": "90"
+    },
+    {
+      "Franking_value": "34",
+      "cur_count": "87",
+      "data": {
+        "albumdesc": "",
+        "albumid": 7094725,
+        "albummid": "000d4ZXm4JElgo",
+        "albumname": "哇",
+        "alertid": 7,
+        "belongCD": 6,
+        "cdIdx": 0,
+        "interval": 197,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 13,
+        "pay": {
+          "payalbum": 1,
+          "payalbumprice": 2000,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 1,
+          "paytrackmouth": 0,
+          "paytrackprice": 0,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 0
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 4615,
+            "mid": "002ZOuVm3Qn20Y",
+            "name": "李宇春"
+          }
+        ],
+        "size128": 3162901,
+        "size320": 7906180,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 39436568,
+        "sizeogg": 4315765,
+        "songid": 233927401,
+        "songmid": "003FySrC13tzaz",
+        "songname": "一而再再而三地喜欢你",
+        "songorig": "一而再再而三地喜欢你",
+        "songtype": 0,
+        "strMediaMid": "003FySrC13tzaz",
+        "stream": 1,
+        "switch": 594177,
+        "type": 0,
+        "vid": ""
+      },
+      "in_count": "4",
+      "old_count": "77"
+    },
+    {
+      "Franking_value": "48",
+      "cur_count": "88",
+      "data": {
+        "albumdesc": "",
+        "albumid": 7219768,
+        "albummid": "003Rc6Fn3pkLZi",
+        "albumname": "PRODUCE X 101 - FINAL",
+        "alertid": 21,
+        "belongCD": 1,
+        "cdIdx": 0,
+        "interval": 226,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 14,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 0,
+          "paytrackmouth": 1,
+          "paytrackprice": 200,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 960887
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 3133656,
+            "mid": "002pOmiD2e8SMr",
+            "name": "PRODUCE X 101 (프로듀스 X 101)"
+          }
+        ],
+        "size128": 3624804,
+        "size320": 9061617,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 52803829,
+        "sizeogg": 5724597,
+        "songid": 234843029,
+        "songmid": "003IlBKd0htQ3n",
+        "songname": "소년미 (少年美) (Boyness)",
+        "songorig": "소년미 (少年美)",
+        "songtype": 0,
+        "strMediaMid": "003IlBKd0htQ3n",
+        "stream": 1,
+        "switch": 17413891,
+        "type": 0,
+        "vid": ""
+      },
+      "in_count": "6",
+      "old_count": "82"
+    },
+    {
+      "Franking_value": "14",
+      "cur_count": "89",
+      "data": {
+        "albumdesc": "《素人特工》电影片尾曲",
+        "albumid": 7124892,
+        "albummid": "002m51NS2IvZJv",
+        "albumname": "Papillon(BOYTOY remix)-Postlude of The Rookies 巴比龙（BOYTOY 混音版）",
+        "alertid": 2,
+        "belongCD": 1,
+        "cdIdx": 0,
+        "interval": 219,
+        "isonly": 0,
+        "label": "0",
+        "msgid": 14,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 0,
+          "paytrackmouth": 1,
+          "paytrackprice": 200,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 960887
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 179603,
+            "mid": "00216fJA496xQG",
+            "name": "王嘉尔"
+          }
+        ],
+        "size128": 3508337,
+        "size320": 8770234,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 53821160,
+        "sizeogg": 5592446,
+        "songid": 234144607,
+        "songmid": "004cIoZD1OhRoZ",
+        "songname": "Papillon-Postlude of The Rookies 巴比龙 (BOYTOY remix)",
+        "songorig": "Papillon-Postlude of The Rookies 巴比龙",
+        "songtype": 0,
+        "strMediaMid": "004cIoZD1OhRoZ",
+        "stream": 1,
+        "switch": 17413891,
+        "type": 0,
+        "vid": ""
+      },
+      "in_count": "23",
+      "old_count": "93"
+    },
+    {
+      "Franking_value": "54",
+      "cur_count": "90",
+      "data": {
+        "albumdesc": "",
+        "albumid": 7220923,
+        "albummid": "003WXuX22qhulT",
+        "albumname": "啸天引",
+        "alertid": 11,
+        "belongCD": 1,
+        "cdIdx": 0,
+        "interval": 216,
+        "isonly": 0,
+        "label": "0",
+        "msgid": 0,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 0,
+          "payinfo": 0,
+          "payplay": 0,
+          "paytrackmouth": 0,
+          "paytrackprice": 0,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 960887
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 1011983,
+            "mid": "001t94rh4OpQn0",
+            "name": "双笙"
+          }
+        ],
+        "size128": 3461730,
+        "size320": 8654037,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 45269783,
+        "sizeogg": 5309590,
+        "songid": 234848822,
+        "songmid": "003soTh93SyciG",
+        "songname": "啸天引",
+        "songorig": "啸天引",
+        "songtype": 0,
+        "strMediaMid": "003soTh93SyciG",
+        "stream": 1,
+        "switch": 605971,
+        "type": 0,
+        "vid": ""
+      },
+      "in_count": "4",
+      "old_count": "85"
+    },
+    {
+      "Franking_value": "15",
+      "cur_count": "91",
+      "data": {
+        "albumdesc": "《自由幻想》手游周年庆主题曲",
+        "albumid": 7088751,
+        "albummid": "003T2Co544Vy2R",
+        "albumname": "共渡",
+        "alertid": 11,
+        "belongCD": 1,
+        "cdIdx": 0,
+        "interval": 212,
+        "isonly": 0,
+        "label": "0",
+        "msgid": 0,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 0,
+          "payinfo": 0,
+          "payplay": 0,
+          "paytrackmouth": 0,
+          "paytrackprice": 0,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 960887
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 199515,
+            "mid": "0003ZpE43ypssl",
+            "name": "张碧晨"
+          }
+        ],
+        "size128": 3396108,
+        "size320": 8489986,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 43503797,
+        "sizeogg": 4604975,
+        "songid": 233894729,
+        "songmid": "001aInJj3JT8wl",
+        "songname": "共渡",
+        "songorig": "共渡",
+        "songtype": 0,
+        "strMediaMid": "001aInJj3JT8wl",
+        "stream": 1,
+        "switch": 605971,
+        "type": 0,
+        "vid": "d003171eaam"
+      },
+      "in_count": "25",
+      "old_count": "100"
+    },
+    {
+      "Franking_value": "0",
+      "cur_count": "92",
+      "data": {
+        "albumdesc": "",
+        "albumid": 7235035,
+        "albummid": "003wlupr3mgXNO",
+        "albumname": "Lost",
+        "alertid": 21,
+        "belongCD": 1,
+        "cdIdx": 0,
+        "interval": 217,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 14,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 0,
+          "paytrackmouth": 1,
+          "paytrackprice": 200,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 0
+        },
+        "rate": 7,
+        "singer": [
+          {
+            "id": 24279,
+            "mid": "002x5R6P1yzMiE",
+            "name": "End of the World (世界の終わり)"
+          },
+          {
+            "id": 160879,
+            "mid": "002aFRpO1dMtfw",
+            "name": "Clean Bandit"
+          }
+        ],
+        "size128": 3480988,
+        "size320": 8702134,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 0,
+        "sizeogg": 5256724,
+        "songid": 234932507,
+        "songmid": "002qWgNV0rwlMV",
+        "songname": "Lost",
+        "songorig": "Lost",
+        "songtype": 0,
+        "strMediaMid": "002qWgNV0rwlMV",
+        "stream": 1,
+        "switch": 17413891,
+        "type": 0,
+        "vid": ""
+      },
+      "in_count": "1",
+      "old_count": "0"
+    },
+    {
+      "Franking_value": "51",
+      "cur_count": "93",
+      "data": {
+        "albumdesc": "《新入史官具海玲》韩剧插曲",
+        "albumid": 7178062,
+        "albummid": "003GTMgR27oHkV",
+        "albumname": "신입사관 구해령 OST - Part.1 (新入史官具海玲 OST Part.1)",
+        "alertid": 2,
+        "belongCD": 1,
+        "cdIdx": 0,
+        "interval": 217,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 14,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 0,
+          "paytrackmouth": 1,
+          "paytrackprice": 200,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 960887
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 162702,
+            "mid": "004HidEP3pkcji",
+            "name": "刘宪华 (Henry)"
+          }
+        ],
+        "size128": 3483935,
+        "size320": 8709470,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 24965678,
+        "sizeogg": 4723013,
+        "songid": 234565577,
+        "songmid": "0049vtlb22XhwO",
+        "songname": "Fall in Luv",
+        "songorig": "Fall in Luv",
+        "songtype": 0,
+        "strMediaMid": "0049vtlb22XhwO",
+        "stream": 1,
+        "switch": 17413891,
+        "type": 0,
+        "vid": "k0031cz6bv3"
+      },
+      "in_count": "10",
+      "old_count": "99"
+    },
+    {
+      "Franking_value": "36",
+      "cur_count": "94",
+      "data": {
+        "albumdesc": "",
+        "albumid": 7094725,
+        "albummid": "000d4ZXm4JElgo",
+        "albumname": "哇",
+        "alertid": 7,
+        "belongCD": 4,
+        "cdIdx": 0,
+        "interval": 184,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 13,
+        "pay": {
+          "payalbum": 1,
+          "payalbumprice": 2000,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 1,
+          "paytrackmouth": 0,
+          "paytrackprice": 0,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 0
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 4615,
+            "mid": "002ZOuVm3Qn20Y",
+            "name": "李宇春"
+          }
+        ],
+        "size128": 2958929,
+        "size320": 7397028,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 42357004,
+        "sizeogg": 4423162,
+        "songid": 233927402,
+        "songmid": "000lQdFu3W5rEM",
+        "songname": "Hoodie",
+        "songorig": "Hoodie",
+        "songtype": 0,
+        "strMediaMid": "000lQdFu3W5rEM",
+        "stream": 1,
+        "switch": 594177,
+        "type": 0,
+        "vid": ""
+      },
+      "in_count": "4",
+      "old_count": "81"
+    },
+    {
+      "Franking_value": "0",
+      "cur_count": "95",
+      "data": {
+        "albumdesc": "",
+        "albumid": 7096295,
+        "albummid": "002ci94M4fMYjm",
+        "albumname": "City Lights",
+        "alertid": 7,
+        "belongCD": 2,
+        "cdIdx": 0,
+        "interval": 207,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 13,
+        "pay": {
+          "payalbum": 1,
+          "payalbumprice": 1800,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 1,
+          "paytrackmouth": 0,
+          "paytrackprice": 0,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 0
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 940913,
+            "mid": "0029SxgR215af5",
+            "name": "伯贤 (백현)"
+          },
+          {
+            "id": 55666,
+            "mid": "003MTkWQ32WK0Z",
+            "name": "빈지노 (Beenzino)"
+          }
+        ],
+        "size128": 3315886,
+        "size320": 8289391,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 25398027,
+        "sizeogg": 4744560,
+        "songid": 233936470,
+        "songmid": "00293AEM4R3CHD",
+        "songname": "Stay Up",
+        "songorig": "Stay Up",
+        "songtype": 0,
+        "strMediaMid": "00293AEM4R3CHD",
+        "stream": 1,
+        "switch": 594177,
+        "type": 0,
+        "vid": ""
+      },
+      "in_count": "1",
+      "old_count": "0"
+    },
+    {
+      "Franking_value": "45",
+      "cur_count": "96",
+      "data": {
+        "albumdesc": "",
+        "albumid": 7197220,
+        "albummid": "004VaOJ60Mpgnw",
+        "albumname": "What a life - The 1st Mini Album",
+        "alertid": 7,
+        "belongCD": 2,
+        "cdIdx": 0,
+        "interval": 198,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 13,
+        "pay": {
+          "payalbum": 1,
+          "payalbumprice": 1800,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 1,
+          "paytrackmouth": 0,
+          "paytrackprice": 0,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 0
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 3361839,
+            "mid": "003ylKnt4YOaTI",
+            "name": "EXO-SC"
+          },
+          {
+            "id": 91377,
+            "mid": "004VSzOD3XBLH0",
+            "name": "개코"
+          }
+        ],
+        "size128": 3178803,
+        "size320": 7946673,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 25117974,
+        "sizeogg": 4847967,
+        "songid": 234696064,
+        "songmid": "004TnGOl3WmhKs",
+        "songname": "朦胧 (Just us 2) (있어 희미하게)",
+        "songorig": "朦胧 (Just us 2)",
+        "songtype": 0,
+        "strMediaMid": "004TnGOl3WmhKs",
+        "stream": 1,
+        "switch": 594177,
+        "type": 0,
+        "vid": ""
+      },
+      "in_count": "6",
+      "old_count": "96"
+    },
+    {
+      "Franking_value": "0",
+      "cur_count": "97",
+      "data": {
+        "albumdesc": "《宸汐缘》电视剧插曲",
+        "albumid": 7178075,
+        "albummid": "000T0ryf1jaNGD",
+        "albumname": "云上的傻瓜",
+        "alertid": 2,
+        "belongCD": 1,
+        "cdIdx": 0,
+        "interval": 223,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 14,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 0,
+          "paytrackmouth": 1,
+          "paytrackprice": 200,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 960887
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 11449,
+            "mid": "004gbMvP356XaI",
+            "name": "陆虎"
+          }
+        ],
+        "size128": 3571243,
+        "size320": 8927808,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 23880805,
+        "sizeogg": 4843178,
+        "songid": 234565816,
+        "songmid": "001jtDjU0UJIuk",
+        "songname": "云上的傻瓜",
+        "songorig": "云上的傻瓜",
+        "songtype": 0,
+        "strMediaMid": "001jtDjU0UJIuk",
+        "stream": 1,
+        "switch": 17413891,
+        "type": 0,
+        "vid": ""
+      },
+      "in_count": "1",
+      "old_count": "0"
+    },
+    {
+      "Franking_value": "64",
+      "cur_count": "98",
+      "data": {
+        "albumdesc": "",
+        "albumid": 7219768,
+        "albummid": "003Rc6Fn3pkLZi",
+        "albumname": "PRODUCE X 101 - FINAL",
+        "alertid": 21,
+        "belongCD": 3,
+        "cdIdx": 0,
+        "interval": 227,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 14,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 0,
+          "paytrackmouth": 1,
+          "paytrackprice": 200,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 960887
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 3133656,
+            "mid": "002pOmiD2e8SMr",
+            "name": "PRODUCE X 101 (프로듀스 X 101)"
+          }
+        ],
+        "size128": 3645308,
+        "size320": 9112841,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 52743359,
+        "sizeogg": 5390774,
+        "songid": 234843030,
+        "songmid": "002Hk9KW3XnZiw",
+        "songname": "꿈을 꾼다 (Dream For You)",
+        "songorig": "꿈을 꾼다 (Dream For You)",
+        "songtype": 0,
+        "strMediaMid": "002Hk9KW3XnZiw",
+        "stream": 1,
+        "switch": 17413891,
+        "type": 0,
+        "vid": ""
+      },
+      "in_count": "6",
+      "old_count": "95"
+    },
+    {
+      "Franking_value": "38",
+      "cur_count": "99",
+      "data": {
+        "albumdesc": "",
+        "albumid": 7094725,
+        "albummid": "000d4ZXm4JElgo",
+        "albumname": "哇",
+        "alertid": 7,
+        "belongCD": 7,
+        "cdIdx": 0,
+        "interval": 281,
+        "isonly": 1,
+        "label": "0",
+        "msgid": 13,
+        "pay": {
+          "payalbum": 1,
+          "payalbumprice": 2000,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 1,
+          "paytrackmouth": 0,
+          "paytrackprice": 0,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 0
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 4615,
+            "mid": "002ZOuVm3Qn20Y",
+            "name": "李宇春"
+          }
+        ],
+        "size128": 4499940,
+        "size320": 11249496,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 53992804,
+        "sizeogg": 5911573,
+        "songid": 233927396,
+        "songmid": "004dU5Qp2L7NCA",
+        "songname": "莫过于此",
+        "songorig": "莫过于此",
+        "songtype": 0,
+        "strMediaMid": "004dU5Qp2L7NCA",
+        "stream": 1,
+        "switch": 594177,
+        "type": 0,
+        "vid": ""
+      },
+      "in_count": "4",
+      "old_count": "84"
+    },
+    {
+      "Franking_value": "0",
+      "cur_count": "100",
+      "data": {
+        "albumdesc": "《流淌的美好时光》电视剧主题曲",
+        "albumid": 7125047,
+        "albummid": "002nNd7j20tWeT",
+        "albumname": "流淌的美好时光 影视原声带",
+        "alertid": 21,
+        "belongCD": 1,
+        "cdIdx": 0,
+        "interval": 292,
+        "isonly": 0,
+        "label": "0",
+        "msgid": 14,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 0,
+          "paytrackmouth": 1,
+          "paytrackprice": 200,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 0,
+          "tryend": 0,
+          "trysize": 0
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 11606,
+            "mid": "001f0VyZ1hmWZ1",
+            "name": "林宥嘉"
+          },
+          {
+            "id": 19624,
+            "mid": "000NUoMp2WAEpO",
+            "name": "郁可唯"
+          }
+        ],
+        "size128": 4676347,
+        "size320": 11690538,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 53182283,
+        "sizeogg": 6090155,
+        "songid": 234145304,
+        "songmid": "004JsS2u00vYsR",
+        "songname": "追寻年少的光",
+        "songorig": "追寻年少的光",
+        "songtype": 0,
+        "strMediaMid": "004JsS2u00vYsR",
+        "stream": 1,
+        "switch": 17409795,
+        "type": 0,
+        "vid": "p0031b93cik"
+      },
+      "in_count": "1",
+      "old_count": "0"
+    }
+  ],
+  "topinfo": {
+    "ListName": "巅峰榜·新歌",
+    "MacDetailPicUrl": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/20150820172435.jpg",
+    "MacListPicUrl": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/20150820172427.jpg",
+    "UpdateType": "1",
+    "albuminfo": "",
+    "headPic_v12": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/20150820174934.jpg",
+    "info": "集结30天内发行的优质歌曲，鼓励原创、着眼未来的乐坛风向标。根据每日综合数据进行排序，体现QQ音乐用户追新潮流，致力于打造最权威最有公信力的专业健康的新歌排行榜。<br><br>歌曲数量：100首<br>综合数据：登录用户在QQ音乐收听/分享/下载数据",
+    "listennum": 2000000,
+    "pic": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/20150820172421.jpg",
+    "picDetail": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/20150820172414.jpg",
+    "pic_album": "http://imgcache.qq.com/music/photo_new/T002R300x300M000002N84iF3QxG1c.jpg",
+    "pic_h5": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/20150820172242.jpg",
+    "pic_v11": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/20150820172421.jpg",
+    "pic_v12": "http://y.gtimg.cn/music/photo_new/T003R300x300M000000HixyV3wEpRU.jpg",
+    "topID": "27",
+    "type": "0"
+  },
+  "total_song_num": 100,
+  "update_time": "2019-07-28"
+}

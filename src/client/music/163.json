@@ -1,0 +1,58 @@
+{
+  "type": 0,
+  "duration": 272000,
+  "status": 3,
+  "alias": [],
+  "privilege": {
+    "id": 186345,
+    "fee": 8,
+    "payed": 0,
+    "st": 0,
+    "pl": 128000,
+    "dl": 0,
+    "sp": 7,
+    "cp": 1,
+    "subp": 1,
+    "cs": false,
+    "maxbr": 999000,
+    "fl": 128000,
+    "toast": false,
+    "flag": 0,
+    "preSell": false
+  },
+  "djid": 0,
+  "album": {
+    "id": 18933,
+    "name": "张信哲精选",
+    "picUrl": "http://p2.music.126.net/D0e4NZrx_0ArL5FhIXpJww==/109951163511560406.jpg",
+    "pic_str": "109951163511560406",
+    "pic": 109951163511560400
+  },
+  "artists": [
+    {
+      "id": 6454,
+      "name": "张信哲",
+      "alia": [
+        "阿哲",
+        "Jeff Chang"
+      ]
+    }
+  ],
+  "fee": 8,
+  "ftype": 0,
+  "no": 1,
+  "publishTime": 0,
+  "score": 100,
+  "copyrightId": 7001,
+  "mvid": 5361650,
+  "transNames": null,
+  "commentThreadId": "R_SO_4_186345",
+  "name": "爱如潮水",
+  "id": 186345,
+  "source": {
+    "title": "歌手",
+    "link": "/artist?id=6454&_hash=songlist-186345",
+    "fid": 2,
+    "fdata": "6454"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "weread",
+  "version": "1.0.0",
+  "description": "A template for kick starting a Cloudflare Workers project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write '**/*.{js,css,json,md}'"
+  },
+  "author": "lzxxm <1052334039@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "husky": "^2.1.0",
+    "json-loader": "^0.5.7",
+    "prettier": "^1.17.0",
+    "raw-loader": "^3.0.0",
+    "text-loader": "^0.0.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run format",
+      "pre-push": "npm run format"
+    }
+  },
+  "dependencies": {
+    "cos-nodejs-sdk-v5": "^2.5.9",
+    "moment": "^2.24.0",
+    "rxjs": "^6.5.2",
+    "superagent": "^5.1.0"
+  }
+}

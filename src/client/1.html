@@ -1,0 +1,1395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <base target="_blank">
+    <meta charset="UTF-8">
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <meta name="referrer" content="never">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <link rel="shortcut icon" href="https://image.flaticon.com/icons/png/512/346/346195.png" type="image/x-icon" />
+    <link href="https://spin.js.org/spin.css" type="text/css" rel="stylesheet">
+    <title>呵呵</title>
+</head>
+<style>
+    *{ padding:0; magin:0; }
+    a{
+        text-decoration: none;
+    }
+    body {
+        display: grid;
+        background-image: url("https://hbimg.huabanimg.com/c7443cd56db30fa480cc4deafda5f2ed907beda84d53e-wDAcQI_fw658");
+        background-position: center top;
+    }
+    .center {
+        display: grid;
+        grid-auto-flow: row;
+        justify-content: center;
+        width: 100vw;
+        align-content: center;
+        justify-items: center;
+        margin: 0.2rem 0;        
+    }
+    .center >*{
+        margin: 0.5rem 0;        
+    }
+    .center button{
+        width:max-content;
+    }
+    .center>figure,.center>div{
+       width:100vw;
+       height:100%;
+    }
+
+    @keyframes myfirst
+    {
+        from { transform: rotateZ(0deg); }
+        to { transform: rotateZ(360deg); }
+    }
+    #add_link {
+        display: grid;
+        grid-auto-flow: row;
+        justify-content: center;
+        justify-items: center;
+        align-content: center;
+        align-items: center;
+        /* grid-template-columns: 50% repeat(2,auto); */
+        grid-gap: 1rem;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;        
+    }    
+    #add_link input {
+        max-height: 3rem;        
+    }
+    input[type="image"]{
+
+    }    
+    input[name="url"] {
+        grid-column-start: 1;
+        grid-column-end: 3;        
+        background-color: transparent;
+        color: white;
+        border-radius: 0.5rem;
+        border: dashed 1px;
+        border-color: #ffff007a;
+        font-size: large;
+        width: 80vw;
+        height: 2rem;
+        padding: 1.5rem 0;
+        line-height: 2rem;
+        box-shadow: 1px 3px 3px #d6c2a542;
+    }    
+    [name="url"]:focus {
+        border: solid 1px aliceblue;
+        box-shadow: 10rem 10rem 10rem 10rem #55a49778;
+    }
+   #baidu{
+        heigth:1300px;
+    }
+    #refresh {
+        height: 6rem;
+        display: grid;
+        grid-auto-flow: column;
+        justify-content: center;
+        /* background: #2f87d563; */
+        justify-items: center;
+        align-items: center;
+        grid-gap: 1rem;
+    }
+    #refresh figure{
+        cursor: pointer;
+        margin: 0 auto;
+        align-self: center;        
+    }
+    #refresh figure figcaption {
+        text-align: center;
+        color: #d9cbcb;
+        font-size: 1rem;
+        background: #3e3e31a3;
+        border-radius: 1rem;
+        padding: 0.1rem;
+    }
+    #refresh img {
+        animation: myfirst 5s infinite;
+        max-width: 100%;
+        max-height: 5rem;
+    }
+    #weread {
+        display: none;
+        background: white;
+    }        
+    #weread iframe{
+        height:100vh;
+    }
+    iframe:nth-of-type(2)
+    {
+        height:13rem;
+    }
+
+    html, body {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: Helvetica, Calibri, Roboto, Open Sans, sans-serif
+        -webkit-backface-visibility: hidden;
+    }
+    * {
+        box-sizing: inherit;
+    }
+    h1 {
+        text-align: center;
+    }
+    svg {
+        margin:auto;
+        display:block;
+        width: 100%;
+        height: 100vh;
+        font-family: sans-serif;
+        font-size: 1rem;
+        text-anchor: middle;
+    }
+    .circle-overlay {
+        font-size: 16px;
+        border-radius: 50%;
+        position: absolute;
+        overflow: hidden;
+        /*it's buggy with the foreignObject background right now*/
+        /*background-color: rgba(255,255,255,0.5);*/
+    }
+    .circle-overlay__inner {
+        text-align: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .hidden {
+        display: none;
+    }
+    .node {
+        cursor: pointer;
+    }    
+    .node-icon--faded {
+        opacity: 0.5;
+    }
+    .legend-size circle {
+        fill: rgb(31, 119, 180);
+    }
+    .form-container{
+        height:3rem;
+    }
+    .form-container form{
+        display:grid;
+    }
+    .form-container form input{
+        height:3rem;
+    }
+
+    .title, .title a{
+        text-align: center;
+        color: white;
+    }
+    .qr{
+        display:grid;
+        justify-content: center;
+    }
+    #qrcode canvas {
+        border-radius: 0.5rem;
+        padding: 1rem;
+        background: #d5bca06b;
+    }
+    .loading{
+        pointer-events: none;    
+    }
+    #loading{
+        pointer-events: none;    
+        position: fixed;
+        top: 0;
+    }
+    .help{
+        background: #6c53538c;
+        color: white;
+        font-size: 0.8rem;        
+    }
+    .center.help img {
+        width: 1rem;
+        height: 1rem;
+    } 
+    .help li{
+        margin: 0.5rem auto;
+        list-style: none;
+    }
+    .center.help>*{
+        width:80%;
+    }
+   
+    hr{
+        /* color: white; */
+        height: 1px;
+        border: none;
+        border-top: 1px dashed #D6DDE3A6;
+        width: 95%;
+        margin: 1rem auto;
+    }    
+    @media (max-width: 1000px) {
+        svg{ height: 60vh; }
+        .qr{ display: none; }
+        #weread { display: grid; }        
+        #refresh img {
+            max-width: 100%;
+            max-height: 3rem;
+        }
+        .center.help>*{
+            width:90vw;
+        }
+    }
+    .auto-refresh{
+        grid-auto-flow: column;
+        grid-gap: 1rem;
+    }
+    .auto-refresh img{
+        width: 1rem;
+        cursor: pointer;
+    }
+    .title img{
+        height: 1rem;
+        cursor: pointer;
+    }
+
+</style>
+
+<body>
+     <header class="title">
+        <h3>
+            <!--a href="http://t.cn/Aiji4bgq"></a-->
+            <a href="https://birdsofsummer.github.io/"><span>🐬</span></a>
+            <a href="https://github.com/birdsofsummer"><span>🦋</span></a>
+            <a href="https://api.weibo.com/oauth2/authorize?client_id=4043688639&scope=all&redirect_uri=https://weread.qing.workers.dev/login&response_type=code"><img src="https://img.t.sinajs.cn/t6/style/images/global_nav/WB_logo.png?id=1404211047727"/></a>
+            <a href="/music"><img src="https://image.flaticon.com/icons/png/128/1922/1922198.png" /></a>
+        </h3>
+     </header>
+     <main>
+
+         <section class="center">
+            <div id="form-container">
+              <form id="add_link" onsubmit="return false">
+                   <input name="url"  placeholder="input your url or userVid " title="url or userVid" value="76924631" />
+                   <input id="submit"  type="image" src="https://image.flaticon.com/icons/png/512/346/346195.png" title="add me"></input>
+                   <input id="search"  type="image" src="https://image.flaticon.com/icons/png/128/875/875011.png" title="search me"></input>
+              </form>
+            </div>
+        </section>
+
+        <section class="center">
+             <div id="qrcode" class="qr"> </div>
+        </section>
+
+        <section class="center loading">
+             <div id="loading"> </div>
+        </section>
+
+        <section class="center">
+            <figure id="baidu">
+                    <svg></svg>
+            </figure>
+        </section>
+        <section class="center">
+            <div id="refresh">
+                <figure onclick=redraw() >
+                   <img  src="https://image.flaticon.com/icons/png/256/875/875001.png" alt="refresh"></img>
+                   <figcaption>刷新</figcaption>
+                </figure >
+                <figure onclick=refresh()>
+                   <img   src="https://image.flaticon.com/icons/png/512/185/185755.png" alt="refresh"></img>
+                   <figcaption>下一页</figcaption>
+                </figure >
+                <figure onclick=change_vid()>
+                   <img   src="https://image.flaticon.com/icons/png/128/214/214307.png" alt="good luck"></img>
+                   <figcaption>手气不错</figcaption>
+                </figure >
+
+                <figure id="is_full">
+                   <img  src="https://image.flaticon.com/icons/png/128/861/861120.png" alt="is full"></img>
+                   <figcaption>这组满了</figcaption>
+                </figure >
+                <figure onclick=zudui()>
+                    <a id="goto" href="" class="clip">
+                       <img  src="https://image.flaticon.com/icons/png/512/346/346204.png" alt="组队"></img>
+                       <figcaption>组队</figcaption>
+                    </a>
+                </figure >
+            </div>
+        </section>
+
+         <section class="auto-refresh center">
+            <img  src="https://image.flaticon.com/icons/png/512/826/826981.png" alt="auto refresh" title="自动随机切换" onclick=auto_refresh()>
+            <img  src="https://image.flaticon.com/icons/png/512/1087/1087436.png" alt="auto refresh" title="自动按顺序切换" style="" onclick=auto_refresh1()>
+            <a href="https://weread.qq.com/wrpage/wechat/search/store?from=record" title="书城"><img src="https://image.flaticon.com/icons/png/128/1917/1917149.png"/></a>
+            <a href="https://weread.qq.com/wrpage/wechat/search/record?from=detail" title="我的书架"><img src="https://image.flaticon.com/icons/png/128/346/346188.png"/></a>
+            <a id="fan" class="clip" href="" data-clipboard-text="" alt="fan" title="翻一翻"><img src="https://image.flaticon.com/icons/png/128/346/346178.png"/></a>
+            <a id="zan" class="clip" href="" data-clipboard-text="" alt="zan" title="赞"><img src="https://image.flaticon.com/icons/png/128/346/346185.png"/></a>
+            <a href="/clock" title="clock"><img src="https://image.flaticon.com/icons/png/128/346/346173.png"/></a>
+            <a href="/zudui" title="history"><img src="https://image.flaticon.com/icons/png/128/346/346169.png"/></a>
+            <a onclick=sync() title="sync"><img src="https://image.flaticon.com/icons/png/128/346/346209.png"/></a>
+            <a href="https://douban.qing.workers.dev/"><img src="https://img3.doubanio.com/favicon.ico"/></a>
+         </section>
+
+        <section>
+            <div id="weread"> </div>
+        </section>
+        <section class="center help">
+            <article>
+                <h3>提示</h3>
+                <hr/>
+                <p>
+                   搜索你在不在这里 <img src="https://image.flaticon.com/icons/png/128/875/875011.png" />
+                </p>
+                <p>
+                   如果做队长,请把vid或分享链接填一下,再点 <img src="https://image.flaticon.com/icons/png/512/346/346195.png" />
+                </p>
+                <p> 
+                    加入别人的队伍,
+                    请在电脑端点<img src="https://image.flaticon.com/icons/png/512/346/346167.png" />,扫描二维码.
+                    或在...点击花瓣<img src="https://image.flaticon.com/icons/png/512/346/346167.png" />
+                    切换队伍,选好以后点<img  src="https://image.flaticon.com/icons/png/512/346/346204.png" alt="组队" />去组队
+                </p>
+                <p>
+                    自动随机切换<img  src="https://image.flaticon.com/icons/png/512/826/826981.png" alt="auto refresh" title="自动随机切换"  onclick=auto_refresh()>
+                    <br/>
+                    自动按顺序切换<img  src="https://image.flaticon.com/icons/png/512/1087/1087436.png" alt="auto refresh" title="自动按顺序切换"  onclick=auto_refresh1()>
+                </p>
+                <hr/>
+                <p>
+                  出现了  Oops! Something went wrong:( ,
+                  点组队<img  src="https://image.flaticon.com/icons/png/512/346/346204.png" alt="组队" />,再退回来.
+                </p>
+                <hr/>
+
+                <h3>如何获取vid?</h3>
+                <p>方法1.cat /data/data/com.tencent.weread/shared_prefs/device.xml |grep vid</p>
+                <p>方法2.用...打开这个页面,参考上方json</p>
+                <p>方法3.参考页面底部视频</p>
+                <p><a href="/zudui">方法4</a></p>
+                <hr/>
+                <h3>api接口</h3>
+                <ul>
+                    <li>get  /list2 </li>
+                    <li>post /add  ["12345"] </li>
+                    <li>post /full ["12345"] </li>
+                </ul>
+            </article>
+        </section>     
+
+        <section class="center">
+            <audio id="bird" controls height="100" width="100">
+                  <source src="https://fdfs.xmcdn.com/group44/M02/9F/F0/wKgKjFsZ70ax4t5MAAEtU8S7R8Q666.m4a" type="audio/mpeg">
+                  <embed height="50" width="100" src="https://fdfs.xmcdn.com/group44/M02/9F/F0/wKgKjFsZ70ax4t5MAAEtU8S7R8Q666.m4a">
+            </audio>             
+            <!--video controls="" width="100%">
+                <source src="" type="video/mp4">
+            </video-->            
+        </section>
+
+
+     </main>
+
+    <footer >
+        <a name="footer"></a>
+        <p> </p>
+    </footer>
+
+</body>
+</html>
+    <script src="https://cdn.bootcss.com/spin.js/2.3.2/spin.min.js"></script>
+    <script src="https://cdn.bootcss.com/localforage/1.7.3/localforage.min.js"></script>
+    <script src="https://cdn.bootcss.com/ramda/0.26.1/ramda.min.js"></script>
+    <script src='https://cdn.jsdelivr.net/npm/lodash@4.16.1/lodash.min.js'></script>
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/jquery.qrcode/1.0/jquery.qrcode.min.js"></script>
+    <script src="https://cdn.bootcss.com/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://cdn.bootcss.com/d3/4.7.4/d3.min.js"></script>
+    <script src="https://cdn.bootcss.com/d3-legend/2.25.6/d3-legend.min.js"></script>
+    <script src="https://cdn.bootcss.com/limonte-sweetalert2/8.11.8/sweetalert2.all.min.js"></script>
+    <script src="https://cdn.bootcss.com/superagent/4.1.0-beta.1/superagent.min.js"></script>
+    <script src="https://cdn.bootcss.com/rxjs/6.5.2/rxjs.umd.min.js"></script>
+    <script src="https://cdn.bootcss.com/clipboard.js/2.0.4/clipboard.min.js"></script>
+
+    <!--
+        <script src="https://naustud.io/tech-stack/js/d3-legend.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/rxjs/6.3.3/rxjs.umd.min.js"></script>
+        <script src="https://cdn.bootcss.com/d3/5.9.7/d3.min.js"></script>
+        <script src="https://cdn.bootcss.com/d3-legend/2.25.6/d3-legend.min.js"></script>
+    -->
+    <script>
+        const init_loading=()=>{
+            let target= document.querySelector('#loading')
+            var spinner = new Spinner().spin();
+            target.appendChild(spinner.el);
+            return (stop="")=> stop ? spinner.stop() : spinner.spin(target)
+        }
+        const VID="76924631"
+        const loading=init_loading()
+        const { 
+//		combineLatest,
+//		concat,
+//		merge,
+//		onErrorResumeNext,
+//		race,
+//		zip
+		ArgumentOutOfRangeError,
+		AsyncSubject,
+		BehaviorSubject,
+		ConnectableObservable,
+		EMPTY,
+		EmptyError,
+		GroupedObservable,
+		NEVER,
+	//	Notification,
+		ObjectUnsubscribedError,
+		Observable,
+		ReplaySubject,
+		Scheduler,
+		Subject,
+		Subscriber,
+		Subscription,
+		TimeoutError,
+		UnsubscriptionError,
+		VirtualAction,
+		VirtualTimeScheduler,
+		ajax,
+		animationFrameScheduler,
+		asapScheduler,
+		asyncScheduler,
+		bindCallback,
+		bindNodeCallback,
+//		config,
+		defer,
+		empty,
+		forkJoin,
+		from,
+		fromEvent,
+		fromEventPattern,
+		generate,
+		identity,
+		iif,
+		interval,
+		isObservable,
+		never,
+		noop,
+		observable,
+		of,
+		operators,
+		pairs,
+		pipe,
+		queueScheduler,
+		range,
+		testing,
+		throwError,
+		timer,
+		using,
+		webSocket
+     } = rxjs
+
+        const {
+                audit,
+                auditTime,
+                buffer,
+                bufferCount,
+                bufferTime,
+                bufferToggle,
+                bufferWhen,
+                catchError,
+                combineAll,
+                combineLatest,
+                concat,
+                concatAll,
+                concatMap,
+                concatMapTo,
+                count,
+                debounce,
+                debounceTime,
+                defaultIfEmpty,
+                delay,
+                delayWhen,
+                dematerialize,
+                distinct,
+                distinctUntilChanged,
+                distinctUntilKeyChanged,
+                elementAt,
+                endWith,
+                every,
+                exhaust,
+                exhaustMap,
+                expand,
+                filter,
+                finalize,
+                find,
+                findIndex,
+                first,
+                flatMap,
+                groupBy,
+                ignoreElements,
+                isEmpty,
+                last,
+                map,
+                mapTo,
+                materialize,
+                max,
+                merge,
+                mergeAll,
+                mergeMap,
+                mergeMapTo,
+                mergeScan,
+                min,
+                multicast,
+                observeOn,
+                onErrorResumeNext,
+                pairwise,
+                partition,
+                pluck,
+                publish,
+                publishBehavior,
+                publishLast,
+                publishReplay,
+                race,
+                reduce,
+                refCount,
+                repeat,
+                repeatWhen,
+                retry,
+                retryWhen,
+                sample,
+                sampleTime,
+                scan,
+                sequenceEqual,
+                share,
+                shareReplay,
+                single,
+                skip,
+                skipLast,
+                skipUntil,
+                skipWhile,
+                startWith,
+                subscribeOn,
+                switchAll,
+                switchMap,
+                switchMapTo,
+                take,
+                takeLast,
+                takeUntil,
+                takeWhile,
+                tap,
+                throttle,
+                throttleTime,
+                throwIfEmpty,
+                timeInterval,
+                timeout,
+                timeoutWith,
+                timestamp,
+                toArray,
+            //    window,
+                windowCount,
+                windowTime,
+                windowToggle,
+                windowWhen,
+                withLatestFrom,
+                zip,
+                zipAll
+        }=operators
+
+        const say=x=>y=>console.log(x,y)
+        const conn=(u=WS,cb={})=>{
+                 const ws = new WebSocket(u)
+                 _.extend(ws,cb)
+                 return ws
+        }
+
+        const conn1=(u)=>{
+             const subject = webSocket.webSocket(u);
+             subject.subscribe( say('msg'),say('err'),say('done'))
+             subject.next({message: 'some message'});
+             //subject.complete(); // Closes the connection.
+             //subject.error({code: 4000, reason: 'I think our app just broke!'});
+             return subject
+         }
+ 
+        const WS=`wss://service-afbgj3k2-1252957949.ap-hongkong.apigateway.myqcloud.com/release/ws`
+        class Ws{
+            constructor(){
+                this.init()
+            }
+            init(){
+             //   const WS="wss://echo.websocket.org/"
+                const cb={
+                    onopen:(e)=>{
+                        say('open')(e)
+                    },
+                    onmessage:say('msg'),
+                    onclose:say('close'),
+                    onerror:say('err'),
+                }
+                this.ws=conn(WS,cb)
+            }
+            reconn(){
+               if (this.ws.readyState !=1) {
+                    this.ws.close()
+                    this.init()
+                }
+            }
+            send(d={}){
+                this.reconn()
+                let d1=JSON.stringify(d)
+                this.ws.send(d1)
+            }
+        }
+
+        const test_ws=()=>{
+            const ws = new WebSocket(WS)
+            ws.onmessage=say('msg')
+            ws.onopen=()=>{
+                interval(2000)
+                .pipe(
+                    map(x=> moment().format()),
+                    take(1),
+                )
+                .subscribe((x)=>{
+                    let d={ action:"test", payload:{time:x}, };
+                    say('ws')(d)
+                    ws.send(to_s(d))
+                })
+            }
+        }
+
+        const post=(u)=>async (d={url:""})=>{
+                 loading()
+                 let r1=await fetch(u,{method:"POST",body:JSON.stringify(d)})
+                 let data=await r1.json();
+                 loading('stop')
+                 return {ok:r1.ok,data}
+         }
+         const get=async(u)=>{
+            loading()
+            let r1=await fetch(u)
+            let data=await r1.json()
+            loading('stop')
+            return {...r1,data}
+         }
+
+
+
+
+//------db------------------------------------------------------------------------------------
+   const get_store=()=>localforage.getItem("store")
+   const set_store=async (s1={})=>{
+       let s0=await localforage.getItem("store")
+       return localforage.setItem("store",R.merge(s0,s1))
+   }
+   const get_current_group=async()=>{
+          const {offset,vids,page_size}=await localforage.getItem("store")
+          if ( vids.length == 0 ) return []
+          let k= R.splitEvery(page_size,vids)[offset]
+          return await Promise.all(k.map(x=>localforage.getItem(x))) 
+   }
+   const get_next_group=async ()=>{
+          let store=await localforage.getItem("store")
+          const {offset,vids,page_size}=store
+          let pages=Math.ceil(vids.length/page_size)
+          let n= offset < pages-1 ? offset+1 : 0
+          store.offset=n
+          await localforage.setItem("store",store)
+          let k= R.splitEvery(page_size,vids)[offset]
+          return await Promise.all(k.map(x=>localforage.getItem(x))) 
+    }
+   const insert_vid=async (d=[])=>{
+            if (is_empty(d))  return
+            let store=await localforage.getItem("store")
+            const insertOne=(u)=>{
+                let vid=u.vid
+                if (!vid) return
+                store.vids.push(vid)
+                store.vids_all.push(vid)
+                localforage.setItem(`${vid}`,u)
+            }
+            _.isArray(d) ? d.map(insertOne) : insertOne(d)
+            localforage.setItem("store",store)
+    }
+
+   const get_vids=async ()=>{
+       let {vids}=await localforage.getItem("store")
+       return vids
+   }
+
+   const set_vid=(vid=0,user={})=>vid && localforage.setItem(`${vid}`,user)
+
+   const get_vid=async (vid=0)=>vid ? await localforage.getItem(`${vid}`): null
+   const get_vids1=(d=[])=>Promise.all(d.map(get_vid))
+   const get_vids2=async ()=>get_vids1(await get_vids())
+
+   const edit_vids=async (v=[],d={})=>{
+         let uu=await get_vids1(v)
+         let u1=uu.filter(x=>x).map(R.merge(R.__,d))
+         return Promise.all(u1.map(u=>localforage.setItem(u.vid,u)))
+   }
+
+   const reset_full=()=>set_store({full:new Set()})
+   const init_db=async(data=[])=>{
+           var store= {
+                current_vid:0,
+                vids:data.filter(x=>!x.full).map(x=>x.vid),
+                vids_all:data.map(x=>x.vid),
+                offset:0,
+                "page_size":50,
+                full:new Set(),
+                is_w:is_weixin1(), 
+            }
+            localforage.setItem("store",store)
+            Promise.all(data.map((x,i)=>localforage.setItem(`${x.vid}`,x)))
+            return store
+    }
+//------db------------------------------------------------------------------------------------
+
+
+
+        const foreach=f=>(o={})=>Object.entries(o).map(f)
+        const is_not_empty=(d=[])=>_.isArray(d) && (!_.isEmpty(d))
+        const is_empty=(d=[])=>_.isArray(d) && _.isEmpty(d)
+        const rnd=(n=1)=>Math.floor(Math.random()*n) 
+        const rnd_pick=(arr=[])=>arr[rnd(arr.length)]
+        const welcome=x=>console.log("%c"+x,'font: 10rem roboto;color #dd4814')
+        const sleep=(n=1)=>new Promise((resolve)=>setTimeout(resolve,n*1000))
+        const is_weixin=(userAgent="")=>/micro/i.test(userAgent)
+        const is_weixin1=()=>false||is_weixin(navigator.userAgent)
+        const mobile_not_weixin=ua=>/Android|iPhone|Mobile/.test(ua) && !(/MicroMessenger/.test(ua))
+        const mobile_not_weixin1=()=>mobile_not_weixin(navigator.userAgent)
+        const create_tag=(p=document.body,tag="iframe",o={ "width": "100%", "height":"100%", "frameborder": "0", "scrolling": "auto", })=>(d={})=>{
+            z=document.createElement(tag) 
+            add_attr=([k,v])=>z.setAttribute(k,v)
+            foreach(add_attr)({ ...o, ...d, })
+            p.append(z)
+        }
+
+        const now=()=>moment().format('YYYYMMDD') 
+        const today=()=> moment().format('YYYYMMDD')  
+        const today_w=()=>moment().weekday()
+        const weekday=(n=-1)=> today_w() == 6  ? today() : moment().add(-moment().weekday(),"days").add(n,"days").format('YYYYMMDD')
+        const [saturday,thursday,tuesday]=[-1,4,2].map(weekday)
+
+        const vid2zudui=(vid=VID)=>`https://weread.qq.com/wrpage/huodong/abtest/zudui?collageId=${vid}_${saturday}&shareVid=${vid}&from=timeline&wrRefCgi=`
+        const vid2zan=(vid=VID)=>`https://weread.qq.com/wrpage/huodong/abtest/jizan?isAnimateNavBarBackground=1&senderVid=${vid}&vol=${thursday}&designId=${thursday}_0&from=timeline&wrRefCgi=`
+        const vid2fan=(vid=VID)=>`https://weread.qq.com/wrpage/huodong/abtest/fan?vol=${tuesday}&inviteVid=${vid}&wrRefCgi=`
+        const get_frames=(vid=VID)=>[
+                        { "id": "zudui", "name": "zudui", "src": vid2zudui(vid), },
+                        { "id": "me", "name": "me", "src": "https://i.weread.qq.com/friend/ranking?mine=1", },
+                       // { "id": "zan", "name": "zan", "src": vid2zan(vid), },
+                       // { "id": "fan", "name": "fan", "src": vid2fan(vid), },
+        ]
+        const create_frame=(vid=VID)=>{
+                let p=document.querySelector('#weread') 
+                let i=create_tag(p)
+                let frames=get_frames(vid)
+                frames.map(i)
+        }
+        const load_img=(src="https://image.flaticon.com/icons/png/512/346/346204.png")=>new Promise((f1,f2)=>{
+            let img = new Image()
+            img.src=src
+            img.onload=f1(img)
+       })
+       const auth1=()=>load_img(vid2zudui(VID))
+       const auth=async (vid=VID)=>{
+           await sleep(3)
+           let b=window.open(vid2zudui(vid))
+            await sleep(1)
+            b.close()
+            location.reload() 
+        }
+       const refresh_exp=()=>{
+                let exp=moment().add(10,'minutes').unix() 
+                localStorage.exp=exp
+       }
+       const is_exp=()=>moment().unix() > (localStorage.exp || 0)
+
+       const show_qr=()=>document.querySelector('.qr').style.display="grid" 
+       const render=(vid=VID)=>{
+            d3.selectAll('.qr canvas').data([]).exit().remove()
+            let url=vid2zudui(vid)
+            $('#qrcode').qrcode(url);
+        }
+
+        const play=(id='#bird')=>document.querySelector(id).play() 
+        const show_weread=async (i)=>{
+                let fr=get_frames(i)
+                fr.map(x=>{
+                    let z=document.querySelector(`#${x.id}`)
+                    z ? z.src = x.src : null
+                }) 
+                let {is_w}=await localforage.getItem(`store`)
+                is_w || render(i)
+        }
+      const vid_clicked=async (vid)=>{
+            let user=await get_vid(vid)
+            user.click+=1
+            set_vid(vid,user)
+            let d={
+                action:"click",
+                payload:user,
+            }
+            console.log(d)
+            //ws.send(d)
+      }
+      const refresh_link=(vid=VID)=>{
+          let f=([id,rule])=>{
+                let a=document.querySelector(id) 
+                let u=rule(vid) 
+                a.href=u
+                a.setAttribute('data-clipboard-text',u)          
+          }
+          let d={
+              "#goto":vid2zudui,
+              "#fan":vid2fan,
+              "#zan":vid2zan,
+          }
+          foreach(f)(d)
+          //navigator.clipboard.writeText(u)          
+      }
+      const init_clip=()=>new ClipboardJS('.clip')
+      const change_vid=async ({id}={id:0})=>{
+
+                play()
+                let i=id || rnd_pick(await get_vids(),1)
+                show_weread(i)
+                let store=await get_store() 
+                store.current_vid = i
+                localforage.setItem(`store`,store)
+                vid_clicked(i)
+                refresh_link(i)
+                return i
+       }
+      const sync=async ()=>{
+           let {current_vid}=await get_store()
+           let r=await post("/sync")([current_vid])
+           console.log(r)
+      }
+
+       const ask_perm=()=>Notification.requestPermission(say('perm'))
+       const is_obj=(o="")=>o.constructor==Object
+       const to_s=(o) => is_obj(o) ?JSON.stringify(o,null,"\t") : o.toString() 
+       const notify=(title="", options={})=>{
+            let t=to_s(title);
+            let o={
+                icon:"https://image.flaticon.com/icons/png/512/346/346195.png",
+                body:"",
+                ...options,
+            }
+            let show=()=>new Notification(t, o)
+            Notification.permission === "granted" ? show() : Notification.requestPermission(show)
+       }
+       const notify_m=({data})=>notify(now(),{body:to_s(data)})
+       function listen(){
+            window.parent.postMessage('ddd');
+            window.onmessage=console.log
+        }
+        function echo(event) {
+          let d=event.data
+          say('->')(d)
+          event.source.postMessage(d, event.origin);
+        }
+     const form2json=(f="#add_link")=>R.fromPairs([...document.querySelector(f)].filter(x=>x.name).map(({name,value})=>[name,value]))
+     const vid_ok=d=>/\d{4}\d+/.test(d.url)
+     const parse_vid1=(u="",k='shareVid')=>new URL(u).searchParams.get(k) 
+     const parse_vid=(d)=>vid_ok(d) ? /http/.test(d.url) ? parse_vid1(d.url) : d.url.match(/\d{4}\d+/)[0] : 0
+     const draw_me=(user={vid:0})=>_.isArray(user) ?  draw(user) : user.vid && draw([user])
+     const add_link_cb=({ok,data:{ops}})=>{
+            if(ok){
+                //Swal.fire( 'ok', to_s(r), 'success')
+                Swal.fire( 'ok',"done!", 'success')
+                draw_me(ops)
+                insert_vid(ops)
+            }else{
+                Swal.fire( 'fail', to_s(ops), 'error')
+             }  
+     }
+     const add_link=async ()=>{
+         let d=form2json("#add_link")
+         if (vid_ok(d) ){
+                let vid=parse_vid(d)
+                const exist=await localforage.getItem(`${vid}`)
+                if (exist)  return Swal.fire( 'ok', 'success')
+                let d1=[`${vid}`]
+                //ws.send({action:"add",payload:d1})
+                let r=await post("/add")(d1)
+                add_link_cb(r)
+             }else{
+                Swal.fire( 'url or vid','error')
+         }
+     }
+    const search=async ()=>{
+         let d=form2json("#add_link")
+         if (!vid_ok(d)) return Swal.fire( 'wrong vid', vid, 'error')
+         let vid= parse_vid(d)
+         let u1=await localforage.getItem(`${vid}`)
+         u1 ?  draw_me(u1) :  Swal.fire( 'not exist', vid, 'error')
+    }
+
+
+    const remove=(fn)=>d3.selectAll('.node').filter(fn).data([]).exit().remove()     
+    const draw=(data=[])=>{
+        //play()
+        if (_.isEmpty(data)) return
+        d3.selectAll('g').data([]).exit().remove()
+		let svg = d3.select('svg');
+		let width = document.body.clientWidth; // get width in pixels
+		//let height = +svg.attr('height');
+        let height=d3.select('svg')._groups[0][0].height.baseVal.value  
+		let centerX = width * 0.5;
+		let centerY = height * 0.5;
+		let strength = 0.05;
+		let focusedNode;
+		let format = d3.format(',d');
+		let scaleColor = d3.scaleOrdinal(d3.schemeCategory20);
+
+		// use pack to calculate radius of the circle
+		let pack = d3.pack()
+			.size([width , height ])
+			.padding(1.5);
+
+		let forceCollide = d3.forceCollide(d => d.r + 1);
+
+		// use the force
+		let simulation = d3.forceSimulation()
+			// .force('link', d3.forceLink().id(d => d.id))
+			.force('charge', d3.forceManyBody())
+			.force('collide', forceCollide)
+			// .force('center', d3.forceCenter(centerX, centerY))
+			.force('x', d3.forceX(centerX ).strength(strength))
+			.force('y', d3.forceY(centerY ).strength(strength));
+
+		// reduce number of circles on mobile screen due to slow computation
+         /*
+		if ('matchMedia' in window && window.matchMedia('(max-device-width: 767px)').matches) {
+			data = data.filter(el => {
+				return el.value >= 50;
+			});
+		}
+        */
+		let root = d3.hierarchy({ children: data })
+			.sum(d => d.value);
+
+		// we use pack() to automatically calculate radius conveniently only
+		// and get only the leaves
+		let nodes = pack(root).leaves().map(node => {
+			console.log('node:', node.x, (node.x - centerX) * 2);
+			const data = node.data;
+			return {
+				x: centerX + (node.x - centerX) * 3, // magnify start position to have transition to center movement
+				y: centerY + (node.y - centerY) * 3,
+				r: 0, // for tweening
+				radius: node.r, //original radius
+				id: data.vid,
+				cat: data.cat,
+				name: data.name,
+				value: data.value,
+				icon: "https://image.flaticon.com/icons/svg/346/346167.svg"||data.icon,
+				desc: data.desc,
+			}
+		});
+		simulation.nodes(nodes).on('tick', ticked);
+		//svg.style('background-color', '#eee');
+		let node = svg.selectAll('.node')
+			.data(nodes)
+			.enter().append('g')
+			.attr('class', 'node')
+			.call(d3.drag()
+				.on('start', (d) => {
+					if (!d3.event.active) simulation.alphaTarget(0.2).restart();
+					d.fx = d.x;
+					d.fy = d.y;
+				})
+				.on('drag', (d) => {
+					d.fx = d3.event.x;
+					d.fy = d3.event.y;
+				})
+				.on('end', (d) => {
+					if (!d3.event.active) simulation.alphaTarget(0);
+					d.fx = null;
+					d.fy = null;
+				}));
+		node.append('circle')
+			.attr('id', d => d.id)
+			.attr('r', 0)
+			//.style('fill', d => scaleColor(d.cat))
+			.style('fill', d => "transparent"||scaleColor(d.id))
+			.transition().duration(2000).ease(d3.easeElasticOut)
+				.tween('circleIn', (d) => {
+					let i = d3.interpolateNumber(0, d.radius);
+					return (t) => {
+						d.r = i(t);
+						simulation.force('collide', forceCollide);
+					}
+				})
+		node.append('clipPath')
+			.attr('id', d => `clip-${d.id}`)
+			.append('use')
+			.attr('xlink:href', d => `#${d.id}`);
+
+		// display text as circle icon
+			node
+            .filter(d =>! /http/.test(d.icon))
+            .append('text')
+			.classed('node-icon', true)
+			.attr('clip-path', d => `url(#clip-${d.id})`)
+			.selectAll('tspan')
+			.data(d => ""/*d.icon.split(';')*/)
+			.enter()
+				.append('tspan')
+				.attr('x', 0)
+				.attr('y', (d, i, nodes) => (13 + (i - nodes.length / 2 - 0.5) * 10))
+				.text(name => name);
+		// display image as circle icon
+        //.filter(d => String(d.icon).includes('img/'))
+            node
+			.append('image')
+			.classed('node-icon', true)
+			.attr('clip-path', d => `url(#clip-${d.id})`)
+			.attr('xlink:href', d => d.icon)
+			.attr('x', d => - d.radius * 0.7)
+			.attr('y', d => - d.radius * 0.7)
+			.attr('height', d => d.radius * 2 * 0.7)
+			.attr('width', d => d.radius * 2 * 0.7)
+/*
+		node.append('title')
+			.text(d => (d.cat + '::' + d.name + '\n' + format(d.value))); //悬浮
+		let legendOrdinal = d3.legendColor()
+			.scale(scaleColor)
+			.shape('circle');
+
+		let legend = svg.append('g')
+			.classed('legend-color', true)
+			.attr('text-anchor', 'start')
+			.attr('transform','translate(20,30)')
+			.style('font-size','12px')
+			.call(legendOrdinal);
+
+            */
+        /*
+		let sizeScale = d3.scaleOrdinal()
+  			.domain(['less use', 'more use'])
+  			.range([5, 10] );
+
+		let legendSize = d3.legendSize()
+			.scale(sizeScale)
+			.shape('circle')
+			.shapePadding(10)
+			.labelAlign('end');
+
+		let legend2 = svg.append('g')
+			.classed('legend-size', true)
+			.attr('text-anchor', 'start')
+			.attr('transform', 'translate(150, 25)')
+			.style('font-size', '12px')
+			.call(legendSize);
+*/
+
+		/*
+		<foreignObject class="circle-overlay" x="10" y="10" width="100" height="150">
+			<div class="circle-overlay__inner">
+				<h2 class="circle-overlay__title">ReactJS</h2>
+				<p class="circle-overlay__body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, sunt, aspernatur. Autem repudiandae, laboriosam. Nulla quidem nihil aperiam dolorem repellendus pariatur, quaerat sed eligendi inventore ipsa natus fugiat soluta doloremque!</p>
+			</div>
+		</foreignObject>
+		*/
+		let infoBox = node.append('foreignObject')
+			.classed('circle-overlay hidden', true)
+			.attr('x', -350 * 0.5 * 0.8)
+			.attr('y', -350 * 0.5 * 0.8)
+			.attr('height', 350 * 0.8)
+			.attr('width', 350 * 0.8)
+			.append('xhtml:div')
+		    .classed('circle-overlay__inner', true);
+
+		infoBox.append('h2')
+			.classed('circle-overlay__title', true)
+			.text(d => ""); //d.name
+
+		infoBox
+             /*
+             .append('a')
+             .attr("xlink:href",d=>`https://www.baidu.com/s?wd=${d.name}&ie=utf-8`)
+             .attr('target','_blank')
+             .append('img') 
+             .attr(x,d=>123)
+             .attr(y,d=>123)
+             .attr('xlink:href',d=>123)
+             .attr('width',"10px")
+             .attr('height',"10px")
+    */
+            .append('div')
+			.classed('circle-overlay__body', true)
+			.html(d => d.desc||"")
+
+
+
+		node.on('click', (currentNode) => {
+			d3.event.stopPropagation();
+            change_vid(currentNode)
+
+			let currentTarget = d3.event.currentTarget; // the <g> el
+
+			if (currentNode === focusedNode) {
+				// no focusedNode or same focused node is clicked
+				return;
+			}
+
+			console.log('currentNode', currentNode);
+			console.log('target', currentTarget);
+
+			let lastNode = focusedNode;
+			focusedNode = currentNode;
+
+			simulation.alphaTarget(0.2).restart();
+			// hide all circle-overlay
+			d3.selectAll('.circle-overlay').classed('hidden', true);
+			d3.selectAll('.node-icon')
+            .classed('node-icon--faded', false)
+            .filter((d,i)=>i==currentNode.index)
+            .attr('xlink:href',()=>"https://image.flaticon.com/icons/svg/346/346116.svg")
+            .style('background',"yellow")            
+            .style('mask',"url(https://image.flaticon.com/icons/svg/346/346116.svg)")
+
+			// don't fix last node to center anymore
+			if (lastNode) {
+				lastNode.fx = null;
+				lastNode.fy = null;
+				node.filter((d, i) => i === lastNode.index)
+					.transition().duration(2000).ease(d3.easePolyOut)
+					.tween('circleOut', () => {
+						let irl = d3.interpolateNumber(lastNode.r, lastNode.radius);
+						return (t) => {
+							lastNode.r = irl(t);
+						}
+					})
+					.on('interrupt', () => {
+						lastNode.r = lastNode.radius;
+					});
+			}
+
+			// if (!d3.event.active) simulation.alphaTarget(0.5).restart();
+
+                d3
+                .transition()
+                .duration(4000)
+                .ease(d3.easePolyOut)
+				.tween('moveIn', () => {
+					console.log('tweenMoveIn', currentNode);
+					let ix = d3.interpolateNumber(currentNode.x, centerX);
+					let iy = d3.interpolateNumber(currentNode.y, height);
+					let ir = d3.interpolateNumber(currentNode.r, centerY * 0.12);
+					return function (t) {
+						// console.log('i', ix(t), iy(t));
+						currentNode.fx = ix(t);
+						currentNode.fy = iy(t);
+						currentNode.r = ir(t);
+						simulation.force('collide', forceCollide);
+					};
+				})
+				.on('end', () => {
+					simulation.alphaTarget(0);
+					let $currentGroup = d3.select(currentTarget);
+					$currentGroup.select('.circle-overlay')
+						.classed('hidden', false);
+					$currentGroup.select('.node-icon')
+						.classed('node-icon--faded', true);
+
+				})
+				.on('interrupt', () => {
+					console.log('move interrupt', currentNode);
+					currentNode.fx = null;
+					currentNode.fy = null;
+					simulation.alphaTarget(0);
+				});
+
+		});
+
+		// blur
+		d3.select(document).on('click', () => {
+			let target = d3.event.target;
+			// check if click on document but not on the circle overlay
+			if (!target.closest('#circle-overlay') && focusedNode) {
+				focusedNode.fx = null;
+				focusedNode.fy = null;
+				simulation.alphaTarget(0.2).restart();
+				d3.transition().duration(2000).ease(d3.easePolyOut)
+					.tween('moveOut', function () {
+						console.log('tweenMoveOut', focusedNode);
+						let ir = d3.interpolateNumber(focusedNode.r, focusedNode.radius);
+						return function (t) {
+							focusedNode.r = ir(t);
+							simulation.force('collide', forceCollide);
+						};
+					})
+					.on('end', () => {
+						focusedNode = null;
+						simulation.alphaTarget(0);
+					})
+					.on('interrupt', () => {
+						simulation.alphaTarget(0);
+					});
+
+				// hide all circle-overlay
+				d3.selectAll('.circle-overlay').classed('hidden', true);
+				d3.selectAll('.node-icon').classed('node-icon--faded', false);
+			}
+		});
+
+		function ticked() {
+			node
+		    .attr('transform', d => `translate(${d.x},${d.y})`)
+			.select('circle')
+			.attr('r', d => d.r);
+		}
+     }
+
+
+
+    const refresh=async ()=>draw(await get_next_group())
+    const redraw=async ()=>draw(await get_current_group())
+    const is_full=async ()=>{
+           let store=await get_store()
+           let {vids,full,current_vid:vid}=store
+           if (vid==0)  return
+           remove((x,i)=>x.id==vid)
+           //localforage.removeItem(`${vid}`)
+           store.vids=vids.filter(x=>x!=vid)
+           store.full=full.add(vid)
+           localforage.setItem(`store`,store)
+           change_vid()
+    }
+
+    const is_full_cb=({ok,d})=>{
+        if (!ok) return
+        reset_full()
+        edit_vids(d,{"full":true})
+    }
+
+    const is_full1=async ()=>{
+           let store=await get_store()
+           let {full}=store
+           if (full.size == 0) return 
+           let d=[...full]
+           let r=await post("/full")(d)
+           //ws.send({action:"full",payload:d})
+           is_full_cb({...r,d})
+    }
+
+    const is_full2=()=>{
+        let t= document.querySelector('#is_full')
+        fromEvent(t, 'click')
+        .pipe(
+            map(is_full),
+            bufferWhen(() => interval(1e3*10))
+        )
+        .subscribe(is_full1)
+    }
+
+    const add_link1=()=>{
+        let s=document.querySelector('#submit')
+        fromEvent(s, 'click')
+        .pipe(
+            map(e => e.target.form.url.value),
+            map(x=>parse_vid({url:x})),
+            scan((a,b)=>b==a ? 0 : b, 0),
+        )
+        .subscribe(async (vid)=>{
+              console.log(vid)
+              let exist=await get_vid(vid)
+              exist || add_link()
+        })
+    }
+
+    const auto_refresh=()=>{
+        interval(3000)
+        .subscribe(change_vid)
+    }
+
+    const auto_refresh1=async()=>{
+        let {vids}=await get_store();
+        let l=vids.length;
+        if (l == 0) return
+        interval(3000)
+        .pipe(
+            map(i=>vids[i]),
+            take(l),
+        )
+        .subscribe(id=>change_vid({id}))
+    }
+    const search1=()=>{
+        let f=document.querySelector('#add_link')
+        fromEvent(f, 'change')
+        .pipe(
+           map(e => e.target.value),
+           map(x=>parse_vid({url:x})),
+           scan((a,b)=> b == a ? 0 : b , 0),
+        )
+        .subscribe(async (vid)=>{
+              console.log(vid)
+              if (!vid) return
+              let exist=await get_vid(vid)
+              exist && draw_me(exist)
+        })
+    }
+
+   const zudui=async ()=>{
+       let {current_vid,is_w}=await get_store()
+       let u=vid2zudui(current_vid)
+       is_w ? window.open(u) : null
+   }
+
+
+    const init_user=async()=>{
+         let 
+          l=await get('/list2')
+          ,d=l.data;
+        if (d.errorCode) return draw(await get_current_group())
+
+        let 
+         user_o=d
+         ,store=await init_db(user_o)
+         ,user=R.splitEvery(store.page_size,user_o.filter(x=>!x.full));
+         return _.isEmpty(user_o) ? [] : user[0]
+    }
+
+
+   const init=async ()=>{
+         auth1()
+         let vid=VID
+         refresh_link(vid)
+         let store=await get_store()
+         
+         let exp=is_exp()
+         if (exp){
+
+              //localforage.clear()
+              //localStorage.clear()             
+              refresh_exp()
+              is_weixin1() &&  auth(vid)
+         }else{
+              is_weixin1() && create_frame(vid)
+         }
+         let has_cache=(!exp) && store && (store.vids.length > 0)
+         has_cache ? draw(await get_current_group()) : draw(await init_user())
+         //window.addEventListener("message",echo, false);
+         window.addEventListener('load', ask_perm)
+         window.addEventListener("message",notify_m, false);
+         //document.querySelector("#submit").addEventListener("click",add_link)
+         document.querySelector("#search").addEventListener("click",search)
+         add_link1()
+         search1()
+         is_full2()
+         let     emoj="🙈🙉🙊🐵🐒🐶🐕🐩🐺🐱😺😸😹😻😼😽🙀😿😾🐈🐯🐅🐆🐴🐎🐮🐂🐃🐄🐷🐖🐗🐽🐏🐑🐐🐪🐫🐘🐭🐁🐀🐹🐰🐇🐻🐨🐼🐾🐔🐓🐣🐤🐥🐦🐧🐸🐊🐢🐍🐲🐉🐳🐋🐬🐟🐠🐡🐙🐚🐌🐛🐜🐝🐞🦋🍇🍈🍉🍊🍋🍌🍍🍎🍏🍐🍑🍒🍓💐🌸💮🌹🌺🌻🌼🌷🌱🌲🌳🌴🌵🌾🌿🍀🍁🍂🍃🍇🍈🍉🍊🍋🍌🍍🍎🍏🍐🍑🍒🍓🍅🍆🌽🍄🌰🍞🍖🍗🍔🍟🍕🍳🍲🍱🍘🍙🍚🍛🍜🍝🍠🍢🍣🍤🍥🍡🍦🍧🍨🍩🍪🎂🍰🍫🍬🍭🍮🍯🍼☕🍵🍶🍷🍸🍹🍺🍻🍴💐🌸💮🌹🌺🌻🌼🌷🌱🌿🍀🌿🍀🍁🍂🍃😊😊😊😊😊😊😊"
+         welcome(emoj)
+         loading('stop')
+         mobile_not_weixin1() && show_qr();
+         let clip=init_clip();
+     }
+    init();
+    //https://www.flaticon.com/free-icon/flower_346167
+</script>

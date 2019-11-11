@@ -1,0 +1,6 @@
+name = "weread"
+type = "webpack"
+zone_id = "xxxxxxxxxxxxxxxx"
+private = false
+account_id = "xxxxxxxxxxxxx"
+route  = "weread.qing.workers.dev/*"
